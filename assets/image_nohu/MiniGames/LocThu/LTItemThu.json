@@ -1,0 +1,927 @@
+{
+  "ID": "47ac53ee-43aa-4fca-a88f-21c40d7253f1",
+  "Version": "2.3.4",
+  "Name": "LTItemThu",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 14,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -55,
+            "Scale9OriginY": -54,
+            "Scale9Width": 110,
+            "Scale9Height": 108,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -77.5,
+            "RightMargin": -77.5,
+            "TopMargin": -92.5,
+            "BottomMargin": -92.5,
+            "Tag": 15,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 75.7522,
+                  "Y": -26.35
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.4887,
+                  "Y": -0.1424
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 75.7522,
+                "RightMargin": 79.2478,
+                "TopMargin": 211.35,
+                "BottomMargin": -26.35,
+                "Tag": 2309,
+                "ActionTag": -1568583656,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeSpine_1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -87.2501,
+                  "Y": -26.9466
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": -0.5629,
+                  "Y": -0.1457
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -87.2501,
+                "RightMargin": 242.2501,
+                "TopMargin": 211.9466,
+                "BottomMargin": -26.9466,
+                "Tag": 2310,
+                "ActionTag": -1397780572,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeSpine_2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -250.0,
+                  "Y": -26.7
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": -1.6129,
+                  "Y": -0.1443
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -250.0,
+                "RightMargin": 405.0,
+                "TopMargin": 211.7,
+                "BottomMargin": -26.7,
+                "Tag": 2311,
+                "ActionTag": -1492448244,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeSpine_3",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 79.2676,
+                  "Y": 184.7793
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5114,
+                  "Y": 0.9988
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 79.2676,
+                "RightMargin": 75.7324,
+                "TopMargin": 0.2207,
+                "BottomMargin": 184.7793,
+                "Tag": 2312,
+                "ActionTag": -505124541,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeSpine_4",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -83.2502,
+                  "Y": 186.7795
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": -0.5371,
+                  "Y": 1.0096
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -83.2502,
+                "RightMargin": 238.2502,
+                "TopMargin": -1.7795,
+                "BottomMargin": 186.7795,
+                "Tag": 2313,
+                "ActionTag": 873964728,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeSpine_5",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -248.7502,
+                  "Y": 186.7796
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": -1.6048,
+                  "Y": 1.0096
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -248.7502,
+                "RightMargin": 403.7502,
+                "TopMargin": -1.7796,
+                "BottomMargin": 186.7796,
+                "Tag": 2314,
+                "ActionTag": -944375659,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeSpine_6",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "0",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 79.4995,
+                  "Y": 178.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5129,
+                  "Y": 0.9622
+                },
+                "PreSize": {
+                  "X": 0.0968,
+                  "Y": 0.1405
+                },
+                "LeftMargin": 71.9995,
+                "RightMargin": 68.0005,
+                "TopMargin": -6.0001,
+                "BottomMargin": 165.0001,
+                "Tag": 19,
+                "ActionTag": -2064390848,
+                "Size": {
+                  "X": 15.0,
+                  "Y": 26.0
+                },
+                "Name": "lblBetTotal",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -21.95,
+                  "Y": 0.7
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.1416,
+                  "Y": 0.0038
+                },
+                "PreSize": {
+                  "X": 1.2903,
+                  "Y": 0.2703
+                },
+                "LeftMargin": -21.95,
+                "RightMargin": -23.05,
+                "TopMargin": 134.3,
+                "BottomMargin": 0.7,
+                "Tag": 893,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTImage/box_thu_money.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 20.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4
+                    },
+                    "PreSize": {
+                      "X": 0.59,
+                      "Y": 0.74
+                    },
+                    "LeftMargin": 41.0,
+                    "RightMargin": 41.0,
+                    "TopMargin": 11.5,
+                    "BottomMargin": 1.5,
+                    "Tag": 894,
+                    "ActionTag": 1138644339,
+                    "Size": {
+                      "X": 118.0,
+                      "Y": 37.0
+                    },
+                    "Name": "box_thu_money_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "Đặt",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "LTFont/MyriadPro-Semibold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 90.12,
+                      "Y": 19.285
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4506,
+                      "Y": 0.3857
+                    },
+                    "PreSize": {
+                      "X": 0.25,
+                      "Y": 0.48
+                    },
+                    "LeftMargin": 65.12,
+                    "RightMargin": 84.88,
+                    "TopMargin": 18.715,
+                    "BottomMargin": 7.285,
+                    "Tag": 895,
+                    "ActionTag": 413187261,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 24.0
+                    },
+                    "Name": "lblMyBetDefault",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -439918689,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 50.0
+                },
+                "Name": "pnlMyBetDefault",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -21.95,
+                  "Y": 0.6961
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.1416,
+                  "Y": 0.0038
+                },
+                "PreSize": {
+                  "X": 1.2903,
+                  "Y": 0.2703
+                },
+                "LeftMargin": -21.95,
+                "RightMargin": -23.05,
+                "TopMargin": 134.3039,
+                "BottomMargin": 0.6961,
+                "Tag": 114,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTImage/box_thu_money-act.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 20.3
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.406
+                    },
+                    "PreSize": {
+                      "X": 0.59,
+                      "Y": 0.74
+                    },
+                    "LeftMargin": 41.0,
+                    "RightMargin": 41.0,
+                    "TopMargin": 11.2,
+                    "BottomMargin": 1.8,
+                    "Tag": 896,
+                    "ActionTag": -610952946,
+                    "Size": {
+                      "X": 118.0,
+                      "Y": 37.0
+                    },
+                    "Name": "Sprite_1_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "0",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "LTFont/MyriadPro-Semibold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 90.12,
+                      "Y": 20.285
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4506,
+                      "Y": 0.4057
+                    },
+                    "PreSize": {
+                      "X": 0.07,
+                      "Y": 0.48
+                    },
+                    "LeftMargin": 83.12,
+                    "RightMargin": 102.88,
+                    "TopMargin": 17.715,
+                    "BottomMargin": 8.285,
+                    "Tag": 20,
+                    "ActionTag": -183678461,
+                    "Size": {
+                      "X": 14.0,
+                      "Y": 24.0
+                    },
+                    "Name": "lblMyBet",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1379592711,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 50.0
+                },
+                "Name": "pnlMyBet",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -21.95,
+                  "Y": 0.7
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.1416,
+                  "Y": 0.0038
+                },
+                "PreSize": {
+                  "X": 1.2903,
+                  "Y": 0.2703
+                },
+                "LeftMargin": -21.95,
+                "RightMargin": -23.05,
+                "TopMargin": 134.3,
+                "BottomMargin": 0.7,
+                "Tag": 115,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTImage/box_thu_money-act.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.0,
+                      "Y": 20.3
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.406
+                    },
+                    "PreSize": {
+                      "X": 0.59,
+                      "Y": 0.74
+                    },
+                    "LeftMargin": 41.0,
+                    "RightMargin": 41.0,
+                    "TopMargin": 11.2,
+                    "BottomMargin": 1.8,
+                    "Tag": 116,
+                    "ActionTag": 653537688,
+                    "Size": {
+                      "X": 118.0,
+                      "Y": 37.0
+                    },
+                    "Name": "Sprite_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "0",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "LTFont/MyriadPro-Semibold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 90.12,
+                      "Y": 20.285
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4506,
+                      "Y": 0.4057
+                    },
+                    "PreSize": {
+                      "X": 0.07,
+                      "Y": 0.48
+                    },
+                    "LeftMargin": 83.12,
+                    "RightMargin": 102.88,
+                    "TopMargin": 17.715,
+                    "BottomMargin": 8.285,
+                    "Tag": 118,
+                    "ActionTag": -1222084416,
+                    "Size": {
+                      "X": 14.0,
+                      "Y": 24.0
+                    },
+                    "Name": "lblLocalBet",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1425660004,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 50.0
+                },
+                "Name": "pnlLocalBet",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 2014000979,
+            "Size": {
+              "X": 155.0,
+              "Y": 185.0
+            },
+            "Name": "pnlContent",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "0",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "LTFont/MyriadPro-Semibold.ttf",
+              "Plist": ""
+            },
+            "OutlineSize": 3,
+            "OutlineColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": -71.9997
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 0
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -10.5,
+            "RightMargin": -10.5,
+            "TopMargin": 50.9997,
+            "BottomMargin": -92.9997,
+            "Tag": 222,
+            "ActionTag": 811539721,
+            "Size": {
+              "X": 21.0,
+              "Y": 42.0
+            },
+            "Name": "lblWinValue",
+            "ctype": "TextObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -82.5,
+            "RightMargin": -82.5,
+            "TopMargin": -90.0,
+            "BottomMargin": -90.0,
+            "Tag": 97,
+            "ActionTag": -2081556914,
+            "Size": {
+              "X": 165.0,
+              "Y": 180.0
+            },
+            "Name": "pnlTouch",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "LTFont/MyriadPro-Semibold.ttf",
+        "LTImage/box_thu_money.png",
+        "LTImage/box_thu_money-act.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

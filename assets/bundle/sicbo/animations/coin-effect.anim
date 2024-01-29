@@ -1,0 +1,149 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "coin-effect",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "9365cbe3-02d4-45f1-ae8c-53d5d037f639"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "066e1efe-1fc5-4d25-b0e4-3138f508af9f"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "2c6bd62d-d50a-4c0e-b043-dee4d1be6dc3"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "22112360-beeb-472b-be6d-2bbeb4fe3ebe"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "09b55dc4-216a-4580-ae15-9a294ecf5223"
+            }
+          },
+          {
+            "frame": 0.8333333333333334,
+            "value": {
+              "__uuid__": "83c55553-e6de-4319-bb79-7f31b13fd5fb"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "7ec80243-6a6f-4921-9957-c4630fdec3b0"
+            }
+          },
+          {
+            "frame": 1.1666666666666667,
+            "value": {
+              "__uuid__": "c2fe106e-20ac-41ab-b229-a12c1306f32d"
+            }
+          },
+          {
+            "frame": 1.3333333333333333,
+            "value": {
+              "__uuid__": "e7a02c63-8179-4c12-81f8-898961c87d64"
+            }
+          },
+          {
+            "frame": 1.5,
+            "value": {
+              "__uuid__": "ae373019-fd6b-4159-886d-56187703e0d1"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "scale": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 0.3,
+            "y": 0.3
+          }
+        },
+        {
+          "frame": 0.5,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 0.6,
+            "y": 0.6
+          }
+        },
+        {
+          "frame": 1.5,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 0.4,
+            "y": 0.4
+          }
+        },
+        {
+          "frame": 1.5166666666666666,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 0.25,
+            "y": 0.25
+          }
+        }
+      ],
+      "eulerAngles": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 90
+          }
+        },
+        {
+          "frame": 1.5,
+          "value": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 180
+          }
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.5,
+          "value": 20
+        },
+        {
+          "frame": 1.5,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

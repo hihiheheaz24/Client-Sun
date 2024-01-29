@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ac681a49-d6db-4d82-b9f8-58bc7f186012",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 190,
+  "height": 330,
+  "platformSettings": {},
+  "subMetas": {
+    "IconSport3": {
+      "ver": "1.0.6",
+      "uuid": "038a0513-4f64-4e13-b985-4e9c1c82b2d4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ac681a49-d6db-4d82-b9f8-58bc7f186012",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 23,
+      "trimY": 13,
+      "width": 144,
+      "height": 305,
+      "rawWidth": 190,
+      "rawHeight": 330,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "ID": "c89e4fcb-718a-41d1-b6ff-acdc3947d98e",
+  "Version": "2.3.4",
+  "Name": "LTSoiCauSessionNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 233,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -86.4,
+            "RightMargin": -86.4,
+            "TopMargin": -26.0,
+            "BottomMargin": -26.0,
+            "Tag": 317,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.104,
+                  "Y": 26.0
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.9
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.18,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3125,
+                  "Y": 1.0192
+                },
+                "LeftMargin": 4.104,
+                "RightMargin": 114.696,
+                "TopMargin": -0.5,
+                "BottomMargin": -0.5,
+                "Tag": 2696,
+                "ActionTag": 221913084,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 53.0
+                },
+                "Name": "pnlIt1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 86.4,
+                  "Y": 26.0
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.88
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3125,
+                  "Y": 1.0192
+                },
+                "LeftMargin": 59.4,
+                "RightMargin": 59.4,
+                "TopMargin": -0.5,
+                "BottomMargin": -0.5,
+                "Tag": 2698,
+                "ActionTag": 212219018,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 53.0
+                },
+                "Name": "pnlIt2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 141.696,
+                  "Y": 26.0
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.88
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.82,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3125,
+                  "Y": 1.0192
+                },
+                "LeftMargin": 114.696,
+                "RightMargin": 4.104,
+                "TopMargin": -0.5,
+                "BottomMargin": -0.5,
+                "Tag": 2697,
+                "ActionTag": -1724079813,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 53.0
+                },
+                "Name": "pnlIt3",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -641084590,
+            "Size": {
+              "X": 172.8,
+              "Y": 52.0
+            },
+            "Name": "pnlItem",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bonus
+  rotate: true
+  xy: 1028, 104
+  size: 869, 249
+  orig: 869, 249
+  offset: 0, 0
+  index: -1
+bonus_2
+  rotate: false
+  xy: 2, 2
+  size: 869, 249
+  orig: 869, 249
+  offset: 0, 0
+  index: -1
+cat
+  rotate: true
+  xy: 1470, 742
+  size: 231, 282
+  orig: 231, 282
+  offset: 0, 0
+  index: -1
+game
+  rotate: true
+  xy: 1279, 421
+  size: 552, 189
+  orig: 552, 189
+  offset: 0, 0
+  index: -1
+game_2
+  rotate: false
+  xy: 1279, 230
+  size: 552, 189
+  orig: 552, 189
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 253
+  size: 1024, 720
+  orig: 1024, 720
+  offset: 0, 0
+  index: -1

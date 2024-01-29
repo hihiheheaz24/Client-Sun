@@ -1,0 +1,41 @@
+
+Minigame.png
+size: 213,213
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GAME
+  rotate: false
+  xy: 142, 193
+  size: 64, 19
+  orig: 66, 21
+  offset: 1, 1
+  index: -1
+MINI
+  rotate: true
+  xy: 97, 51
+  size: 48, 18
+  orig: 50, 20
+  offset: 1, 1
+  index: -1
+bg
+  rotate: false
+  xy: 1, 1
+  size: 95, 98
+  orig: 97, 100
+  offset: 1, 1
+  index: -1
+bg_time_tx
+  rotate: false
+  xy: 142, 159
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+quay
+  rotate: false
+  xy: 1, 100
+  size: 140, 112
+  orig: 142, 114
+  offset: 1, 1
+  index: -1

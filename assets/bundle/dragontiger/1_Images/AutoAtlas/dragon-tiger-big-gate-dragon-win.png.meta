@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1dff6ef3-e0c9-4f89-bf9f-7a10659a05bd",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 172,
+  "height": 200,
+  "platformSettings": {},
+  "subMetas": {
+    "dragon-tiger-big-gate-dragon-win": {
+      "ver": "1.0.6",
+      "uuid": "7c492ca4-e98c-44bf-a17d-7fca1f03b2e3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1dff6ef3-e0c9-4f89-bf9f-7a10659a05bd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 172,
+      "height": 200,
+      "rawWidth": 172,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

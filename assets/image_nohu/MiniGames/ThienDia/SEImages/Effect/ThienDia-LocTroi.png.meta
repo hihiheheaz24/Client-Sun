@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f0ce42d4-4169-4f10-9cbc-5b46118da74c",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 1024,
+  "platformSettings": {},
+  "subMetas": {
+    "ThienDia-LocTroi": {
+      "ver": "1.0.6",
+      "uuid": "31e2f987-2006-45cc-8448-4723bfec2189",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f0ce42d4-4169-4f10-9cbc-5b46118da74c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -386,
+      "offsetY": 115.5,
+      "trimX": 4,
+      "trimY": 3,
+      "width": 1268,
+      "height": 787,
+      "rawWidth": 2048,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

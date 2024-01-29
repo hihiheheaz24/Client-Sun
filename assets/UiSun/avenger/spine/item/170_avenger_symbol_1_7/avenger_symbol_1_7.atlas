@@ -1,0 +1,34 @@
+
+ALL SYMBOL AVENGERS.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ANT MEN/ANTMEN_BODY
+  rotate: false
+  xy: 368, 1848
+  size: 120, 79
+  orig: 122, 81
+  offset: 1, 1
+  index: -1
+ANT MEN/ANTMEN_HEAD
+  rotate: true
+  xy: 1889, 1786
+  size: 87, 116
+  orig: 89, 118
+  offset: 1, 1
+  index: -1
+ANT MEN/BORDER
+  rotate: false
+  xy: 235, 893
+  size: 143, 143
+  orig: 145, 145
+  offset: 1, 1
+  index: -1
+ANT MEN/BACK
+  rotate: true
+  xy: 781, 1620
+  size: 109, 128
+  orig: 111, 132
+  offset: 1, 2
+  index: -1

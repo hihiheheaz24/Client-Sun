@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ff0a2d91-34c4-4177-a2cb-e294407cdf6b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 175,
+  "height": 175,
+  "platformSettings": {},
+  "subMetas": {
+    "IconBacarat": {
+      "ver": "1.0.6",
+      "uuid": "19b82a15-19ee-4caf-a44f-41c4f8779f60",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ff0a2d91-34c4-4177-a2cb-e294407cdf6b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": -7,
+      "trimX": 13,
+      "trimY": 21,
+      "width": 152,
+      "height": 147,
+      "rawWidth": 175,
+      "rawHeight": 175,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

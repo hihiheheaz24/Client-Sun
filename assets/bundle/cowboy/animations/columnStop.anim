@@ -1,0 +1,289 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "columnStop",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.35,
+  "sample": 60,
+  "speed": 4,
+  "wrapMode": 0,
+  "curveData": {
+    "paths": {
+      "slot0": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 220
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": -220
+            },
+            {
+              "frame": 1.35,
+              "value": 220
+            },
+            {
+              "frame": 1.85,
+              "value": 200
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 220
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 210
+            },
+            {
+              "frame": 3.35,
+              "value": 220
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": false
+            },
+            {
+              "frame": 1.35,
+              "value": true
+            }
+          ]
+        }
+      },
+      "slot1": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 110
+            },
+            {
+              "frame": 1,
+              "value": -220
+            },
+            {
+              "frame": 1.0166666666666666,
+              "value": 220
+            },
+            {
+              "frame": 1.35,
+              "value": 110
+            },
+            {
+              "frame": 1.85,
+              "value": 90
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 110
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 100
+            },
+            {
+              "frame": 3.35,
+              "value": 110
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 1,
+              "value": false
+            },
+            {
+              "frame": 1.0166666666666666,
+              "value": true
+            }
+          ]
+        }
+      },
+      "slot2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": [
+                0,
+                -220,
+                0
+              ]
+            },
+            {
+              "frame": 0.6833333333333333,
+              "value": [
+                0,
+                220,
+                0
+              ]
+            },
+            {
+              "frame": 1.35,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 1.85,
+              "value": [
+                0,
+                -20,
+                0
+              ]
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": [
+                0,
+                -10,
+                0
+              ]
+            },
+            {
+              "frame": 3.35,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": false
+            },
+            {
+              "frame": 0.6833333333333333,
+              "value": true
+            }
+          ]
+        }
+      },
+      "slot3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -110,
+                0
+              ]
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                0,
+                -220,
+                0
+              ]
+            },
+            {
+              "frame": 0.35,
+              "value": [
+                0,
+                220,
+                0
+              ]
+            },
+            {
+              "frame": 1.35,
+              "value": [
+                0,
+                -110,
+                0
+              ]
+            },
+            {
+              "frame": 1.85,
+              "value": [
+                0,
+                -130,
+                0
+              ]
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": [
+                0,
+                -110,
+                0
+              ]
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": [
+                0,
+                -120,
+                0
+              ]
+            },
+            {
+              "frame": 3.35,
+              "value": [
+                0,
+                -110,
+                0
+              ]
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": false
+            },
+            {
+              "frame": 0.35,
+              "value": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 2.6666666666666665,
+      "func": "finishSpin",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "211f4ac6-8f19-4597-8d7e-8736439b7cbc",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 841,
+  "height": 508,
+  "platformSettings": {},
+  "subMetas": {
+    "haitac_mng_bg_thongbao": {
+      "ver": "1.0.6",
+      "uuid": "1ecb18cb-c0ec-47e6-8609-b38dd895ec67",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "211f4ac6-8f19-4597-8d7e-8736439b7cbc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 841,
+      "height": 508,
+      "rawWidth": 841,
+      "rawHeight": 508,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,34 @@
+
+ALL SYMBOL AVENGERS.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HULK/BACK
+  rotate: true
+  xy: 781, 1620
+  size: 109, 128
+  orig: 111, 132
+  offset: 1, 2
+  index: -1
+HULK/BORDER
+  rotate: false
+  xy: 235, 893
+  size: 143, 143
+  orig: 145, 145
+  offset: 1, 1
+  index: -1
+HULK/HULK_BODY
+  rotate: false
+  xy: 872, 1827
+  size: 118, 81
+  orig: 120, 83
+  offset: 1, 1
+  index: -1
+HULK/HULK_HEAD
+  rotate: true
+  xy: 959, 1729
+  size: 96, 114
+  orig: 98, 116
+  offset: 1, 1
+  index: -1

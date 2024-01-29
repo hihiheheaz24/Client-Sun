@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5fcbe483-1168-4c83-9d23-4f3b6d4f4b06",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 320,
+  "height": 540,
+  "platformSettings": {},
+  "subMetas": {
+    "MyTicketBg": {
+      "ver": "1.0.6",
+      "uuid": "a63ba1bc-bb91-40ad-a0ba-85f2a5c8041c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5fcbe483-1168-4c83-9d23-4f3b6d4f4b06",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 2,
+      "width": 318,
+      "height": 536,
+      "rawWidth": 320,
+      "rawHeight": 540,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

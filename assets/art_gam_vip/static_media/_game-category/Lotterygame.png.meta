@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c9870606-a9b7-4108-8d83-85296379c507",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 219,
+  "height": 470,
+  "platformSettings": {},
+  "subMetas": {
+    "Lotterygame": {
+      "ver": "1.0.6",
+      "uuid": "2ab3e724-5f9b-4a53-b549-dc1bc3facaf0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c9870606-a9b7-4108-8d83-85296379c507",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 219,
+      "height": 470,
+      "rawWidth": 219,
+      "rawHeight": 470,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

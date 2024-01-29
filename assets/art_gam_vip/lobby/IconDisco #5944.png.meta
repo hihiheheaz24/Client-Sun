@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "30e12907-fd4c-49c6-bab7-3bb963761813",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 88,
+  "height": 88,
+  "platformSettings": {},
+  "subMetas": {
+    "IconDisco #5944": {
+      "ver": "1.0.6",
+      "uuid": "6e4b1dcf-5e5c-4396-b031-726f2b544408",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "30e12907-fd4c-49c6-bab7-3bb963761813",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 4,
+      "width": 84,
+      "height": 80,
+      "rawWidth": 88,
+      "rawHeight": 88,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

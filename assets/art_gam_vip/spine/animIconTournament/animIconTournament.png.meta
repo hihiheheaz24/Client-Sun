@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "df9b58e3-c139-487f-9d71-0df78fd71c47",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 497,
+  "height": 274,
+  "platformSettings": {},
+  "subMetas": {
+    "animIconTournament": {
+      "ver": "1.0.6",
+      "uuid": "0647c48b-e1c3-41a8-b4e0-2c2386bd7235",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "df9b58e3-c139-487f-9d71-0df78fd71c47",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 493,
+      "height": 270,
+      "rawWidth": 497,
+      "rawHeight": 274,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

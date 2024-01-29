@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e873e72c-8c02-4377-a10a-a1e8eaf41a7f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 512,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "FILE NAP X3": {
+      "ver": "1.0.6",
+      "uuid": "cb0597ca-f8d0-485b-8d8e-305ccd94146e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e873e72c-8c02-4377-a10a-a1e8eaf41a7f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -4.5,
+      "trimX": 2,
+      "trimY": 13,
+      "width": 508,
+      "height": 495,
+      "rawWidth": 512,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

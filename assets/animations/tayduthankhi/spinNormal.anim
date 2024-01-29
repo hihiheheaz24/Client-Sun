@@ -1,0 +1,306 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "spinNormal",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.5,
+  "sample": 60,
+  "speed": 6,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "item1": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -60
+            },
+            {
+              "frame": 3.5,
+              "value": -900
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "item2": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -180
+            },
+            {
+              "frame": 3,
+              "value": -900
+            },
+            {
+              "frame": 3.0166666666666666,
+              "value": -60
+            },
+            {
+              "frame": 3.5,
+              "value": -180
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 3,
+              "value": false
+            },
+            {
+              "frame": 3.0166666666666666,
+              "value": true
+            }
+          ]
+        }
+      },
+      "item3": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -300
+            },
+            {
+              "frame": 2.5,
+              "value": -900
+            },
+            {
+              "frame": 2.5166666666666666,
+              "value": -60
+            },
+            {
+              "frame": 3.5,
+              "value": -300
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 2.5,
+              "value": false
+            },
+            {
+              "frame": 2.5166666666666666,
+              "value": true
+            }
+          ]
+        }
+      },
+      "item4": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -420
+            },
+            {
+              "frame": 2,
+              "value": -900
+            },
+            {
+              "frame": 2.0166666666666666,
+              "value": -60
+            },
+            {
+              "frame": 3.5,
+              "value": -420
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 2,
+              "value": false
+            },
+            {
+              "frame": 2.0166666666666666,
+              "value": true
+            }
+          ]
+        }
+      },
+      "item5": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -540
+            },
+            {
+              "frame": 1.5,
+              "value": -900
+            },
+            {
+              "frame": 1.5166666666666666,
+              "value": -60
+            },
+            {
+              "frame": 3.5,
+              "value": -540
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 1.5,
+              "value": false
+            },
+            {
+              "frame": 1.5166666666666666,
+              "value": true
+            }
+          ]
+        }
+      },
+      "item6": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -660
+            },
+            {
+              "frame": 1,
+              "value": -900
+            },
+            {
+              "frame": 1.0166666666666666,
+              "value": -60
+            },
+            {
+              "frame": 3.5,
+              "value": -660
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 1,
+              "value": false
+            },
+            {
+              "frame": 1.0166666666666666,
+              "value": true
+            }
+          ]
+        }
+      },
+      "item7": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -780
+            },
+            {
+              "frame": 0.5,
+              "value": -900
+            },
+            {
+              "frame": 0.5166666666666667,
+              "value": -60
+            },
+            {
+              "frame": 3.5,
+              "value": -780
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.5,
+              "value": false
+            },
+            {
+              "frame": 0.5166666666666667,
+              "value": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "changeSymbolRandom",
+      "params": [
+        0
+      ]
+    },
+    {
+      "frame": 0.5166666666666667,
+      "func": "changeSymbolRandom",
+      "params": [
+        6
+      ]
+    },
+    {
+      "frame": 1.0166666666666666,
+      "func": "changeSymbolRandom",
+      "params": [
+        5
+      ]
+    },
+    {
+      "frame": 1.5166666666666666,
+      "func": "changeSymbolRandom",
+      "params": [
+        4
+      ]
+    },
+    {
+      "frame": 2.0166666666666666,
+      "func": "changeSymbolRandom",
+      "params": [
+        3
+      ]
+    },
+    {
+      "frame": 2.5166666666666666,
+      "func": "changeSymbolRandom",
+      "params": [
+        2
+      ]
+    },
+    {
+      "frame": 3.0166666666666666,
+      "func": "changeSymbolRandom",
+      "params": [
+        1
+      ]
+    },
+    {
+      "frame": 3.5,
+      "func": "stopSpinNormal",
+      "params": []
+    }
+  ]
+}

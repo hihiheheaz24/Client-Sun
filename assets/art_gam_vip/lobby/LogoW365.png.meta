@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4667cb69-e9ae-429b-a8a2-bc0d583214a1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 176,
+  "height": 120,
+  "platformSettings": {},
+  "subMetas": {
+    "LogoW365": {
+      "ver": "1.0.6",
+      "uuid": "1720365f-2381-4cb4-9daf-dbcf60da0450",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4667cb69-e9ae-429b-a8a2-bc0d583214a1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 176,
+      "height": 120,
+      "rawWidth": 176,
+      "rawHeight": 120,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

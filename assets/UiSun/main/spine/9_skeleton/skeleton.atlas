@@ -1,0 +1,104 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TT_Body
+  rotate: true
+  xy: 2, 10
+  size: 156, 219
+  orig: 156, 219
+  offset: 0, 0
+  index: -1
+TT_Light_1
+  rotate: true
+  xy: 307, 281
+  size: 78, 68
+  orig: 78, 68
+  offset: 0, 0
+  index: -1
+TT_Light_2
+  rotate: false
+  xy: 277, 587
+  size: 200, 209
+  orig: 200, 209
+  offset: 0, 0
+  index: -1
+TT_bg
+  rotate: false
+  xy: 2, 168
+  size: 257, 416
+  orig: 273, 429
+  offset: 8, 6
+  index: -1
+TT_hand_p_1
+  rotate: true
+  xy: 336, 944
+  size: 77, 53
+  orig: 77, 53
+  offset: 0, 0
+  index: -1
+TT_hand_p_2
+  rotate: true
+  xy: 261, 177
+  size: 85, 81
+  orig: 85, 81
+  offset: 0, 0
+  index: -1
+TT_hand_p_3
+  rotate: false
+  xy: 278, 5
+  size: 50, 35
+  orig: 50, 35
+  offset: 0, 0
+  index: -1
+TT_hand_t_1
+  rotate: false
+  xy: 261, 264
+  size: 44, 95
+  orig: 44, 95
+  offset: 0, 0
+  index: -1
+TT_hand_t_2
+  rotate: true
+  xy: 223, 2
+  size: 38, 53
+  orig: 38, 53
+  offset: 0, 0
+  index: -1
+TT_head
+  rotate: false
+  xy: 344, 202
+  size: 60, 77
+  orig: 60, 77
+  offset: 0, 0
+  index: -1
+TT_khung
+  rotate: false
+  xy: 2, 586
+  size: 273, 435
+  orig: 273, 435
+  offset: 0, 0
+  index: -1
+TT_shadow
+  rotate: false
+  xy: 223, 42
+  size: 259, 124
+  orig: 259, 124
+  offset: 0, 0
+  index: -1
+TT_text
+  rotate: true
+  xy: 261, 361
+  size: 223, 57
+  orig: 267, 105
+  offset: 24, 26
+  index: -1
+TT_text_2
+  rotate: true
+  xy: 277, 798
+  size: 223, 57
+  orig: 267, 105
+  offset: 24, 26
+  index: -1

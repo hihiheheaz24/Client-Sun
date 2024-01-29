@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "038c9c77-b263-44e2-9347-cdc81afa8f7f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 37,
+  "height": 88,
+  "platformSettings": {},
+  "subMetas": {
+    "Gun_5_Bullet": {
+      "ver": "1.0.6",
+      "uuid": "b1a6aaef-9719-43df-b119-e8060e863c8a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "038c9c77-b263-44e2-9347-cdc81afa8f7f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 37,
+      "height": 88,
+      "rawWidth": 37,
+      "rawHeight": 88,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

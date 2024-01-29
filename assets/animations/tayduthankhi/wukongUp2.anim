@@ -1,0 +1,84 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "wukongUp2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "UI_Wukong_Sit": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": 245
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 240
+            }
+          ]
+        }
+      },
+      "UI_FireMainG": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.25,
+              "value": 0.3
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 0.33
+            }
+          ]
+        }
+      },
+      "btn_white": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.25,
+              "value": 0.3
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 0.33
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "flyUp",
+      "params": [
+        2
+      ]
+    },
+    {
+      "frame": 0.3333333333333333,
+      "func": "landing",
+      "params": [
+        2
+      ]
+    }
+  ]
+}

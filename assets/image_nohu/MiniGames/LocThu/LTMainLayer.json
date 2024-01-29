@@ -1,0 +1,1624 @@
+{
+  "ID": "8a93c12e-b52d-4826-b1b8-1ce846702c9d",
+  "Version": "2.3.4",
+  "Name": "LTMainLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -261,
+            "Scale9OriginY": -153,
+            "Scale9Width": 522,
+            "Scale9Height": 306,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 94.147,
+              "Y": 72.1117
+            },
+            "Scale": {
+              "ScaleX": 0.8,
+              "ScaleY": 0.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1134,
+              "Y": 0.1288
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 94.147,
+            "RightMargin": -94.147,
+            "TopMargin": -72.1117,
+            "BottomMargin": 72.1117,
+            "Tag": 2,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 820.04,
+                  "Y": 280.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.988,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2602,
+                  "Y": 0.7161
+                },
+                "LeftMargin": 820.04,
+                "RightMargin": -206.04,
+                "TopMargin": 79.5,
+                "BottomMargin": 79.5,
+                "Tag": 250,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTImgSoiCau/Board_SoiCau.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 108.0,
+                      "Y": 200.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 397,
+                    "ActionTag": -323873304,
+                    "Size": {
+                      "X": 216.0,
+                      "Y": 401.0
+                    },
+                    "Name": "Board_SoiCau_3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "DirectionType": "Vertical",
+                    "IsBounceEnabled": true,
+                    "ScrollDirectionType": 0,
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "B": 0
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 112.9896,
+                      "Y": 204.51
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5231,
+                      "Y": 0.51
+                    },
+                    "PercentHeightEnable": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.8,
+                      "Y": 0.93
+                    },
+                    "LeftMargin": 26.5896,
+                    "RightMargin": 16.6104,
+                    "TopMargin": 10.025,
+                    "BottomMargin": 18.045,
+                    "Tag": 1976,
+                    "ActionTag": -2124279534,
+                    "Size": {
+                      "X": 172.8,
+                      "Y": 372.93
+                    },
+                    "Name": "lvSoiCau",
+                    "ctype": "ListViewObjectData"
+                  }
+                ],
+                "ActionTag": 40083373,
+                "Size": {
+                  "X": 216.0,
+                  "Y": 401.0
+                },
+                "Name": "pnlSoiCau",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 415.0,
+                  "Y": 250.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4464
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 415.0,
+                "RightMargin": 415.0,
+                "TopMargin": 310.0,
+                "BottomMargin": 250.0,
+                "Tag": 1418,
+                "ActionTag": 126474517,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeSpineMain",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 24.0002,
+                  "Y": 280.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0289,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3711,
+                  "Y": 0.7196
+                },
+                "LeftMargin": -283.9998,
+                "RightMargin": 805.9998,
+                "TopMargin": 78.5,
+                "BottomMargin": 78.5,
+                "Tag": 249,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTImgChat/chat-board.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 154.0,
+                      "Y": 201.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 395,
+                    "ActionTag": 574591442,
+                    "Size": {
+                      "X": 308.0,
+                      "Y": 403.0
+                    },
+                    "Name": "Sprite_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTImgChat/chat-box.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 154.0,
+                      "Y": 44.33
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.11
+                    },
+                    "PreSize": {
+                      "X": 0.8669,
+                      "Y": 0.139
+                    },
+                    "LeftMargin": 20.5,
+                    "RightMargin": 20.5,
+                    "TopMargin": 330.67,
+                    "BottomMargin": 16.33,
+                    "Tag": 396,
+                    "ActionTag": 1599912224,
+                    "Size": {
+                      "X": 267.0,
+                      "Y": 56.0
+                    },
+                    "Name": "Sprite_2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 26960070,
+                "Size": {
+                  "X": 308.0,
+                  "Y": 403.0
+                },
+                "Name": "pnlChat",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 128,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 839.0028,
+                  "Y": 523.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0108,
+                  "Y": 0.9339
+                },
+                "PreSize": {
+                  "X": 0.1084,
+                  "Y": 0.1607
+                },
+                "LeftMargin": 794.0028,
+                "RightMargin": -54.0028,
+                "TopMargin": -8.0,
+                "BottomMargin": 478.0,
+                "Tag": 1080,
+                "ActionTag": -908957314,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 90.0
+                },
+                "Name": "btnClose",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "#123456",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 195.0,
+                  "Y": 452.9991
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2349,
+                  "Y": 0.8089
+                },
+                "PreSize": {
+                  "X": 0.1133,
+                  "Y": 0.0536
+                },
+                "LeftMargin": 148.0,
+                "RightMargin": 588.0,
+                "TopMargin": 92.0009,
+                "BottomMargin": 437.9991,
+                "Tag": 7,
+                "ActionTag": -2117406322,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 30.0
+                },
+                "Name": "txtSession",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 657.0001,
+                  "Y": 472.6326
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7916,
+                  "Y": 0.844
+                },
+                "PreSize": {
+                  "X": 0.0964,
+                  "Y": 0.1429
+                },
+                "LeftMargin": 657.0001,
+                "RightMargin": 92.9999,
+                "TopMargin": 7.3674,
+                "BottomMargin": 472.6326,
+                "Tag": 830,
+                "ActionTag": -96384916,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "btnHonor",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 563.01,
+                  "Y": 472.6324
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6783,
+                  "Y": 0.844
+                },
+                "PreSize": {
+                  "X": 0.0964,
+                  "Y": 0.1429
+                },
+                "LeftMargin": 563.01,
+                "RightMargin": 186.99,
+                "TopMargin": 7.3676,
+                "BottomMargin": 472.6324,
+                "Tag": 834,
+                "ActionTag": 1984296972,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "btnGuide",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 469.02,
+                  "Y": 512.63
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5651,
+                  "Y": 0.9154
+                },
+                "PreSize": {
+                  "X": 0.0964,
+                  "Y": 0.1429
+                },
+                "LeftMargin": 469.02,
+                "RightMargin": 280.98,
+                "TopMargin": 7.37,
+                "BottomMargin": 472.63,
+                "Tag": 831,
+                "ActionTag": -226299372,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "btnHistory",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "LTImgSoiCau/icon_SoiCau.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 48,
+                "Scale9Height": 56,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 838.549,
+                  "Y": 58.37
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 1.0103,
+                  "Y": 0.1042
+                },
+                "PreSize": {
+                  "X": 0.094,
+                  "Y": 0.1393
+                },
+                "LeftMargin": 799.549,
+                "RightMargin": -47.549,
+                "TopMargin": 462.63,
+                "BottomMargin": 19.37,
+                "Tag": 1835,
+                "ActionTag": -397979851,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 78.0
+                },
+                "Name": "btnSoiCau",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "LTResCode/btn_DungNan.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 32,
+                "Scale9Height": 40,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 91.798,
+                  "Y": 406.3978
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.1106,
+                  "Y": 0.7257
+                },
+                "PreSize": {
+                  "X": 0.0747,
+                  "Y": 0.1107
+                },
+                "LeftMargin": 60.798,
+                "RightMargin": 707.202,
+                "TopMargin": 122.6022,
+                "BottomMargin": 375.3978,
+                "Tag": 384,
+                "ActionTag": -751024840,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 62.0
+                },
+                "Name": "btnNan",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -12.9717,
+                  "Y": 58.37
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0156,
+                  "Y": 0.1042
+                },
+                "PreSize": {
+                  "X": 0.0964,
+                  "Y": 0.1429
+                },
+                "LeftMargin": -12.9717,
+                "RightMargin": 762.9717,
+                "TopMargin": 461.63,
+                "BottomMargin": 18.37,
+                "Tag": 2386,
+                "ActionTag": -1277344783,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "btnChat",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "LTPopup/hide-icon.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 46,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 414.3774,
+                  "Y": 512.63
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4992,
+                  "Y": 0.9154
+                },
+                "PreSize": {
+                  "X": 0.0916,
+                  "Y": 0.1321
+                },
+                "LeftMargin": 376.3774,
+                "RightMargin": 377.6226,
+                "TopMargin": 10.37,
+                "BottomMargin": 475.63,
+                "Tag": 228,
+                "ActionTag": 1235488943,
+                "Size": {
+                  "X": 76.0,
+                  "Y": 74.0
+                },
+                "Name": "btnMinisize",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 210.0,
+                  "Y": 89.97
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.253,
+                  "Y": 0.1607
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 210.0,
+                "RightMargin": 620.0,
+                "TopMargin": 470.03,
+                "BottomMargin": 89.97,
+                "Tag": 140,
+                "ActionTag": 1211815134,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeTimerBot",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 210.0,
+                  "Y": 275.86
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.253,
+                  "Y": 0.4926
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 210.0,
+                "RightMargin": 620.0,
+                "TopMargin": 284.14,
+                "BottomMargin": 275.86,
+                "Tag": 141,
+                "ActionTag": -945008977,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeTimerMid",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 210.0,
+                  "Y": 89.9731
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.253,
+                  "Y": 0.1607
+                },
+                "PreSize": {
+                  "X": 0.241,
+                  "Y": 0.0893
+                },
+                "LeftMargin": 110.0,
+                "RightMargin": 520.0,
+                "TopMargin": 445.0269,
+                "BottomMargin": 64.9731,
+                "Tag": 11,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTImgSoiCau/Untitled.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 92.0,
+                      "Y": 21.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.1,
+                      "ScaleY": 1.1
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.46,
+                      "Y": 0.42
+                    },
+                    "PreSize": {
+                      "X": 0.95,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": -3.0,
+                    "RightMargin": 13.0,
+                    "TopMargin": 4.0,
+                    "BottomMargin": -4.0,
+                    "Tag": 678,
+                    "ActionTag": 1523563632,
+                    "Size": {
+                      "X": 190.0,
+                      "Y": 50.0
+                    },
+                    "Name": "Untitled_82",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 45,
+                    "LabelText": "00:00",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "LTFont/iCiel Crocante_1.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 88.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.44,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.62,
+                      "Y": 1.24
+                    },
+                    "LeftMargin": 26.0,
+                    "RightMargin": 50.0,
+                    "TopMargin": -6.0,
+                    "BottomMargin": -6.0,
+                    "Tag": 12,
+                    "ActionTag": -49304902,
+                    "Size": {
+                      "X": 124.0,
+                      "Y": 62.0
+                    },
+                    "Name": "txtTimer",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -408095596,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 50.0
+                },
+                "Name": "pnlTimer",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 584.9945,
+                  "Y": 259.999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7048,
+                  "Y": 0.4643
+                },
+                "PreSize": {
+                  "X": 0.6265,
+                  "Y": 0.6964
+                },
+                "LeftMargin": 324.9945,
+                "RightMargin": -14.9945,
+                "TopMargin": 105.001,
+                "BottomMargin": 64.999,
+                "Tag": 13,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 93.6,
+                      "Y": 296.517
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.18,
+                      "Y": 0.7603
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 93.6,
+                    "RightMargin": 426.4,
+                    "TopMargin": 93.483,
+                    "BottomMargin": 296.517,
+                    "Tag": 41,
+                    "ActionTag": 715820244,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_1",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 260.0,
+                      "Y": 296.517
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.7603
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 260.0,
+                    "RightMargin": 260.0,
+                    "TopMargin": 93.483,
+                    "BottomMargin": 296.517,
+                    "Tag": 49,
+                    "ActionTag": -328653070,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_2",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 426.4,
+                      "Y": 296.517
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.82,
+                      "Y": 0.7603
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 426.4,
+                    "RightMargin": 93.6,
+                    "TopMargin": 93.483,
+                    "BottomMargin": 296.517,
+                    "Tag": 57,
+                    "ActionTag": -1445008278,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_3",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 93.6,
+                      "Y": 97.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.18,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 93.6,
+                    "RightMargin": 426.4,
+                    "TopMargin": 292.5,
+                    "BottomMargin": 97.5,
+                    "Tag": 65,
+                    "ActionTag": -1685839835,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_4",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 260.0,
+                      "Y": 97.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 260.0,
+                    "RightMargin": 260.0,
+                    "TopMargin": 292.5,
+                    "BottomMargin": 97.5,
+                    "Tag": 73,
+                    "ActionTag": -1697260172,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_5",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 426.4,
+                      "Y": 97.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.82,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 426.4,
+                    "RightMargin": 93.6,
+                    "TopMargin": 292.5,
+                    "BottomMargin": 97.5,
+                    "Tag": 81,
+                    "ActionTag": -703229352,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_6",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 1480216708,
+                "Size": {
+                  "X": 520.0,
+                  "Y": 390.0
+                },
+                "Name": "pnlThuChoice",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 190.402,
+                  "Y": 275.856
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2294,
+                  "Y": 0.4926
+                },
+                "PreSize": {
+                  "X": 0.241,
+                  "Y": 0.3571
+                },
+                "LeftMargin": 90.402,
+                "RightMargin": 539.598,
+                "TopMargin": 184.144,
+                "BottomMargin": 175.856,
+                "Tag": 173,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTDiceNode.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 109.1835,
+                      "Y": 98.3845
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5459,
+                      "Y": 0.4919
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 109.1835,
+                    "RightMargin": 90.8165,
+                    "TopMargin": 101.6155,
+                    "BottomMargin": 98.3845,
+                    "Tag": 2148,
+                    "ActionTag": -1901728351,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nodeDice",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTImage/board-dia.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 98,
+                    "Scale9OriginY": 97,
+                    "Scale9Width": 36,
+                    "Scale9Height": 38,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 106.0,
+                      "Y": 100.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.2,
+                      "ScaleY": 1.2
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.53,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.16,
+                      "Y": 1.16
+                    },
+                    "LeftMargin": -10.0,
+                    "RightMargin": -22.0,
+                    "TopMargin": -16.0,
+                    "BottomMargin": -16.0,
+                    "Tag": 174,
+                    "ActionTag": 125552468,
+                    "Size": {
+                      "X": 232.0,
+                      "Y": 232.0
+                    },
+                    "Name": "imgBat",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1866551068,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "imgDicePlate",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -380910547,
+            "Size": {
+              "X": 830.0,
+              "Y": 560.0
+            },
+            "Name": "pnlMain",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 830.0,
+          "Y": 560.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "LTDiceNode.json",
+        "LTFont/iCiel Crocante_1.ttf",
+        "LTFont/MyriadPro-Semibold.ttf",
+        "LTImage/board-dia.png",
+        "LTImgChat/chat-board.png",
+        "LTImgChat/chat-box.png",
+        "LTImgSoiCau/Board_SoiCau.png",
+        "LTImgSoiCau/icon_SoiCau.png",
+        "LTImgSoiCau/Untitled.png",
+        "LTItemThu.json",
+        "LTPopup/hide-icon.png",
+        "LTResCode/btn_DungNan.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

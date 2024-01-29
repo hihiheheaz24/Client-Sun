@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "96a225d1-511d-4dc4-aeec-4aa62c03cabb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1319,
+  "height": 1051,
+  "platformSettings": {},
+  "subMetas": {
+    "luatchoi-minipoker": {
+      "ver": "1.0.6",
+      "uuid": "47dcc556-ed26-4ecc-9a75-373920d27981",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "96a225d1-511d-4dc4-aeec-4aa62c03cabb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": -4.5,
+      "trimX": 249,
+      "trimY": 36,
+      "width": 825,
+      "height": 988,
+      "rawWidth": 1319,
+      "rawHeight": 1051,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

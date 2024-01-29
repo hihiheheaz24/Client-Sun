@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e71c2901-c59e-45a5-81d6-10a3394d26ed",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 950,
+  "height": 429,
+  "platformSettings": {},
+  "subMetas": {
+    "dancing-guide-vi-2": {
+      "ver": "1.0.6",
+      "uuid": "10ab46c1-874e-49e0-b89c-2d332181e675",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e71c2901-c59e-45a5-81d6-10a3394d26ed",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 950,
+      "height": 429,
+      "rawWidth": 950,
+      "rawHeight": 429,
+      "borderTop": 15,
+      "borderBottom": 15,
+      "borderLeft": 10,
+      "borderRight": 10,
+      "subMetas": {}
+    }
+  }
+}

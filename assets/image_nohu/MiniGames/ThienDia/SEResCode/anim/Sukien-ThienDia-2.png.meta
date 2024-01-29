@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1560d6a1-65ad-4657-99d0-8512e909e2b9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 256,
+  "height": 256,
+  "platformSettings": {},
+  "subMetas": {
+    "Sukien-ThienDia-2": {
+      "ver": "1.0.6",
+      "uuid": "3a6d3792-4b8c-4d0e-bf23-28eecb9f3f4c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1560d6a1-65ad-4657-99d0-8512e909e2b9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -9.5,
+      "offsetY": 14,
+      "trimX": 3,
+      "trimY": 3,
+      "width": 231,
+      "height": 222,
+      "rawWidth": 256,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

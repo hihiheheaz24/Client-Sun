@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "64ba7dec-4dca-4b67-84b7-98ca82b82027",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 807,
+  "height": 481,
+  "platformSettings": {},
+  "subMetas": {
+    "avenger_mng_bg_thongbao": {
+      "ver": "1.0.6",
+      "uuid": "5630c135-9bb1-41fa-a5db-36c3c6202e32",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "64ba7dec-4dca-4b67-84b7-98ca82b82027",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 807,
+      "height": 481,
+      "rawWidth": 807,
+      "rawHeight": 481,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

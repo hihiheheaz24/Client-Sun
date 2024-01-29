@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "blowlOpen",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.9833333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 33
+        },
+        {
+          "frame": 0.9833333333333333,
+          "value": 250
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": 12
+        },
+        {
+          "frame": 0.9833333333333333,
+          "value": 150
+        }
+      ]
+    }
+  },
+  "events": []
+}

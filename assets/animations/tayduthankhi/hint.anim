@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "hint",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 21,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "hint_1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 5.5,
+              "value": 255
+            },
+            {
+              "frame": 6,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "hint_2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 6,
+              "value": 0
+            },
+            {
+              "frame": 6.5,
+              "value": 255
+            },
+            {
+              "frame": 11.516666666666667,
+              "value": 255
+            },
+            {
+              "frame": 12.016666666666667,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "hint_3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 12.016666666666667,
+              "value": 0
+            },
+            {
+              "frame": 12.516666666666667,
+              "value": 255
+            },
+            {
+              "frame": 20.5,
+              "value": 255
+            },
+            {
+              "frame": 21,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 14.516666666666667,
+              "value": [
+                160,
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 18.5,
+              "value": [
+                -140,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

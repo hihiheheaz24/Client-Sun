@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "shRewardSpinLoop",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.6833333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "BoxHide": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 70
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": -70
+            },
+            {
+              "frame": 0.6833333333333333,
+              "value": 70
+            }
+          ]
+        }
+      },
+      "Box1": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": -70
+            },
+            {
+              "frame": 0.35,
+              "value": 70
+            },
+            {
+              "frame": 0.6833333333333333,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "randomIcon",
+      "params": [
+        1
+      ]
+    },
+    {
+      "frame": 0.35,
+      "func": "randomIcon",
+      "params": [
+        2
+      ]
+    },
+    {
+      "frame": 0.6833333333333333,
+      "func": "loopEnd",
+      "params": []
+    }
+  ]
+}

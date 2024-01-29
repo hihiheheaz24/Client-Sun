@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a1729a58-7d17-441c-91d1-2c5ca2ae64e2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 27,
+  "height": 50,
+  "platformSettings": {},
+  "subMetas": {
+    "lb_money_icon": {
+      "ver": "1.0.6",
+      "uuid": "4b1dc525-4304-422b-a041-3fb31e6cde4f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a1729a58-7d17-441c-91d1-2c5ca2ae64e2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 27,
+      "height": 50,
+      "rawWidth": 27,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

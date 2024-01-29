@@ -1,0 +1,482 @@
+{
+  "ID": "2af93c09-2dcd-4e6f-a7a0-616b117f3d6f",
+  "Version": "2.3.4",
+  "Name": "LTPopupHistoryItemNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 233,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -358.0,
+            "RightMargin": -358.0,
+            "TopMargin": -20.0,
+            "BottomMargin": -20.0,
+            "Tag": 317,
+            "Children": [
+              {
+                "FontSize": 22,
+                "LabelText": "PHIÊN",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.8969,
+                  "Y": 18.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0711,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.0852,
+                  "Y": 0.65
+                },
+                "LeftMargin": 20.3969,
+                "RightMargin": 634.6031,
+                "TopMargin": 9.0,
+                "BottomMargin": 5.0,
+                "Tag": 295,
+                "ActionTag": 1346086653,
+                "Size": {
+                  "X": 61.0,
+                  "Y": 26.0
+                },
+                "Name": "txtPhien",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "THỜI GIAN",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 217.2177,
+                  "Y": 18.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3034,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1466,
+                  "Y": 0.65
+                },
+                "LeftMargin": 164.7177,
+                "RightMargin": 446.2823,
+                "TopMargin": 9.0,
+                "BottomMargin": 5.0,
+                "Tag": 293,
+                "ActionTag": -1121459398,
+                "Size": {
+                  "X": 105.0,
+                  "Y": 26.0
+                },
+                "Name": "txtThoiGian",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "ĐẶT",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 380.2807,
+                  "Y": 18.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5311,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.0615,
+                  "Y": 0.65
+                },
+                "LeftMargin": 358.2807,
+                "RightMargin": 313.7193,
+                "TopMargin": 9.0,
+                "BottomMargin": 5.0,
+                "Tag": 4604,
+                "ActionTag": -2048350319,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 26.0
+                },
+                "Name": "txtDat",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "THẮNG",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 509.3171,
+                  "Y": 18.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7113,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.102,
+                  "Y": 0.65
+                },
+                "LeftMargin": 472.8171,
+                "RightMargin": 170.1829,
+                "TopMargin": 9.0,
+                "BottomMargin": 5.0,
+                "Tag": 4605,
+                "ActionTag": -145710146,
+                "Size": {
+                  "X": 73.0,
+                  "Y": 26.0
+                },
+                "Name": "txtThang",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "CHI TIẾT",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 655.3192,
+                  "Y": 18.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9153,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.1159,
+                  "Y": 0.65
+                },
+                "LeftMargin": 613.8192,
+                "RightMargin": 19.1808,
+                "TopMargin": 9.0,
+                "BottomMargin": 5.0,
+                "Tag": 4663,
+                "ActionTag": 87005333,
+                "Size": {
+                  "X": 83.0,
+                  "Y": 26.0
+                },
+                "Name": "txtChiTiet",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "ButtonText": "xem chi tiết",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Cond.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {},
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 5,
+                "Scale9Width": 59,
+                "Scale9Height": 19,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 655.3179,
+                  "Y": 21.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9152,
+                  "Y": 0.525
+                },
+                "PreSize": {
+                  "X": 0.1257,
+                  "Y": 0.625
+                },
+                "LeftMargin": 610.3179,
+                "RightMargin": 15.6821,
+                "TopMargin": 6.5,
+                "BottomMargin": 8.5,
+                "Tag": 4664,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "ComboBoxIndex": 1,
+                    "SingleColor": {},
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 45.0,
+                      "Y": 5.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.2
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.04
+                    },
+                    "TopMargin": 19.5,
+                    "BottomMargin": 4.5,
+                    "Tag": 4665,
+                    "ActionTag": 1495476557,
+                    "Size": {
+                      "X": 90.0,
+                      "Y": 1.0
+                    },
+                    "Name": "Panel_1",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 209413874,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 25.0
+                },
+                "Name": "btnChiTiet",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -641084590,
+            "Size": {
+              "X": 716.0,
+              "Y": 40.0
+            },
+            "Name": "pnlItem",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "LTFont/MyriadPro-Cond.ttf",
+        "LTFont/MyriadPro-Semibold.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d50ff126-bf65-4753-a55b-273af059f5ae",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 145,
+  "height": 75,
+  "platformSettings": {},
+  "subMetas": {
+    "viettel_2": {
+      "ver": "1.0.6",
+      "uuid": "f278dec1-6cc2-4eef-ab23-9206e3cd2a76",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d50ff126-bf65-4753-a55b-273af059f5ae",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 145,
+      "height": 75,
+      "rawWidth": 145,
+      "rawHeight": 75,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

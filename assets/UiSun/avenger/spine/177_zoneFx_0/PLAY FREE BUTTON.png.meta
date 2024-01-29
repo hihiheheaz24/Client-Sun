@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "08937940-e746-4e22-81c0-bb50c52a6c54",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 203,
+  "height": 453,
+  "platformSettings": {},
+  "subMetas": {
+    "PLAY FREE BUTTON": {
+      "ver": "1.0.6",
+      "uuid": "77c5bf1e-0a6f-46d3-adb0-699505b00145",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "08937940-e746-4e22-81c0-bb50c52a6c54",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 197,
+      "height": 449,
+      "rawWidth": 203,
+      "rawHeight": 453,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

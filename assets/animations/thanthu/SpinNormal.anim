@@ -1,0 +1,89 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "SpinNormal",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 6,
+  "sample": 60,
+  "speed": 8,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "RandomCol": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 300
+            },
+            {
+              "frame": 3,
+              "value": 0
+            },
+            {
+              "frame": 6,
+              "value": -300
+            }
+          ]
+        }
+      },
+      "MainCol": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 3,
+              "value": -300
+            },
+            {
+              "frame": 3.0166666666666666,
+              "value": 300
+            },
+            {
+              "frame": 6,
+              "value": 0
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 3,
+              "value": false
+            },
+            {
+              "frame": 3.0166666666666666,
+              "value": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "changeRandomCol",
+      "params": [
+        true
+      ]
+    },
+    {
+      "frame": 3,
+      "func": "changeRandomCol",
+      "params": [
+        false
+      ]
+    },
+    {
+      "frame": 6,
+      "func": "stopSpinNormal",
+      "params": []
+    }
+  ]
+}

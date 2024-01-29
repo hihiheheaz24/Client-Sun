@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "900be437-078b-469b-ab15-5d218be588a6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 24,
+  "height": 27,
+  "platformSettings": {},
+  "subMetas": {
+    "cailoa_icon": {
+      "ver": "1.0.6",
+      "uuid": "a6c4357a-1f03-46d6-a184-798decee5614",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "900be437-078b-469b-ab15-5d218be588a6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 24,
+      "height": 26,
+      "rawWidth": 24,
+      "rawHeight": 27,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

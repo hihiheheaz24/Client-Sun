@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "dotTime",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.0166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Label": {
+        "string": [
+          {
+            "frame": 0,
+            "value": "."
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": ".."
+          },
+          {
+            "frame": 1.3333333333333333,
+            "value": "..."
+          },
+          {
+            "frame": 2.0166666666666666,
+            "value": "."
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

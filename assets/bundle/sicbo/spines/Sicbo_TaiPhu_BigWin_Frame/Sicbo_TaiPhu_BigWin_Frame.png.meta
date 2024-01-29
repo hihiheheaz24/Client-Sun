@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "19bad9e0-96b9-4d0d-8c67-9fe901591411",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 845,
+  "height": 542,
+  "platformSettings": {},
+  "subMetas": {
+    "Sicbo_TaiPhu_BigWin_Frame": {
+      "ver": "1.0.6",
+      "uuid": "51d77fe9-a1d1-4377-a3ef-3045398886c6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "19bad9e0-96b9-4d0d-8c67-9fe901591411",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 841,
+      "height": 538,
+      "rawWidth": 845,
+      "rawHeight": 542,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5e38cab9-4ac7-4bda-883a-5a517c8fce7d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 34,
+  "height": 34,
+  "platformSettings": {},
+  "subMetas": {
+    "AniMation_BasketballShadow": {
+      "ver": "1.0.6",
+      "uuid": "9f2e0fb3-b192-4921-85d4-bf26cffb1cb6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5e38cab9-4ac7-4bda-883a-5a517c8fce7d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 34,
+      "height": 34,
+      "rawWidth": 34,
+      "rawHeight": 34,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

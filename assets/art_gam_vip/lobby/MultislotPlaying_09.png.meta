@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "df2aa1ca-6e3d-4aba-82ed-2b70cd8bed04",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 49,
+  "height": 35,
+  "platformSettings": {},
+  "subMetas": {
+    "MultislotPlaying_09": {
+      "ver": "1.0.6",
+      "uuid": "c3e10799-b216-4f04-ba71-1cfc79b093e6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "df2aa1ca-6e3d-4aba-82ed-2b70cd8bed04",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 49,
+      "height": 34,
+      "rawWidth": 49,
+      "rawHeight": 35,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

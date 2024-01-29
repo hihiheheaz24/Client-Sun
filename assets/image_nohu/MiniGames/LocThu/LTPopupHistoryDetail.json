@@ -1,0 +1,1177 @@
+{
+  "ID": "9efa7090-d178-4b8e-807a-de82354a4f6b",
+  "Version": "2.3.4",
+  "Name": "LTPopupHistoryDetail",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 37,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTPopup/board_BG.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 286,
+            "Scale9OriginY": 171,
+            "Scale9Width": 297,
+            "Scale9Height": 177,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6789,
+              "Y": 0.7208
+            },
+            "LeftMargin": 205.5,
+            "RightMargin": 205.5,
+            "TopMargin": 100.5,
+            "BottomMargin": 100.5,
+            "Tag": 42,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LTPopup/Layer 42 copy.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": 172,
+                "Scale9OriginY": 21,
+                "Scale9Width": 180,
+                "Scale9Height": 24,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 434.5,
+                  "Y": 455.9995
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8786
+                },
+                "PreSize": {
+                  "X": 0.603,
+                  "Y": 0.1272
+                },
+                "LeftMargin": 172.5,
+                "RightMargin": 172.5,
+                "TopMargin": 30.0005,
+                "BottomMargin": 422.9995,
+                "Tag": 43,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTPopup/name_lichsu.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 48,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 234,
+                    "Scale9Height": 15,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 262.0,
+                      "Y": 32.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4848
+                    },
+                    "PreSize": {
+                      "X": 0.6298,
+                      "Y": 0.8636
+                    },
+                    "LeftMargin": 97.0,
+                    "RightMargin": 97.0,
+                    "TopMargin": 5.5,
+                    "BottomMargin": 3.5,
+                    "Tag": 44,
+                    "ActionTag": -1656598103,
+                    "Size": {
+                      "X": 330.0,
+                      "Y": 57.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1219303731,
+                "Size": {
+                  "X": 524.0,
+                  "Y": 66.0
+                },
+                "Name": "pnlTitle",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "LTPopup/btn_close.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 40,
+                "Scale9Height": 48,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 826.7431,
+                  "Y": 480.6931
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9514,
+                  "Y": 0.9262
+                },
+                "PreSize": {
+                  "X": 0.0806,
+                  "Y": 0.1349
+                },
+                "LeftMargin": 791.7431,
+                "RightMargin": 7.2569,
+                "TopMargin": 3.3069,
+                "BottomMargin": 445.6931,
+                "Tag": 45,
+                "ActionTag": -1672640155,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 70.0
+                },
+                "Name": "btnClose",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "LTPopup/back-history.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 80,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 109.1814,
+                  "Y": 445.0583
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1256,
+                  "Y": 0.8575
+                },
+                "PreSize": {
+                  "X": 0.1266,
+                  "Y": 0.1079
+                },
+                "LeftMargin": 54.1814,
+                "RightMargin": 704.8186,
+                "TopMargin": 45.9417,
+                "BottomMargin": 417.0583,
+                "Tag": 1005,
+                "ActionTag": 1115907005,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 56.0
+                },
+                "Name": "btnBack",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "#79024",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 205.3202,
+                  "Y": 400.5075
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2363,
+                  "Y": 0.7717
+                },
+                "PreSize": {
+                  "X": 0.0932,
+                  "Y": 0.0578
+                },
+                "LeftMargin": 164.8202,
+                "RightMargin": 623.1798,
+                "TopMargin": 103.4925,
+                "BottomMargin": 385.5075,
+                "Tag": 1113,
+                "ActionTag": -1773983407,
+                "Size": {
+                  "X": 81.0,
+                  "Y": 30.0
+                },
+                "Name": "txtSession",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "100.000.000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 644.1897,
+                  "Y": 64.9172
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.7413,
+                  "Y": 0.1251
+                },
+                "PreSize": {
+                  "X": 0.1519,
+                  "Y": 0.0578
+                },
+                "LeftMargin": 644.1897,
+                "RightMargin": 92.8103,
+                "TopMargin": 439.0828,
+                "BottomMargin": 49.9172,
+                "Tag": 1003,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTPopup/No-coin.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 10,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 12,
+                    "Scale9Height": 12,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 151.0895,
+                      "Y": 14.517
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.1446,
+                      "Y": 0.4839
+                    },
+                    "PreSize": {
+                      "X": 0.2424,
+                      "Y": 1.0667
+                    },
+                    "LeftMargin": 135.0895,
+                    "RightMargin": -35.0895,
+                    "TopMargin": -0.517,
+                    "BottomMargin": -1.483,
+                    "Tag": 1865,
+                    "ActionTag": 1478064719,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 32.0
+                    },
+                    "Name": "imgCoin",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -164495818,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 30.0
+                },
+                "Name": "txtPrizeValue",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 25,
+                "LabelText": "Tổng số Game Thắng:  ",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 643.2338,
+                  "Y": 65.1664
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.7402,
+                  "Y": 0.1256
+                },
+                "PreSize": {
+                  "X": 0.2877,
+                  "Y": 0.0578
+                },
+                "LeftMargin": 393.2338,
+                "RightMargin": 225.7662,
+                "TopMargin": 438.8336,
+                "BottomMargin": 50.1664,
+                "Tag": 1002,
+                "ActionTag": -2013597890,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 30.0
+                },
+                "Name": "txtSession2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "100.000.000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 239.844,
+                  "Y": 64.9172
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.276,
+                  "Y": 0.1251
+                },
+                "PreSize": {
+                  "X": 0.1519,
+                  "Y": 0.0578
+                },
+                "LeftMargin": 239.844,
+                "RightMargin": 497.156,
+                "TopMargin": 439.0828,
+                "BottomMargin": 49.9172,
+                "Tag": 1074,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTPopup/No-coin.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 10,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 12,
+                    "Scale9Height": 12,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 151.0895,
+                      "Y": 14.517
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.1446,
+                      "Y": 0.4839
+                    },
+                    "PreSize": {
+                      "X": 0.2424,
+                      "Y": 1.0667
+                    },
+                    "LeftMargin": 135.0895,
+                    "RightMargin": -35.0895,
+                    "TopMargin": -0.517,
+                    "BottomMargin": -1.483,
+                    "Tag": 1075,
+                    "ActionTag": 1506370867,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 32.0
+                    },
+                    "Name": "imgCoin",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -2120041328,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 30.0
+                },
+                "Name": "txtBetValue",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 25,
+                "LabelText": "Tổng số Game Đặt:  ",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 237.8453,
+                  "Y": 64.6163
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.2737,
+                  "Y": 0.1245
+                },
+                "PreSize": {
+                  "X": 0.2877,
+                  "Y": 0.0578
+                },
+                "LeftMargin": -12.1547,
+                "RightMargin": 631.1547,
+                "TopMargin": 439.3837,
+                "BottomMargin": 49.6163,
+                "Tag": 1076,
+                "ActionTag": 671041034,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 30.0
+                },
+                "Name": "txtSession2_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 206.0399,
+                  "Y": 245.7984
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.9
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2371,
+                  "Y": 0.4736
+                },
+                "PreSize": {
+                  "X": 0.2301,
+                  "Y": 0.3854
+                },
+                "LeftMargin": 106.0399,
+                "RightMargin": 562.9601,
+                "TopMargin": 173.2016,
+                "BottomMargin": 145.7984,
+                "Tag": 779,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTPopup/dics.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 110.1469,
+                      "Y": 89.5477
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5507,
+                      "Y": 0.4477
+                    },
+                    "PreSize": {
+                      "X": 1.79,
+                      "Y": 1.725
+                    },
+                    "LeftMargin": -68.8531,
+                    "RightMargin": -89.1469,
+                    "TopMargin": -62.0477,
+                    "BottomMargin": -82.9523,
+                    "Tag": 1004,
+                    "ActionTag": 1992990100,
+                    "Size": {
+                      "X": 358.0,
+                      "Y": 345.0
+                    },
+                    "Name": "dics_87",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTDiceNode.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 109.1835,
+                      "Y": 98.3845
+                    },
+                    "Scale": {
+                      "ScaleX": 0.7,
+                      "ScaleY": 0.7
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.5459,
+                      "Y": 0.4919
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 109.1835,
+                    "RightMargin": 90.8165,
+                    "TopMargin": 101.6155,
+                    "BottomMargin": 98.3845,
+                    "Tag": 780,
+                    "ActionTag": 858593584,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nodeDice",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": -1557312553,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 200.0
+                },
+                "Name": "imgDicePlate",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 590.1649,
+                  "Y": 256.1339
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.9
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6791,
+                  "Y": 0.4935
+                },
+                "PreSize": {
+                  "X": 0.5984,
+                  "Y": 0.7514
+                },
+                "LeftMargin": 330.1649,
+                "RightMargin": 18.8351,
+                "TopMargin": 67.8661,
+                "BottomMargin": 61.1339,
+                "Tag": 250,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 93.6,
+                      "Y": 296.517
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.18,
+                      "Y": 0.7603
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 93.6,
+                    "RightMargin": 426.4,
+                    "TopMargin": 93.483,
+                    "BottomMargin": 296.517,
+                    "Tag": 251,
+                    "ActionTag": 44264924,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_1",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 260.0,
+                      "Y": 296.517
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.7603
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 260.0,
+                    "RightMargin": 260.0,
+                    "TopMargin": 93.483,
+                    "BottomMargin": 296.517,
+                    "Tag": 269,
+                    "ActionTag": 567684696,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_2",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 426.4,
+                      "Y": 296.517
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.82,
+                      "Y": 0.7603
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 426.4,
+                    "RightMargin": 93.6,
+                    "TopMargin": 93.483,
+                    "BottomMargin": 296.517,
+                    "Tag": 287,
+                    "ActionTag": -399733618,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_3",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 93.6,
+                      "Y": 97.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.18,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 93.6,
+                    "RightMargin": 426.4,
+                    "TopMargin": 292.5,
+                    "BottomMargin": 97.5,
+                    "Tag": 305,
+                    "ActionTag": 2126331767,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_4",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 260.0,
+                      "Y": 97.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 260.0,
+                    "RightMargin": 260.0,
+                    "TopMargin": 292.5,
+                    "BottomMargin": 97.5,
+                    "Tag": 323,
+                    "ActionTag": 661227198,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_5",
+                    "ctype": "ProjectNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTItemThu.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 426.4,
+                      "Y": 97.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.82,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 426.4,
+                    "RightMargin": 93.6,
+                    "TopMargin": 292.5,
+                    "BottomMargin": 97.5,
+                    "Tag": 341,
+                    "ActionTag": 353025656,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "noteItemThu_6",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 1131057350,
+                "Size": {
+                  "X": 520.0,
+                  "Y": 390.0
+                },
+                "Name": "pnlThuChoice",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -839363364,
+            "Size": {
+              "X": 869.0,
+              "Y": 519.0
+            },
+            "Name": "pnlContent",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "LTDiceNode.json",
+        "LTFont/MyriadPro-Semibold.ttf",
+        "LTItemThu.json",
+        "LTPopup/back-history.png",
+        "LTPopup/board_BG.png",
+        "LTPopup/btn_close.png",
+        "LTPopup/dics.png",
+        "LTPopup/Layer 42 copy.png",
+        "LTPopup/name_lichsu.png",
+        "LTPopup/No-coin.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

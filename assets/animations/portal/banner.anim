@@ -1,0 +1,125 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "banner",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 25,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "btnPage_2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5,
+              "value": 0
+            },
+            {
+              "frame": 5.083333333333333,
+              "value": 255
+            },
+            {
+              "frame": 9.5,
+              "value": 255
+            },
+            {
+              "frame": 10,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "btnPage_3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 10,
+              "value": 0
+            },
+            {
+              "frame": 10.083333333333334,
+              "value": 255
+            },
+            {
+              "frame": 14.5,
+              "value": 255
+            },
+            {
+              "frame": 15,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "btnPage_4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 15,
+              "value": 0
+            },
+            {
+              "frame": 15.083333333333334,
+              "value": 255
+            },
+            {
+              "frame": 19.5,
+              "value": 255
+            },
+            {
+              "frame": 20,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "btnPage_1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 4.5,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "btnPage_5": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 20,
+              "value": 0
+            },
+            {
+              "frame": 20.083333333333332,
+              "value": 255
+            },
+            {
+              "frame": 24.5,
+              "value": 255
+            },
+            {
+              "frame": 25,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

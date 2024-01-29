@@ -1,0 +1,378 @@
+{
+  "ID": "b4b14ad1-df2d-49e1-9165-b50c8c6c41ea",
+  "Version": "2.3.4",
+  "Name": "LTPopupHelp",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 25,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTPopup/board_BG.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 286,
+            "Scale9OriginY": 171,
+            "Scale9Width": 297,
+            "Scale9Height": 177,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6789,
+              "Y": 0.7208
+            },
+            "LeftMargin": 205.5,
+            "RightMargin": 205.5,
+            "TopMargin": 100.5,
+            "BottomMargin": 100.5,
+            "Tag": 26,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "LTPopup/Layer 42 copy.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": 172,
+                "Scale9OriginY": 21,
+                "Scale9Width": 180,
+                "Scale9Height": 24,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 434.5,
+                  "Y": 455.9995
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8786
+                },
+                "PreSize": {
+                  "X": 0.603,
+                  "Y": 0.1272
+                },
+                "LeftMargin": 172.5,
+                "RightMargin": 172.5,
+                "TopMargin": 30.0005,
+                "BottomMargin": 422.9995,
+                "Tag": 27,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTPopup/name_Thele.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 48,
+                    "Scale9OriginY": 21,
+                    "Scale9Width": 52,
+                    "Scale9Height": 22,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 262.0,
+                      "Y": 32.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4848
+                    },
+                    "PreSize": {
+                      "X": 0.2824,
+                      "Y": 0.9697
+                    },
+                    "LeftMargin": 188.0,
+                    "RightMargin": 188.0,
+                    "TopMargin": 2.0,
+                    "Tag": 28,
+                    "ActionTag": -942296540,
+                    "Size": {
+                      "X": 148.0,
+                      "Y": 64.0
+                    },
+                    "Name": "Image_1",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -276358115,
+                "Size": {
+                  "X": 524.0,
+                  "Y": 66.0
+                },
+                "Name": "pnlTitle",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "LTPopup/btn_close.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 40,
+                "Scale9Height": 48,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 826.7431,
+                  "Y": 480.6931
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9514,
+                  "Y": 0.9262
+                },
+                "PreSize": {
+                  "X": 0.0806,
+                  "Y": 0.1349
+                },
+                "LeftMargin": 791.7431,
+                "RightMargin": 7.2569,
+                "TopMargin": 3.3069,
+                "BottomMargin": 445.6931,
+                "Tag": 29,
+                "ActionTag": -979450724,
+                "Size": {
+                  "X": 70.0,
+                  "Y": 70.0
+                },
+                "Name": "btnClose",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 750,
+                  "Height": 550
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 434.5,
+                  "Y": 61.4238
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1184
+                },
+                "PreSize": {
+                  "X": 0.8631,
+                  "Y": 0.6744
+                },
+                "LeftMargin": 59.5,
+                "RightMargin": 59.5,
+                "TopMargin": 107.5762,
+                "BottomMargin": 61.4238,
+                "Tag": 778,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "LTPopup/thele.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 375.0,
+                      "Y": 550.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 1.0
+                    },
+                    "PreSize": {
+                      "X": 0.84,
+                      "Y": 1.375
+                    },
+                    "LeftMargin": 64.0,
+                    "RightMargin": 64.0,
+                    "BottomMargin": -150.0,
+                    "Tag": 779,
+                    "ActionTag": -1661139444,
+                    "Size": {
+                      "X": 672.0,
+                      "Y": 550.0
+                    },
+                    "Name": "thele_1",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -499945179,
+                "Size": {
+                  "X": 750.0,
+                  "Y": 350.0
+                },
+                "Name": "ScrollView_1",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": 253678911,
+            "Size": {
+              "X": 869.0,
+              "Y": 519.0
+            },
+            "Name": "pnlContent",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "LTPopup/board_BG.png",
+        "LTPopup/btn_close.png",
+        "LTPopup/Layer 42 copy.png",
+        "LTPopup/name_Thele.png",
+        "LTPopup/thele.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

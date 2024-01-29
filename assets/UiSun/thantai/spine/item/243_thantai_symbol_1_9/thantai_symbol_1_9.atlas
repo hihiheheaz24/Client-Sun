@@ -1,0 +1,48 @@
+
+symbols_packed.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c
+  rotate: false
+  xy: 2, 2
+  size: 46, 34
+  orig: 46, 34
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 50, 9
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+scatter
+  rotate: false
+  xy: 247, 273
+  size: 174, 45
+  orig: 174, 45
+  offset: 0, 0
+  index: -1
+scatter_1
+  rotate: true
+  xy: 583, 326
+  size: 183, 160
+  orig: 183, 160
+  offset: 0, 0
+  index: -1
+scatter_2
+  rotate: true
+  xy: 1041, 358
+  size: 151, 106
+  orig: 151, 106
+  offset: 0, 0
+  index: -1
+sym_boder
+  rotate: true
+  xy: 247, 320
+  size: 189, 166
+  orig: 189, 166
+  offset: 0, 0
+  index: -1

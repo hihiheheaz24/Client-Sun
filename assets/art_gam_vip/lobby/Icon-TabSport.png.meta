@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "516815fe-8cc5-4bcd-b798-78d708fbb991",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 40,
+  "height": 41,
+  "platformSettings": {},
+  "subMetas": {
+    "Icon-TabSport": {
+      "ver": "1.0.6",
+      "uuid": "7a4a22ab-d1f4-4e33-b66e-d99767294a6e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "516815fe-8cc5-4bcd-b798-78d708fbb991",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 40,
+      "height": 41,
+      "rawWidth": 40,
+      "rawHeight": 41,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

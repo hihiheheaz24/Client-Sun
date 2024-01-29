@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0a095d06-a24c-47fd-af7f-8c6ce6568506",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 127,
+  "height": 50,
+  "platformSettings": {},
+  "subMetas": {
+    "bgr-btn-Chuyen": {
+      "ver": "1.0.6",
+      "uuid": "1b808142-0d1a-4fca-ad34-ca9ce0d34bef",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0a095d06-a24c-47fd-af7f-8c6ce6568506",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 127,
+      "height": 50,
+      "rawWidth": 127,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

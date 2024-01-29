@@ -1,0 +1,97 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fish11",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8666666666666667,
+  "sample": 15,
+  "speed": 0.5,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "34b1b3d9-a848-4574-83d7-b1d59a6bdf61"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "7ab6e0ce-0f32-4983-953b-d7095c61509a"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "e552d895-9ff1-4adc-8502-320eb4e18274"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "85ee987d-238a-44e2-b3c1-04d7e4db6641"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "0f03d43f-72f6-4a53-84e5-e8d8be1cb5ed"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "76b44f02-c0d2-41b4-8bda-b0b5de9471bc"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "a4ae763b-624f-4927-a72f-c8cde2f78829"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "643a1737-85a4-4132-a67c-38294b02de96"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "e26fa1b7-3e58-4f2c-887f-f454b73d412c"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "50375421-8c6f-457d-add2-2d3bbd225e8a"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "76916c23-8f34-43ee-84fd-8f889d0896da"
+            }
+          },
+          {
+            "frame": 0.7333333333333333,
+            "value": {
+              "__uuid__": "2d6870a4-2572-4a08-8bc6-7ccb7dd5a98a"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "e101d02a-6902-477b-969d-5d6177d37c2b"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

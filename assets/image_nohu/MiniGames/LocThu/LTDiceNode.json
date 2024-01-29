@@ -1,0 +1,554 @@
+{
+  "ID": "381c7cc5-97b6-46b7-9ba0-9f7e3d8ef81e",
+  "Version": "2.3.4",
+  "Name": "LTDiceNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 84,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -331406522,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu00.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu01.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 3,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu02.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 6,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu03.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 9,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu04.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 12,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu05.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 15,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu06.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 18,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu07.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 21,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu08.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 24,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu09.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 27,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu10.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 30,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu11.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 33,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu12.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 36,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu13.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 39,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu14.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 42,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu15.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 45,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu16.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 48,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu17.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 51,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu18.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 54,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu19.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 57,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu20.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 60,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu21.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 63,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu22.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 66,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu23.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 69,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu24.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 72,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu25.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 75,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu26.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 78,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu27.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 81,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "LTdice/locthu28.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 84,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 81,
+          "Name": "rollDice",
+          "ctype": "AnimationInfoData"
+        },
+        {
+          "StartIndex": 81,
+          "EndIndex": 84,
+          "Name": "finishRollDice",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 2092,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTdice/locthu08.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -62.0,
+              "Y": 42.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -301.0,
+            "RightMargin": -177.0,
+            "TopMargin": -267.0,
+            "BottomMargin": -183.0,
+            "Tag": 6,
+            "ActionTag": -331406522,
+            "Size": {
+              "X": 478.0,
+              "Y": 450.0
+            },
+            "Name": "img3Dice",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTdice/1Dice_3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -57.9401,
+              "Y": 41.9517
+            },
+            "Scale": {
+              "ScaleX": 1.02,
+              "ScaleY": 1.02
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -296.9401,
+            "RightMargin": -181.0599,
+            "TopMargin": -266.9517,
+            "BottomMargin": -183.0483,
+            "Tag": 2094,
+            "ActionTag": -1442049764,
+            "Size": {
+              "X": 478.0,
+              "Y": 450.0
+            },
+            "Name": "imgDiceDot1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTdice/2Dice_6.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -62.7614,
+              "Y": 43.8641
+            },
+            "Scale": {
+              "ScaleX": 1.02,
+              "ScaleY": 1.02
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -85.7614,
+            "RightMargin": 39.7614,
+            "TopMargin": -66.8641,
+            "BottomMargin": 20.8641,
+            "Tag": 2097,
+            "ActionTag": -858709293,
+            "Size": {
+              "X": 478.0,
+              "Y": 450.0
+            },
+            "Name": "imgDiceDot2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTdice/3Dice_5.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -59.3029,
+              "Y": 41.0414
+            },
+            "Scale": {
+              "ScaleX": 1.03,
+              "ScaleY": 1.03
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -298.3029,
+            "RightMargin": -179.6971,
+            "TopMargin": -266.0414,
+            "BottomMargin": -183.9586,
+            "Tag": 2098,
+            "ActionTag": -217563278,
+            "Size": {
+              "X": 478.0,
+              "Y": 450.0
+            },
+            "Name": "imgDiceDot3",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "LTdice/1Dice_3.png",
+        "LTdice/2Dice_6.png",
+        "LTdice/3Dice_5.png",
+        "LTdice/locthu00.png",
+        "LTdice/locthu01.png",
+        "LTdice/locthu02.png",
+        "LTdice/locthu03.png",
+        "LTdice/locthu04.png",
+        "LTdice/locthu05.png",
+        "LTdice/locthu06.png",
+        "LTdice/locthu07.png",
+        "LTdice/locthu08.png",
+        "LTdice/locthu09.png",
+        "LTdice/locthu10.png",
+        "LTdice/locthu11.png",
+        "LTdice/locthu12.png",
+        "LTdice/locthu13.png",
+        "LTdice/locthu14.png",
+        "LTdice/locthu15.png",
+        "LTdice/locthu16.png",
+        "LTdice/locthu17.png",
+        "LTdice/locthu18.png",
+        "LTdice/locthu19.png",
+        "LTdice/locthu20.png",
+        "LTdice/locthu21.png",
+        "LTdice/locthu22.png",
+        "LTdice/locthu23.png",
+        "LTdice/locthu24.png",
+        "LTdice/locthu25.png",
+        "LTdice/locthu26.png",
+        "LTdice/locthu27.png",
+        "LTdice/locthu28.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

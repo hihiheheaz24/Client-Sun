@@ -1,0 +1,282 @@
+{
+  "ID": "a2725753-3c08-4ada-bea2-1f82b282969f",
+  "Version": "2.3.4",
+  "Name": "SEDialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 70,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "SEImages/popup-bg.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 310,
+            "Scale9OriginY": 79,
+            "Scale9Width": 177,
+            "Scale9Height": 84,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 398.5,
+              "Y": 121.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 139,
+            "Children": [
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "SEImages/dongy-btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 30,
+                "Scale9OriginY": 18,
+                "Scale9Width": 116,
+                "Scale9Height": 36,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 518.05,
+                  "Y": 55.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.65,
+                  "Y": 0.2273
+                },
+                "PreSize": {
+                  "X": 0.2133,
+                  "Y": 0.2686
+                },
+                "LeftMargin": 433.05,
+                "RightMargin": 193.95,
+                "TopMargin": 154.5,
+                "BottomMargin": 22.5,
+                "Tag": 142,
+                "ActionTag": 1692384235,
+                "Size": {
+                  "X": 170.0,
+                  "Y": 65.0
+                },
+                "Name": "btnOk",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "ButtonText": "",
+                "TextColor": {},
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "SEImages/boqua-btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 30,
+                "Scale9OriginY": 18,
+                "Scale9Width": 116,
+                "Scale9Height": 37,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 278.95,
+                  "Y": 55.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.35,
+                  "Y": 0.2273
+                },
+                "PreSize": {
+                  "X": 0.2133,
+                  "Y": 0.2686
+                },
+                "LeftMargin": 193.95,
+                "RightMargin": 433.05,
+                "TopMargin": 154.5,
+                "BottomMargin": 22.5,
+                "Tag": 143,
+                "ActionTag": -70331007,
+                "Size": {
+                  "X": 170.0,
+                  "Y": 65.0
+                },
+                "Name": "btnCancel",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "Bạn có muốn X2 ",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "SEFonts/UTM AvoBold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 398.5,
+                  "Y": 160.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6612
+                },
+                "PreSize": {
+                  "X": 0.5019,
+                  "Y": 0.4959
+                },
+                "LeftMargin": 198.5,
+                "RightMargin": 198.5,
+                "TopMargin": 22.0,
+                "BottomMargin": 100.0,
+                "Tag": 332,
+                "ActionTag": -802541014,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 120.0
+                },
+                "Name": "lblMessage",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 361650908,
+            "Size": {
+              "X": 797.0,
+              "Y": 242.0
+            },
+            "Name": "pnlMain",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 797.0,
+          "Y": 242.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "SEFonts/UTM AvoBold.ttf",
+        "SEImages/boqua-btn.png",
+        "SEImages/dongy-btn.png",
+        "SEImages/popup-bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

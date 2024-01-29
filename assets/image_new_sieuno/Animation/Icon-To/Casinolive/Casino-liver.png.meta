@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "bee1eb2e-255e-4e21-a701-ef26b231a8b0",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 521,
+  "height": 516,
+  "platformSettings": {},
+  "subMetas": {
+    "Casino-liver": {
+      "ver": "1.0.6",
+      "uuid": "3719ee5a-29f3-47e8-9ee2-e41ab85ff473",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "bee1eb2e-255e-4e21-a701-ef26b231a8b0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 517,
+      "height": 512,
+      "rawWidth": 521,
+      "rawHeight": 516,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d5a7d88d-695b-42b3-95c8-9dbde3a77b3f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 139,
+  "height": 29,
+  "platformSettings": {},
+  "subMetas": {
+    "MauThau": {
+      "ver": "1.0.6",
+      "uuid": "c99a12e7-037a-4c08-ad2d-876bf45f0ae4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d5a7d88d-695b-42b3-95c8-9dbde3a77b3f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 139,
+      "height": 29,
+      "rawWidth": 139,
+      "rawHeight": 29,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "bca41655-1e25-46b5-9a35-d774f0151e56",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 190,
+  "height": 330,
+  "platformSettings": {},
+  "subMetas": {
+    "IconOlympia #5541": {
+      "ver": "1.0.6",
+      "uuid": "e154bc18-f006-46cd-b4ad-3df37a5c9e8b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "bca41655-1e25-46b5-9a35-d774f0151e56",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4.5,
+      "offsetY": -2,
+      "trimX": 16,
+      "trimY": 15,
+      "width": 149,
+      "height": 304,
+      "rawWidth": 190,
+      "rawHeight": 330,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

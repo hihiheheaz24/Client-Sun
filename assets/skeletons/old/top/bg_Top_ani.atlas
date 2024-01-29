@@ -1,0 +1,34 @@
+
+bg_Top_ani.png
+size: 333,333
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_Top
+  rotate: false
+  xy: 166, 225
+  size: 101, 108
+  orig: 101, 108
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 0, 0
+  size: 166, 159
+  orig: 166, 159
+  offset: 0, 0
+  index: -1
+vm
+  rotate: false
+  xy: 166, 197
+  size: 47, 28
+  orig: 47, 28
+  offset: 0, 0
+  index: -1
+vtr
+  rotate: false
+  xy: 0, 159
+  size: 166, 174
+  orig: 166, 174
+  offset: 0, 0
+  index: -1

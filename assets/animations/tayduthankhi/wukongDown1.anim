@@ -1,0 +1,70 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "wukongDown1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "btn_white": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.67
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "UI_FireMainG": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.67
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "UI_Wukong_Sit": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 120
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "fallingDown",
+      "params": [
+        "1"
+      ]
+    },
+    {
+      "frame": 0.3333333333333333,
+      "func": "standIdle",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+
+HaitacExport3.8.png
+size: 2017,1000
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lightlsc
+  rotate: false
+  xy: 1217, 107
+  size: 80, 84
+  orig: 80, 84
+  offset: 0, 0
+  index: -1
+p1 copy 2lsc
+  rotate: false
+  xy: 1410, 12
+  size: 81, 72
+  orig: 81, 72
+  offset: 0, 0
+  index: -1
+p1 copy 3lsc
+  rotate: true
+  xy: 1302, 2
+  size: 82, 72
+  orig: 82, 72
+  offset: 0, 0
+  index: -1
+p1 copy 4lsc
+  rotate: false
+  xy: 1493, 12
+  size: 81, 72
+  orig: 81, 72
+  offset: 0, 0
+  index: -1
+p1 copylsc
+  rotate: false
+  xy: 1611, 69
+  size: 81, 72
+  orig: 81, 72
+  offset: 0, 0
+  index: -1
+p2lsc
+  rotate: false
+  xy: 1434, 844
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+p3lsc
+  rotate: true
+  xy: 516, 500
+  size: 33, 28
+  orig: 33, 28
+  offset: 0, 0
+  index: -1
+scope lightlsc
+  rotate: true
+  xy: 192, 342
+  size: 147, 102
+  orig: 147, 102
+  offset: 0, 0
+  index: -1
+scopelsc
+  rotate: true
+  xy: 744, 547
+  size: 130, 90
+  orig: 130, 90
+  offset: 0, 0
+  index: -1
+wirelsc
+  rotate: false
+  xy: 966, 2
+  size: 82, 90
+  orig: 82, 90
+  offset: 0, 0
+  index: -1

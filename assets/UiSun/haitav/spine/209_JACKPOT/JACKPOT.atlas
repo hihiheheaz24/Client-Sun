@@ -1,0 +1,530 @@
+
+JACKPOT.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a/a1
+  rotate: true
+  xy: 1453, 1688
+  size: 124, 146
+  orig: 124, 146
+  offset: 0, 0
+  index: -1
+ship/n1
+  rotate: true
+  xy: 1453, 1688
+  size: 124, 146
+  orig: 124, 146
+  offset: 0, 0
+  index: -1
+a/a2
+  rotate: true
+  xy: 1330, 1315
+  size: 199, 225
+  orig: 199, 225
+  offset: 0, 0
+  index: -1
+ship/n2
+  rotate: true
+  xy: 1330, 1315
+  size: 199, 225
+  orig: 199, 225
+  offset: 0, 0
+  index: -1
+a/a3
+  rotate: false
+  xy: 468, 2
+  size: 539, 469
+  orig: 539, 469
+  offset: 0, 0
+  index: -1
+ship/n5
+  rotate: false
+  xy: 468, 2
+  size: 539, 469
+  orig: 539, 469
+  offset: 0, 0
+  index: -1
+a/a4
+  rotate: false
+  xy: 1009, 2
+  size: 539, 469
+  orig: 539, 469
+  offset: 0, 0
+  index: -1
+ship/n6
+  rotate: false
+  xy: 1009, 2
+  size: 539, 469
+  orig: 539, 469
+  offset: 0, 0
+  index: -1
+bphai
+  rotate: false
+  xy: 1386, 1814
+  size: 113, 97
+  orig: 113, 97
+  offset: 0, 0
+  index: -1
+br
+  rotate: false
+  xy: 865, 473
+  size: 1130, 365
+  orig: 1182, 428
+  offset: 0, 63
+  index: -1
+btrai
+  rotate: false
+  xy: 1501, 1814
+  size: 113, 97
+  orig: 113, 97
+  offset: 0, 0
+  index: -1
+jp
+  rotate: false
+  xy: 372, 1165
+  size: 642, 191
+  orig: 642, 191
+  offset: 0, 0
+  index: -1
+jp_as/jp_as1
+  rotate: false
+  xy: 1016, 1105
+  size: 642, 191
+  orig: 642, 191
+  offset: 0, 0
+  index: -1
+jp_as/jp_as2
+  rotate: false
+  xy: 2, 972
+  size: 642, 191
+  orig: 642, 191
+  offset: 0, 0
+  index: -1
+jp_as/jp_as3
+  rotate: false
+  xy: 646, 912
+  size: 642, 191
+  orig: 642, 191
+  offset: 0, 0
+  index: -1
+jp_as/jp_as4
+  rotate: false
+  xy: 1290, 840
+  size: 648, 199
+  orig: 648, 199
+  offset: 0, 0
+  index: -1
+light/1
+  rotate: true
+  xy: 224, 1857
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+light/2
+  rotate: true
+  xy: 224, 1857
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+light/3
+  rotate: true
+  xy: 224, 1857
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+light/4
+  rotate: true
+  xy: 224, 1857
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+light/5
+  rotate: true
+  xy: 224, 1857
+  size: 54, 58
+  orig: 54, 58
+  offset: 0, 0
+  index: -1
+luabg/1
+  rotate: true
+  xy: 596, 1854
+  size: 57, 85
+  orig: 57, 85
+  offset: 0, 0
+  index: -1
+luabg/2
+  rotate: true
+  xy: 1616, 1811
+  size: 100, 180
+  orig: 100, 180
+  offset: 0, 0
+  index: -1
+luabg/3
+  rotate: true
+  xy: 2, 1754
+  size: 113, 217
+  orig: 113, 217
+  offset: 0, 0
+  index: -1
+luabg/4
+  rotate: true
+  xy: 892, 1358
+  size: 197, 217
+  orig: 197, 217
+  offset: 0, 0
+  index: -1
+luabg/5
+  rotate: true
+  xy: 1557, 1298
+  size: 207, 217
+  orig: 207, 217
+  offset: 0, 0
+  index: -1
+luabg_p/1
+  rotate: true
+  xy: 683, 1854
+  size: 57, 85
+  orig: 57, 85
+  offset: 0, 0
+  index: -1
+luabg_p/2
+  rotate: true
+  xy: 1798, 1811
+  size: 100, 180
+  orig: 100, 180
+  offset: 0, 0
+  index: -1
+luabg_p/3
+  rotate: true
+  xy: 713, 1717
+  size: 113, 217
+  orig: 113, 217
+  offset: 0, 0
+  index: -1
+luabg_p/4
+  rotate: true
+  xy: 1111, 1326
+  size: 197, 217
+  orig: 197, 217
+  offset: 0, 0
+  index: -1
+luabg_p/5
+  rotate: true
+  xy: 1776, 1276
+  size: 207, 217
+  orig: 207, 217
+  offset: 0, 0
+  index: -1
+luaphai/1
+  rotate: false
+  xy: 2, 1869
+  size: 109, 42
+  orig: 109, 42
+  offset: 0, 0
+  index: -1
+luaphai/2
+  rotate: false
+  xy: 1182, 1828
+  size: 100, 83
+  orig: 100, 83
+  offset: 0, 0
+  index: -1
+luaphai/3
+  rotate: true
+  xy: 770, 1832
+  size: 79, 95
+  orig: 79, 95
+  offset: 0, 0
+  index: -1
+luaphai/4
+  rotate: true
+  xy: 964, 1829
+  size: 82, 107
+  orig: 82, 107
+  offset: 0, 0
+  index: -1
+luaphai/5
+  rotate: false
+  xy: 521, 1603
+  size: 141, 135
+  orig: 141, 135
+  offset: 0, 0
+  index: -1
+luaphai/6
+  rotate: false
+  xy: 807, 1558
+  size: 150, 149
+  orig: 150, 149
+  offset: 0, 0
+  index: -1
+luatrai/1
+  rotate: false
+  xy: 113, 1869
+  size: 109, 42
+  orig: 109, 42
+  offset: 0, 0
+  index: -1
+luatrai/2
+  rotate: false
+  xy: 1284, 1828
+  size: 100, 83
+  orig: 100, 83
+  offset: 0, 0
+  index: -1
+luatrai/3
+  rotate: true
+  xy: 867, 1832
+  size: 79, 95
+  orig: 79, 95
+  offset: 0, 0
+  index: -1
+luatrai/4
+  rotate: true
+  xy: 1073, 1829
+  size: 82, 107
+  orig: 82, 107
+  offset: 0, 0
+  index: -1
+luatrai/5
+  rotate: false
+  xy: 664, 1580
+  size: 141, 135
+  orig: 141, 135
+  offset: 0, 0
+  index: -1
+luatrai/6
+  rotate: false
+  xy: 959, 1557
+  size: 150, 149
+  orig: 150, 149
+  offset: 0, 0
+  index: -1
+ship
+  rotate: true
+  xy: 423, 491
+  size: 419, 440
+  orig: 419, 440
+  offset: 0, 0
+  index: -1
+ship/n3
+  rotate: false
+  xy: 2, 574
+  size: 419, 396
+  orig: 419, 396
+  offset: 0, 0
+  index: -1
+ship/n4
+  rotate: false
+  xy: 2, 60
+  size: 464, 429
+  orig: 464, 429
+  offset: 0, 0
+  index: -1
+skull/1
+  rotate: true
+  xy: 932, 1709
+  size: 118, 168
+  orig: 146, 208
+  offset: 14, 20
+  index: -1
+skull/2
+  rotate: true
+  xy: 1102, 1708
+  size: 118, 168
+  orig: 146, 208
+  offset: 14, 23
+  index: -1
+skull/3
+  rotate: true
+  xy: 1272, 1692
+  size: 120, 179
+  orig: 120, 179
+  offset: 0, 0
+  index: -1
+skull/4
+  rotate: true
+  xy: 1601, 1683
+  size: 126, 174
+  orig: 126, 174
+  offset: 0, 0
+  index: -1
+skull/5
+  rotate: true
+  xy: 1777, 1682
+  size: 127, 184
+  orig: 146, 208
+  offset: 9, 15
+  index: -1
+skull/6
+  rotate: true
+  xy: 2, 1625
+  size: 127, 176
+  orig: 127, 176
+  offset: 0, 0
+  index: -1
+skull/7
+  rotate: true
+  xy: 180, 1612
+  size: 128, 170
+  orig: 128, 170
+  offset: 0, 0
+  index: -1
+skull/8
+  rotate: true
+  xy: 352, 1610
+  size: 128, 167
+  orig: 128, 167
+  offset: 0, 0
+  index: -1
+sn/sung1
+  rotate: false
+  xy: 284, 1856
+  size: 154, 55
+  orig: 157, 56
+  offset: 2, 1
+  index: -1
+sn/sung2
+  rotate: false
+  xy: 221, 1742
+  size: 244, 112
+  orig: 248, 112
+  offset: 2, 0
+  index: -1
+sn/sung3
+  rotate: false
+  xy: 1111, 1525
+  size: 271, 165
+  orig: 273, 165
+  offset: 1, 0
+  index: -1
+sn/sung4
+  rotate: false
+  xy: 398, 1412
+  size: 245, 189
+  orig: 245, 190
+  offset: 0, 1
+  index: -1
+sn/sung5
+  rotate: false
+  xy: 1657, 1507
+  size: 197, 173
+  orig: 198, 173
+  offset: 1, 0
+  index: -1
+sn/sung6
+  rotate: true
+  xy: 1856, 1485
+  size: 195, 188
+  orig: 197, 188
+  offset: 0, 0
+  index: -1
+snp/sung10
+  rotate: false
+  xy: 645, 1367
+  size: 245, 189
+  orig: 245, 190
+  offset: 0, 1
+  index: -1
+snp/sung11
+  rotate: false
+  xy: 2, 1437
+  size: 197, 173
+  orig: 198, 173
+  offset: 0, 0
+  index: -1
+snp/sung12
+  rotate: false
+  xy: 201, 1420
+  size: 195, 188
+  orig: 197, 188
+  offset: 2, 0
+  index: -1
+snp/sung7
+  rotate: false
+  xy: 440, 1856
+  size: 154, 55
+  orig: 157, 56
+  offset: 1, 1
+  index: -1
+snp/sung8
+  rotate: false
+  xy: 467, 1740
+  size: 244, 112
+  orig: 248, 112
+  offset: 2, 0
+  index: -1
+snp/sung9
+  rotate: false
+  xy: 1384, 1516
+  size: 271, 165
+  orig: 273, 165
+  offset: 1, 0
+  index: -1
+sp
+  rotate: false
+  xy: 2, 1185
+  size: 368, 233
+  orig: 368, 233
+  offset: 0, 0
+  index: -1
+st
+  rotate: false
+  xy: 1660, 1041
+  size: 368, 233
+  orig: 368, 233
+  offset: 0, 0
+  index: -1
+
+JACKPOT2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a/a5
+  rotate: false
+  xy: 1282, 93
+  size: 697, 606
+  orig: 697, 606
+  offset: 0, 0
+  index: -1
+ship/n7
+  rotate: false
+  xy: 1282, 93
+  size: 697, 606
+  orig: 697, 606
+  offset: 0, 0
+  index: -1
+a/a6
+  rotate: true
+  xy: 2, 2
+  size: 697, 638
+  orig: 697, 638
+  offset: 0, 0
+  index: -1
+a/a7
+  rotate: false
+  xy: 2, 701
+  size: 930, 773
+  orig: 930, 773
+  offset: 0, 0
+  index: -1
+ship/n8
+  rotate: true
+  xy: 642, 2
+  size: 697, 638
+  orig: 697, 638
+  offset: 0, 0
+  index: -1
+ship/n9
+  rotate: false
+  xy: 934, 701
+  size: 930, 773
+  orig: 930, 773
+  offset: 0, 0
+  index: -1

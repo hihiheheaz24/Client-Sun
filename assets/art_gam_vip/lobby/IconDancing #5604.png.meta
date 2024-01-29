@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "03b6d361-1891-40ad-8dff-dd53b9875d96",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 190,
+  "height": 330,
+  "platformSettings": {},
+  "subMetas": {
+    "IconDancing #5604": {
+      "ver": "1.0.6",
+      "uuid": "6c62f305-d204-4db1-b64b-e2304555c60f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "03b6d361-1891-40ad-8dff-dd53b9875d96",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": -2,
+      "trimX": 23,
+      "trimY": 15,
+      "width": 142,
+      "height": 304,
+      "rawWidth": 190,
+      "rawHeight": 330,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

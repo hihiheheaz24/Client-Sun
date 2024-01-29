@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "scatterEffect5",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "item5": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -40
+            },
+            {
+              "frame": 0.25,
+              "value": -300
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.25,
+      "func": "startEffect",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fish00",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b534217d-cadc-4280-a88c-4c83ea12cb06"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "ff5ce007-e4d1-45af-9860-72ce3833daf1"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "b7482594-bcd1-4103-a6fd-3b62d1edf254"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "45c79dbc-ce54-4b5b-ba74-1efb1e3a86d5"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "0e1344c2-cd02-42ca-8c3b-47fe7968c3d0"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "e6c2318d-4135-446b-ba0a-7728aa82dcb2"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

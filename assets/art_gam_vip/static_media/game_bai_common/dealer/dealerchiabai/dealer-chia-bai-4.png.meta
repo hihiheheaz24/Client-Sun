@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "aa592c5f-0a09-4dbd-ad35-65fd3aa3832a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 200,
+  "height": 300,
+  "platformSettings": {},
+  "subMetas": {
+    "dealer-chia-bai-4": {
+      "ver": "1.0.6",
+      "uuid": "3699f999-3dc8-4ed4-907c-b61186c745a5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "aa592c5f-0a09-4dbd-ad35-65fd3aa3832a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1.5,
+      "offsetY": 27.5,
+      "trimX": 32,
+      "trimY": 40,
+      "width": 139,
+      "height": 165,
+      "rawWidth": 200,
+      "rawHeight": 300,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

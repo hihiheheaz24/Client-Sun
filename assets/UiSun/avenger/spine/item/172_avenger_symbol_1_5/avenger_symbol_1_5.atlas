@@ -1,0 +1,34 @@
+
+ALL SYMBOL AVENGERS.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ROCKET/BACK
+  rotate: true
+  xy: 781, 1620
+  size: 109, 128
+  orig: 111, 132
+  offset: 1, 2
+  index: -1
+ROCKET/BORDER
+  rotate: false
+  xy: 235, 893
+  size: 143, 143
+  orig: 145, 145
+  offset: 1, 1
+  index: -1
+ROCKET/ROCKET BODY
+  rotate: false
+  xy: 1830, 1877
+  size: 118, 72
+  orig: 120, 74
+  offset: 1, 1
+  index: -1
+ROCKET/ROCKET HEAD
+  rotate: false
+  xy: 435, 1742
+  size: 109, 92
+  orig: 111, 94
+  offset: 1, 1
+  index: -1

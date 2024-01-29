@@ -1,0 +1,41 @@
+
+UI_BG_Flower.png
+size: 738,479
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+VongSang1
+  rotate: true
+  xy: 2, 2
+  size: 475, 562
+  orig: 1024, 1024
+  offset: 275, 248
+  index: -1
+images/a_3
+  rotate: false
+  xy: 566, 40
+  size: 84, 83
+  orig: 84, 83
+  offset: 0, 0
+  index: -1
+images/b_4
+  rotate: false
+  xy: 652, 40
+  size: 84, 83
+  orig: 84, 83
+  offset: 0, 0
+  index: -1
+jackpot
+  rotate: false
+  xy: 566, 302
+  size: 168, 175
+  orig: 177, 209
+  offset: 8, 1
+  index: -1
+jackpot1
+  rotate: true
+  xy: 566, 125
+  size: 175, 141
+  orig: 177, 209
+  offset: 2, 48
+  index: -1

@@ -1,0 +1,255 @@
+{
+  "ID": "b5d44677-acc7-4966-8b5a-3fb8626d4b87",
+  "Version": "2.3.4",
+  "Name": "LTPopupHonnorItemNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 233,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -358.0,
+            "RightMargin": -358.0,
+            "TopMargin": -20.0,
+            "BottomMargin": -20.0,
+            "Tag": 317,
+            "Children": [
+              {
+                "FontSize": 22,
+                "LabelText": "STT",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 37.8965,
+                  "Y": 18.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0529,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.0531,
+                  "Y": 0.65
+                },
+                "LeftMargin": 18.8965,
+                "RightMargin": 659.1035,
+                "TopMargin": 9.0,
+                "BottomMargin": 5.0,
+                "Tag": 295,
+                "ActionTag": 1346086653,
+                "Size": {
+                  "X": 38.0,
+                  "Y": 26.0
+                },
+                "Name": "txtHang",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "TÀI KHOẢN",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 310.0,
+                  "Y": 18.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.433,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.155,
+                  "Y": 0.65
+                },
+                "LeftMargin": 254.5,
+                "RightMargin": 350.5,
+                "TopMargin": 9.0,
+                "BottomMargin": 5.0,
+                "Tag": 294,
+                "ActionTag": -1988216556,
+                "Size": {
+                  "X": 111.0,
+                  "Y": 26.0
+                },
+                "Name": "txtTenTaiKhoan",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "THẮNG",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "LTFont/MyriadPro-Semibold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 600.0,
+                  "Y": 18.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.838,
+                  "Y": 0.45
+                },
+                "PreSize": {
+                  "X": 0.102,
+                  "Y": 0.65
+                },
+                "LeftMargin": 563.5,
+                "RightMargin": 79.5,
+                "TopMargin": 9.0,
+                "BottomMargin": 5.0,
+                "Tag": 4605,
+                "ActionTag": -145710146,
+                "Size": {
+                  "X": 73.0,
+                  "Y": 26.0
+                },
+                "Name": "txtThang",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -641084590,
+            "Size": {
+              "X": 716.0,
+              "Y": 40.0
+            },
+            "Name": "pnlItem",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "LTFont/MyriadPro-Semibold.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

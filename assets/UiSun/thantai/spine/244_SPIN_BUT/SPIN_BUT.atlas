@@ -1,0 +1,62 @@
+
+UI_PACKED.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+but_spin
+  rotate: true
+  xy: 1081, 367
+  size: 143, 139
+  orig: 143, 139
+  offset: 0, 0
+  index: -1
+spin
+  rotate: false
+  xy: 371, 10
+  size: 100, 36
+  orig: 100, 36
+  offset: 0, 0
+  index: -1
+spin2
+  rotate: false
+  xy: 473, 10
+  size: 100, 36
+  orig: 100, 36
+  offset: 0, 0
+  index: -1
+spin_1
+  rotate: false
+  xy: 1392, 300
+  size: 75, 78
+  orig: 75, 78
+  offset: 0, 0
+  index: -1
+spin_1_red
+  rotate: false
+  xy: 1469, 309
+  size: 75, 78
+  orig: 75, 78
+  offset: 0, 0
+  index: -1
+spin_2
+  rotate: false
+  xy: 1519, 399
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+spin_2_red
+  rotate: false
+  xy: 1456, 67
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+stop
+  rotate: false
+  xy: 575, 23
+  size: 110, 35
+  orig: 110, 35
+  offset: 0, 0
+  index: -1

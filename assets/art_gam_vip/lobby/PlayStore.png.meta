@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "aa9fdac0-0725-444a-bf38-8d2ad920a0f4",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 32,
+  "height": 9,
+  "platformSettings": {},
+  "subMetas": {
+    "PlayStore": {
+      "ver": "1.0.6",
+      "uuid": "f6b38a05-cfd8-4467-99cb-794c8c2343f8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "aa9fdac0-0725-444a-bf38-8d2ad920a0f4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 32,
+      "height": 9,
+      "rawWidth": 32,
+      "rawHeight": 9,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

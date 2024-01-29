@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "18f5bfb8-8628-4e8a-8daf-56d22d53c408",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 128,
+  "height": 64,
+  "platformSettings": {},
+  "subMetas": {
+    "Icon-SuKien-Mini": {
+      "ver": "1.0.6",
+      "uuid": "73562664-a137-4ea2-991d-2662d8fe767e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "18f5bfb8-8628-4e8a-8daf-56d22d53c408",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 3,
+      "trimY": 3,
+      "width": 122,
+      "height": 58,
+      "rawWidth": 128,
+      "rawHeight": 64,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6cb017d4-dd92-4512-b45a-acdf1b2ef356",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 212,
+  "height": 112,
+  "platformSettings": {},
+  "subMetas": {
+    "SlotJackpotBg": {
+      "ver": "1.0.6",
+      "uuid": "7ca6aeb0-aa45-49dc-9c9e-33f085cd0de2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6cb017d4-dd92-4512-b45a-acdf1b2ef356",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 212,
+      "height": 112,
+      "rawWidth": 212,
+      "rawHeight": 112,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

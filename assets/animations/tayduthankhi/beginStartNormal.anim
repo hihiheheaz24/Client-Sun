@@ -1,0 +1,147 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "beginStartNormal",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 60,
+  "speed": 2,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "item1": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -60
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": -50
+            },
+            {
+              "frame": 0.25,
+              "value": -60
+            }
+          ]
+        }
+      },
+      "item2": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -180
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": -170
+            },
+            {
+              "frame": 0.25,
+              "value": -180
+            }
+          ]
+        }
+      },
+      "item3": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -300
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": -290
+            },
+            {
+              "frame": 0.25,
+              "value": -300
+            }
+          ]
+        }
+      },
+      "item4": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -420
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": -410
+            },
+            {
+              "frame": 0.25,
+              "value": -420
+            }
+          ]
+        }
+      },
+      "item5": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -540
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": -530
+            },
+            {
+              "frame": 0.25,
+              "value": -540
+            }
+          ]
+        }
+      },
+      "item6": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -660
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": -650
+            },
+            {
+              "frame": 0.25,
+              "value": -660
+            }
+          ]
+        }
+      },
+      "item7": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -780
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": -770
+            },
+            {
+              "frame": 0.25,
+              "value": -780
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.25,
+      "func": "spinNormal",
+      "params": []
+    }
+  ]
+}

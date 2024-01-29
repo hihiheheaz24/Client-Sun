@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a5891f0f-b618-4855-9eb3-b469071d7bca",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 245,
+  "height": 65,
+  "platformSettings": {},
+  "subMetas": {
+    "doimatkhau-tab-active": {
+      "ver": "1.0.6",
+      "uuid": "0b70ffcc-69ba-498c-aecf-d5780c8bef9a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a5891f0f-b618-4855-9eb3-b469071d7bca",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 245,
+      "height": 65,
+      "rawWidth": 245,
+      "rawHeight": 65,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

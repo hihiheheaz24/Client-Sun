@@ -1,0 +1,48 @@
+
+symbols_packed.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c
+  rotate: false
+  xy: 2, 2
+  size: 46, 34
+  orig: 46, 34
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 50, 9
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+jackpot
+  rotate: false
+  xy: 168, 24
+  size: 182, 47
+  orig: 182, 47
+  offset: 0, 0
+  index: -1
+jackpot_border
+  rotate: true
+  xy: 168, 73
+  size: 188, 168
+  orig: 188, 168
+  offset: 0, 0
+  index: -1
+jackpot_sym_1
+  rotate: true
+  xy: 2, 38
+  size: 223, 164
+  orig: 223, 164
+  offset: 0, 0
+  index: -1
+jackpot_sym_2
+  rotate: true
+  xy: 415, 326
+  size: 183, 166
+  orig: 183, 166
+  offset: 0, 0
+  index: -1

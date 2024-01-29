@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2ed7cd3f-ff84-41b2-b172-2dd3043f76f1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 190,
+  "height": 330,
+  "platformSettings": {},
+  "subMetas": {
+    "IconSpaceWar": {
+      "ver": "1.0.6",
+      "uuid": "94ee1a0a-976b-4b0f-bdaa-4ce0c317138c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2ed7cd3f-ff84-41b2-b172-2dd3043f76f1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1.5,
+      "trimX": 6,
+      "trimY": 12,
+      "width": 178,
+      "height": 309,
+      "rawWidth": 190,
+      "rawHeight": 330,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

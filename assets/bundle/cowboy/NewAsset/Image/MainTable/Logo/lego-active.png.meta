@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1bb84f1d-b019-41d1-86f9-59c1550bbced",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 190,
+  "height": 373,
+  "platformSettings": {},
+  "subMetas": {
+    "lego-active": {
+      "ver": "1.0.6",
+      "uuid": "28016c26-dd8d-47a2-bf4f-85787c2782d2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1bb84f1d-b019-41d1-86f9-59c1550bbced",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 2,
+      "width": 190,
+      "height": 370,
+      "rawWidth": 190,
+      "rawHeight": 373,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

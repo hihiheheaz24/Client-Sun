@@ -1,0 +1,121 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+        alphaThreshold: { value: 0.5 }
+}%
+
+
+CCProgram vs %{
+  precision highp float;
+
+  #include <cc-global>
+  #include <cc-local>
+
+  in vec3 a_position;
+  in vec4 a_color;
+  out vec4 v_color;
+
+  #if USE_TEXTURE
+  in vec2 a_uv0;
+  out vec2 v_uv0;
+  #endif
+
+  void main () {
+    vec4 pos = vec4(a_position, 1);
+
+    #if CC_USE_MODEL
+    pos = cc_matViewProj * cc_matWorld * pos;
+    #else
+    pos = cc_matViewProj * pos;
+    #endif
+
+    #if USE_TEXTURE
+    v_uv0 = a_uv0;
+    #endif
+
+    v_color = a_color;
+
+    gl_Position = pos;
+  }
+}%
+
+
+CCProgram fs %{
+  precision highp float;
+
+  #include <alpha-test>
+  #include <texture>
+
+  in vec4 v_color;
+
+  #if USE_TEXTURE
+  in vec2 v_uv0;
+  uniform sampler2D texture;
+  #endif
+  uniform aura {
+	vec2 iResolution;
+	float iTime;
+  };
+  uniform sampler2D iChannel0;
+
+  const int   c_samplesX    = 15;  // must be odd
+  const int   c_samplesY    = 15;  // must be odd
+  const float c_textureSize = 512.0;
+
+  const int   c_halfSamplesX = c_samplesX / 2;
+  const int   c_halfSamplesY = c_samplesY / 2;
+  const float c_pixelSize = (1.0 / c_textureSize);
+
+
+float Gaussian (float sigma, float x)
+{
+    return exp(-(x*x) / (2.0 * sigma*sigma));
+}
+
+vec3 BlurredPixel (in vec2 uv)
+{
+    float c_sigmaX      = 500.0;
+	  float c_sigmaY      = 1.0;
+    
+    float total = 0.0;
+    vec3 ret = vec3(0);
+        
+    for (int iy = 0; iy < c_samplesY; ++iy)
+    {
+        float fy = Gaussian (c_sigmaY, float(iy) - float(c_halfSamplesY));
+        float offsety = float(iy-c_halfSamplesY) * c_pixelSize;
+        for (int ix = 0; ix < c_samplesX; ++ix)
+        {
+            float fx = Gaussian (c_sigmaX, float(ix) - float(c_halfSamplesX));
+            float offsetx = float(ix-c_halfSamplesX) * c_pixelSize;
+            total += fx * fy;            
+            ret += texture(iChannel0, uv + vec2(offsetx, offsety)).rgb * fx*fy;
+        }
+    }
+    return ret / total;
+}
+
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+	vec2 uv = fragCoord.xy / iResolution.xy * vec2(1,-1);
+	fragColor = vec4(BlurredPixel(uv), 1.0);
+}
+
+
+
+void main () {
+  mainImage(gl_FragColor,v_uv0.xy);
+}
+
+}%

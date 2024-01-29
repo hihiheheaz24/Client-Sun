@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5b87445b-bd05-4a53-990b-a16f193fae6e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 828,
+  "height": 348,
+  "platformSettings": {},
+  "subMetas": {
+    "LiveScreenFootball": {
+      "ver": "1.0.6",
+      "uuid": "3a68a270-8cd0-4652-a621-b27f942460fe",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5b87445b-bd05-4a53-990b-a16f193fae6e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 828,
+      "height": 348,
+      "rawWidth": 828,
+      "rawHeight": 348,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

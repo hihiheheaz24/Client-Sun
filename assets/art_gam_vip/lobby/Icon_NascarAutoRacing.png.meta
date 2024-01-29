@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "4783c635-fed7-49ca-8c6a-eeda46c87640",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 80,
+  "height": 20,
+  "platformSettings": {},
+  "subMetas": {
+    "Icon_NascarAutoRacing": {
+      "ver": "1.0.6",
+      "uuid": "ee696749-8380-4531-8159-e0c5de896aff",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4783c635-fed7-49ca-8c6a-eeda46c87640",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 80,
+      "height": 20,
+      "rawWidth": 80,
+      "rawHeight": 20,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

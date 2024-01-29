@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "60e224e4-10a9-41f1-82a9-d3ed6c622d87",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 225,
+  "height": 470,
+  "platformSettings": {},
+  "subMetas": {
+    "SkillGame": {
+      "ver": "1.0.6",
+      "uuid": "72da6dd2-e53f-4ee3-9404-db591b8c834b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "60e224e4-10a9-41f1-82a9-d3ed6c622d87",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 225,
+      "height": 470,
+      "rawWidth": 225,
+      "rawHeight": 470,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

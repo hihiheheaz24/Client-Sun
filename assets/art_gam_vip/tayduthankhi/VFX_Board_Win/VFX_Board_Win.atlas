@@ -1,0 +1,41 @@
+
+VFX_Board_Win.png
+size: 688,304
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bang_do
+  rotate: false
+  xy: 2, 57
+  size: 477, 112
+  orig: 477, 112
+  offset: 0, 0
+  index: -1
+bang_tim
+  rotate: false
+  xy: 2, 171
+  size: 477, 73
+  orig: 477, 73
+  offset: 0, 0
+  index: -1
+bang_vang
+  rotate: false
+  xy: 2, 246
+  size: 477, 56
+  orig: 477, 56
+  offset: 0, 0
+  index: -1
+line_sang
+  rotate: true
+  xy: 481, 2
+  size: 164, 205
+  orig: 166, 207
+  offset: 1, 1
+  index: -1
+sao
+  rotate: false
+  xy: 481, 168
+  size: 134, 134
+  orig: 136, 136
+  offset: 1, 1
+  index: -1

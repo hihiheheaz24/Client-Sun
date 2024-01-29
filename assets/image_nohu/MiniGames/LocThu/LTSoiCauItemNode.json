@@ -1,0 +1,453 @@
+{
+  "ID": "dcc1635c-49e5-4c58-9042-f98a0663df4e",
+  "Version": "2.3.4",
+  "Name": "LTSoiCauItemNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1902,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTImgSoiCau/it0.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -27.0,
+            "RightMargin": -27.0,
+            "TopMargin": -26.5,
+            "BottomMargin": -26.5,
+            "Tag": 1909,
+            "ActionTag": -1684091899,
+            "Size": {
+              "X": 54.0,
+              "Y": 53.0
+            },
+            "Name": "it0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTImgSoiCau/it1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -27.0,
+            "RightMargin": -27.0,
+            "TopMargin": -26.5,
+            "BottomMargin": -26.5,
+            "Tag": 1903,
+            "ActionTag": 1885074764,
+            "Size": {
+              "X": 54.0,
+              "Y": 53.0
+            },
+            "VisibleForFrame": false,
+            "Name": "it1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTImgSoiCau/it2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -27.0,
+            "RightMargin": -27.0,
+            "TopMargin": -26.5,
+            "BottomMargin": -26.5,
+            "Tag": 1904,
+            "ActionTag": -239414047,
+            "Size": {
+              "X": 54.0,
+              "Y": 53.0
+            },
+            "VisibleForFrame": false,
+            "Name": "it2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTImgSoiCau/it3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -27.0,
+            "RightMargin": -27.0,
+            "TopMargin": -26.5,
+            "BottomMargin": -26.5,
+            "Tag": 1905,
+            "ActionTag": 1634828499,
+            "Size": {
+              "X": 54.0,
+              "Y": 53.0
+            },
+            "VisibleForFrame": false,
+            "Name": "it3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTImgSoiCau/it4.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -27.0,
+            "RightMargin": -27.0,
+            "TopMargin": -26.5,
+            "BottomMargin": -26.5,
+            "Tag": 1906,
+            "ActionTag": -240322719,
+            "Size": {
+              "X": 54.0,
+              "Y": 53.0
+            },
+            "VisibleForFrame": false,
+            "Name": "it4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTImgSoiCau/it5.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -27.0,
+            "RightMargin": -27.0,
+            "TopMargin": -26.5,
+            "BottomMargin": -26.5,
+            "Tag": 1907,
+            "ActionTag": 1926053424,
+            "Size": {
+              "X": 54.0,
+              "Y": 53.0
+            },
+            "VisibleForFrame": false,
+            "Name": "it5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTImgSoiCau/it6.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -27.0,
+            "RightMargin": -27.0,
+            "TopMargin": -26.5,
+            "BottomMargin": -26.5,
+            "Tag": 1908,
+            "ActionTag": -829489217,
+            "Size": {
+              "X": 54.0,
+              "Y": 53.0
+            },
+            "VisibleForFrame": false,
+            "Name": "it6",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTImgSoiCau/x2_small.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 12.32,
+              "Y": -16.81
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -2.68,
+            "RightMargin": -27.32,
+            "TopMargin": 6.81,
+            "BottomMargin": -26.81,
+            "Tag": 65,
+            "ActionTag": 967852713,
+            "Size": {
+              "X": 30.0,
+              "Y": 20.0
+            },
+            "VisibleForFrame": false,
+            "Name": "x2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "LTImgSoiCau/x3_small.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 12.32,
+              "Y": -16.81
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -3.18,
+            "RightMargin": -27.82,
+            "TopMargin": 6.31,
+            "BottomMargin": -27.31,
+            "Tag": 66,
+            "ActionTag": 1301679843,
+            "Size": {
+              "X": 31.0,
+              "Y": 21.0
+            },
+            "VisibleForFrame": false,
+            "Name": "x3",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "LTImgSoiCau/it0.png",
+        "LTImgSoiCau/it1.png",
+        "LTImgSoiCau/it2.png",
+        "LTImgSoiCau/it3.png",
+        "LTImgSoiCau/it4.png",
+        "LTImgSoiCau/it5.png",
+        "LTImgSoiCau/it6.png",
+        "LTImgSoiCau/x2_small.png",
+        "LTImgSoiCau/x3_small.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

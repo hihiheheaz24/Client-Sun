@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e95172b7-9710-487e-819e-ed7ddeeddd19",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 74,
+  "height": 66,
+  "platformSettings": {},
+  "subMetas": {
+    "Icon_WaterPolo": {
+      "ver": "1.0.6",
+      "uuid": "aa09cd6e-26eb-4daa-b806-04f4bc472877",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e95172b7-9710-487e-819e-ed7ddeeddd19",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 74,
+      "height": 66,
+      "rawWidth": 74,
+      "rawHeight": 66,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

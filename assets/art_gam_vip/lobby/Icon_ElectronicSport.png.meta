@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5e0604ec-3def-41a2-81ad-ef4f1226070d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 80,
+  "height": 36,
+  "platformSettings": {},
+  "subMetas": {
+    "Icon_ElectronicSport": {
+      "ver": "1.0.6",
+      "uuid": "dd2e95c7-8572-4db3-8664-a81331163ede",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5e0604ec-3def-41a2-81ad-ef4f1226070d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 80,
+      "height": 36,
+      "rawWidth": 80,
+      "rawHeight": 36,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
