@@ -24,7 +24,6 @@
             switch (effectType)  {
                 case cc.EffectType.JACKPOT:
                     this.nodeJackpot.active = true;
-                    this.animationJackpot.play('thuycungOpenBiglWinFx');
                     this.particleJackpot.resetSystem();
                     this.lbiTotalWins[0].setValue(0);
                     this.lbiTotalWins[0].tweenValueto(totalWin, tweenTime);
@@ -46,7 +45,6 @@
                         cc.AudioController.getInstance().stopSound(cc.AudioTypes.PLAY_COUNT);
                     }, this, 0, 0, tweenTime, false);
                     this.nodeBigWin.active = true;
-                    this.animationBigWin.play('thuycungOpenBiglWinFx');
                     this.particleBigWin.resetSystem();
                     this.lbiTotalWins[1].setValue(0);
                     this.lbiTotalWins[1].tweenValueto(totalWin, tweenTime);

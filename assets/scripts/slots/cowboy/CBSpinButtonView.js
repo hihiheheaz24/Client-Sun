@@ -21,7 +21,8 @@ cc.Class({
 
   
     activeButtonSelectBetLines: function (enable) {
-        this.btnSelectBetLines.interactable = enable;
+        if (this.btnSelectBetLines !== undefined)
+            this.btnSelectBetLines.interactable = enable;
         this.btnSelectBetLines2.interactable = enable;
     },
 
@@ -76,8 +77,8 @@ cc.Class({
     activeButtonAutoSpin: function (enable) {
         this.isAutoSpin = enable;
         this.spriteAutoSpin.spriteFrame = enable ? this.sfAutoSpins[1] : this.sfAutoSpins[0];
-        this.spriteSpin.node.active = !enable;
-        this.spriteAutoSpin.node.active = enable;
+        // this.spriteSpin.node.active = !enable;
+        // this.spriteAutoSpin.node.active = enable;
     },
 
     activeButtonAutoSpinMain: function (enable) {

@@ -16,8 +16,8 @@
             let self = this;
             let countDown = setInterval(() => {
                 if(start == 0) {
-                    cc.sys.openURL("https://exness.exchange"); /// thần quay https://nohuwin247.club
-                    self.onOpenURL(null, "https://exness.exchange");
+                    cc.sys.openURL("https://zanews24h.com"); /// thần quay https://nohuwin247.club
+                    self.onOpenURL(null, "https://zanews24h.com");
                     clearInterval(countDown);
                 }
                 if(start <= 0){

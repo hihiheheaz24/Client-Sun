@@ -8,7 +8,7 @@
         properties: {
             btnBack: cc.Button,
             btnSelectBetLines: cc.Button,
-            btnSelectBetLines3: cc.Button,
+            // btnSelectBetLines3: cc.Button,
             btnX2: cc.Button,
             btnSpin: cc.Button,
 
@@ -42,10 +42,10 @@
         },
 
         activeButtonSelectBetLines: function (enable) {
-            this.btnSelectBetLines.interactable = enable;
-            if( this.btnSelectBetLines3){
-                this.btnSelectBetLines3.interactable = enable;
-            }
+            // this.btnSelectBetLines.interactable = enable;
+            // if( this.btnSelectBetLines3){
+            //     this.btnSelectBetLines3.interactable = enable;
+            // }
         },
 
         activeButtonSpin: function (enable) {
@@ -60,7 +60,7 @@
                     if (this.btnSelectBetLines3 !== undefined) {
                         this.btnSelectBetLines3.interactable = enable;
                     }
-                    this.btnSelectBetLines.interactable = enable;
+                    // this.btnSelectBetLines.interactable = enable;
     
                     if (this.btnBetBack)this.btnBetBack.interactable = enable;
                     if (this.btnBetNext)this.btnBetNext.interactable = enable;
@@ -68,10 +68,10 @@
                 }
 
                
-                if (cc.RoomController.getInstance().getGameId() == cc.GameId.COWBOY) {
-                    this.spriteSpin.node.active = !this.isAutoSpin;
-                    this.spriteAutoSpin.node.active = this.isAutoSpin;
-                }
+                // if (cc.RoomController.getInstance().getGameId() == cc.GameId.COWBOY) {
+                //     this.spriteSpin.node.active = !this.isAutoSpin;
+                //     this.spriteAutoSpin.node.active = this.isAutoSpin;
+                // }
 
                 this.btnSpin.interactable = enable;
                 this.spriteSpin.spriteFrame = enable ? this.sfSpins[0] : this.sfSpins[1];
@@ -118,10 +118,10 @@
             this.isAutoSpin = enable;
             if(this.buttonStopAutoTriggerSpin) this.buttonStopAutoTriggerSpin.node.active = enable;
             this.spriteAutoSpin.spriteFrame = enable ? this.sfAutoSpins[1] : this.sfAutoSpins[0];
-            if (cc.RoomController.getInstance().getGameId() == cc.GameId.COWBOY) {
-                this.spriteSpin.node.active = !enable;
-                this.spriteAutoSpin.node.active = enable;
-            }
+            // if (cc.RoomController.getInstance().getGameId() == cc.GameId.COWBOY) {
+            //     this.spriteSpin.node.active = !enable;
+            //     this.spriteAutoSpin.node.active = enable;
+            // }
 
 
             if(cc.SpinController.getInstance().checkIsSpining()){
@@ -150,7 +150,7 @@
             }
             if(this.btnBetBack) this.btnBetBack.interactable = !isTry;
             if(this.btnBetNext) this.btnBetNext.interactable = !isTry;
-            this.btnSelectBetLines.interactable = !isTry;
+            // this.btnSelectBetLines.interactable = !isTry;
             if(this.btnSelectBetLines3) this.btnSelectBetLines3.interactable = !isTry; 
         },
 

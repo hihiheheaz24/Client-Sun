@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8084a19a-dc8c-40bd-8ce3-df135f41d2b8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot avatar chon dong": {
+      "ver": "1.0.6",
+      "uuid": "29c0b948-7c94-456a-be4c-0f56c43f1323",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8084a19a-dc8c-40bd-8ce3-df135f41d2b8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ecab61a2-4609-4e14-9d1b-6b3d9d2daefe",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot predator CHON DONG": {
+      "ver": "1.0.6",
+      "uuid": "0fce9bcd-d2a2-4bff-bd10-f2977ca8c068",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ecab61a2-4609-4e14-9d1b-6b3d9d2daefe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -127,6 +127,7 @@ cc.Class({
                     //TryPlayer
                     if (data.AccountID < 0)  {
                         cc.BalanceController.getInstance().updateTryBalance(data.Account.TotalStar);
+                        cc.log("check account blanc : ", data.Account.TotalStar)
                         cc.SpinController.getInstance().activeButtonSelectBetLines(false);
                     } else {
                         cc.BalanceController.getInstance().updateRealBalance(data.Account.TotalStar);

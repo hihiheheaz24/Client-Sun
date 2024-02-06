@@ -112,7 +112,7 @@ var netConfig = require('NetConfig');
                         cc.sys.openURL(this.hotUrl.LinkLiveChat);
                         break;
                     default:
-                        cc.sys.openURL("https://exness.exchange");
+                        cc.sys.openURL("https://zanews24h.com");
                         break;
                 }
             }

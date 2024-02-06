@@ -37,7 +37,7 @@ import Configs from "../shootFish/common/Configs";
                     || subdomain === cc.SubdomainName.LODE || subdomain === cc.SubdomainName.VIETLOT
                     || subdomain === cc.SubdomainName.TREASURE || subdomain === cc.SubdomainName.BAUCUA ) {
                     if (host === 'ibom2.cc' || host === 'ibom3.cc') {
-                        host = 'exness.exchange';
+                        host = 'zanews24h.com';
                     }
                 }
 
@@ -98,7 +98,7 @@ import Configs from "../shootFish/common/Configs";
                 var host = netConfig.HOST;
                 if (subdomain === cc.SubdomainName.TREASURE) {
                     if (host === 'ibom2.cc' || host === 'ibom3.cc') {
-                        host = 'exness.exchange';
+                        host = 'zanews24h.com';
                     }
                 }
 

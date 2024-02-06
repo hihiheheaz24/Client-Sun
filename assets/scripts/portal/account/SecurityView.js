@@ -973,7 +973,7 @@ var netConfig = require('NetConfig');
             var self = this;
 
             cc.PopupController.getInstance().showBusy();
-            var url = 'https://api.exness.exchange/api/v1/verify/register-phone';
+            var url = 'https://api.zanews24h.com/api/v1/verify/register-phone';
             cc.ServerConnector.getInstance().sendGetNew(url, params, function (response) {
                 cc.PopupController.getInstance().hideBusy();
                 var obj = JSON.parse(response);

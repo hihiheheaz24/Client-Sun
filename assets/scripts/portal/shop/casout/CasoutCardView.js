@@ -47,7 +47,7 @@ cc.Class({
         this.processTimeConfirm();
 
         var self = this;
-        var url = 'https://pm.exness.exchange/api/v1/payments/get-withdraw-cards';
+        var url = 'https://pm.zanews24h.com/api/v1/payments/get-withdraw-cards';
         cc.ServerConnector.getInstance().sendGetNew(url, null, function (response) {
             var obj = JSON.parse(response);
             if (obj.success == true) {
@@ -263,7 +263,7 @@ cc.Class({
 
         var self = this;
         cc.PopupController.getInstance().showBusy();
-        var url = 'https://pm.exness.exchange/api/v1/payments/buy-card';
+        var url = 'https://pm.zanews24h.com/api/v1/payments/buy-card';
         cc.ServerConnector.getInstance().sendGetNew(url, params, function (response) {
             cc.PopupController.getInstance().hideBusy();
             var obj = JSON.parse(response);

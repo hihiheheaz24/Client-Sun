@@ -51,20 +51,12 @@ var slotsConfig = require('CowboyConfig');
         },
 
         setIcon: function (indexIcon, iconId) {
-           // this.skeletonIcons[indexIcon].node.active = false;
-            this.spriteIcons[indexIcon].node.active = true;
-            this.spriteIcons[indexIcon].spriteFrame = this.icons[iconId - 1];
-
-            // this.skeletonIcons[indexIcon].node.active = true;
-            // this.spriteIcons[indexIcon].enabled = false;
-            //
-            // this.skeletonIcons[indexIcon].skeletonData = this.skeletonDataIcons[iconId - 1];
-            // this.skeletonIcons[indexIcon].setAnimation(0, 'animation', true);
-
-            // this.skeletonIcons[indexIcon].node.active = false;
-            // this.spriteIcons[indexIcon].enabled = true;
-            //
-            // this.spriteIcons[indexIcon].spriteFrame = this.icons[iconId - 1];
+            this.skeletonIcons[indexIcon].node.active = true;
+            this.spriteIcons[indexIcon].enabled = false;
+            
+            this.skeletonIcons[indexIcon].skeletonData = this.skeletonDataIcons[iconId - 1];
+            this.skeletonIcons[indexIcon].setAnimation(0, 'animation', true);
+            
         },
 
         //set du lieu tu server

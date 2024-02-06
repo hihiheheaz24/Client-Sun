@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "918b1f86-9c1f-4b91-91b2-5deb15b41e5d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot predator bonus game 5": {
+      "ver": "1.0.6",
+      "uuid": "760226cf-9340-4ed4-80f1-42ac88e2a61c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "918b1f86-9c1f-4b91-91b2-5deb15b41e5d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

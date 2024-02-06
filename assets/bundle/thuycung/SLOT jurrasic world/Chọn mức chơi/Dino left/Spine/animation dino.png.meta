@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "da4a7dd7-c86a-4d54-b0f7-01501c9a297b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 256,
+  "platformSettings": {},
+  "subMetas": {
+    "animation dino": {
+      "ver": "1.0.6",
+      "uuid": "ff4ae946-2d4a-48df-87e0-dcb2f5527e8a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "da4a7dd7-c86a-4d54-b0f7-01501c9a297b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -60,
+      "offsetY": 11.5,
+      "trimX": 4,
+      "trimY": 3,
+      "width": 896,
+      "height": 227,
+      "rawWidth": 1024,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

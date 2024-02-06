@@ -7,15 +7,15 @@
     cc.ThuyCungHelpView = cc.Class({
         "extends": cc.HelpView,
         properties: {
-            spriteHelp: cc.Sprite,
-            sfHelps: [cc.SpriteFrame],
+            // spriteHelp: cc.Sprite,
+            // sfHelps: [cc.SpriteFrame],
         },
 
-        onEnable: function () {
-            this.node.active = true;
-            var roomIndex = cc.RoomController.getInstance().getRoomId() - 1;
-            this.spriteHelp.spriteFrame = this.sfHelps[roomIndex];
-        },
+        // onEnable: function () {
+        //     this.node.active = true;
+        //     // var roomIndex = cc.RoomController.getInstance().getRoomId() - 1;
+        //     this.spriteHelp.spriteFrame = this.sfHelps[0];
+        // },
 
         closeClicked: function () {
             cc.MainController.getInstance().destroyHelpView();

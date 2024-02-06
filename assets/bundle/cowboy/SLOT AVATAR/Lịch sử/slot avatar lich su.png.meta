@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d45588b4-994f-463a-8e10-3e9b380eed91",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot avatar lich su": {
+      "ver": "1.0.6",
+      "uuid": "93b16987-6ceb-484d-be05-0ada86cc741e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d45588b4-994f-463a-8e10-3e9b380eed91",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

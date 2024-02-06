@@ -23,7 +23,7 @@ export default class Configs {
             // host: '172.31.39.110',
             // port: 82
 
-            host: 'fishapi.exness.exchange', //253-live
+            host: 'fishapi.zanews24h.com', //253-live
             port: 2053
         },
         Password: '',

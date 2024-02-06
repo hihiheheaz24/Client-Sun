@@ -16,8 +16,6 @@ var gameMessage = require('GameMessage');
             sfSounds: [cc.SpriteFrame], //0=on, 1=off
             lbAutoSpinCount: cc.Label,
 
-            devil: cc.Animation,
-
         },
 
         onLoad: function () {
@@ -134,7 +132,6 @@ var gameMessage = require('GameMessage');
             this.spriteSound.spriteFrame = this.sound ? this.sfSounds[0] : this.sfSounds[1];
             cc.AudioController.getInstance().enableSound(this.sound);
             cc.AudioController.getInstance().enableMusic(this.sound);
-            this.devil.play('devil');
         },
 
         soundClicked: function () {
@@ -304,6 +301,7 @@ var gameMessage = require('GameMessage');
 
                 //Update lai balance sau khi SPIN
                 if (this.spinResponse.AccountID < 0) {
+                    cc.log("check account blanc : ", account.TotalStar)
                     cc.BalanceController.getInstance().updateTryBalance(account.TotalStar);
 
                 } else {
@@ -325,11 +323,6 @@ var gameMessage = require('GameMessage');
             //kiem tra co trung jackpot ko?
             //cc.warn(spinData)
             if (spinData.IsJackpot) {
-                let animMain = this.devil.play('deviJackpot');
-                animMain.off('finished');
-                animMain.on('finished', () => {
-                    this.devil.play('devil'); 
-                });
                 this.scheduler.schedule(function () {
                     cc.AudioController.getInstance().playSound(cc.AudioTypes.WIN_JACKPOT);
                     cc.EffectController.getInstance().playEffect(cc.EffectType.JACKPOT, spinData.PaylinePrize, 2);
@@ -402,11 +395,6 @@ var gameMessage = require('GameMessage');
                 if (spinData.PaylinePrize > 0) { //PaylinePrize //TotalPrize
                     if (!spinData.IsJackpot) {
                         if (spinData.PaylinePrize >= (this.spinResponse.BetValue * this.spinResponse.TotalLine) * 150) {
-                            let animMain = this.devil.play('deviJackpot');
-                            animMain.off('finished');
-                            animMain.on('finished', () => {
-                                this.devil.play('devil'); 
-                            });
                             this.scheduler.schedule(function () {
                                 cc.EffectController.getInstance().playEffect(cc.EffectType.BIG_WIN, spinData.PaylinePrize, self.isFastSpin ? slotsConfig.TIME_TWEEN_MONEY_FAST : null); //PaylinePrize
                                 cc.AudioController.getInstance().playSound(cc.AudioTypes.BIG_WIN);

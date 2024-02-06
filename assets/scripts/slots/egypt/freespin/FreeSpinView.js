@@ -13,8 +13,8 @@
 
             spriteBG: cc.Sprite,
             // spriteBGSlot: cc.Sprite,
-            spriteBar: cc.Sprite,
-            spriteFrame: cc.Sprite,
+            // spriteBar: cc.Sprite,
+            // spriteFrame: cc.Sprite,
 
             sfBGMain: cc.SpriteFrame,
             sfBGFreeSpin: cc.SpriteFrame,
@@ -45,9 +45,9 @@
             cc.SpinController.getInstance().activeButtonSpin(true);
 
             //bat cac node rieng cho freespin
-            this.nodeForFreeSpins.forEach(function (nodeForFreeSpin) {
-                nodeForFreeSpin.active = enable;
-            });
+            // this.nodeForFreeSpins.forEach(function (nodeForFreeSpin) {
+            //     nodeForFreeSpin.active = enable;
+            // });
 
             //tat cac node rieng cho freespin
             this.nodeForMains.forEach(function (nodeForMain) {
@@ -62,7 +62,7 @@
                 this.spriteBG.spriteFrame = this.sfBGFreeSpin;
                 // this.spriteBar.spriteFrame = this.sfBarFreeSpin;
 
-                this.spriteFrame.spriteFrame = this.sfFrameFreeSpin;
+                // this.spriteFrame.spriteFrame = this.sfFrameFreeSpin;
 
                 this.action = cc.scaleTo(1, 0.9);
                 this.action.easing(cc.easeOut(3.0));
@@ -86,7 +86,7 @@
                 this.spriteBG.spriteFrame = this.sfBGMain;
                 // this.sfBarMain.spriteFrame = this.sfBarMain;
 
-                this.spriteFrame.spriteFrame = this.sfFrameMain;
+                // this.spriteFrame.spriteFrame = this.sfFrameMain;
 
                 this.action = cc.scaleTo(0.9, 1);
                 this.action.easing(cc.easeOut(3.0));

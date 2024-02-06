@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f25d3089-7e66-4303-b5ab-fd59af49ddcd",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot predator lich su": {
+      "ver": "1.0.6",
+      "uuid": "0ba415a6-f7df-47d1-b100-caa36f1c7399",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f25d3089-7e66-4303-b5ab-fd59af49ddcd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

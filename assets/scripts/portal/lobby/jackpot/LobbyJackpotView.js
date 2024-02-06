@@ -62,7 +62,7 @@ var portalConfig = require('PortalConfig');
             if (response !== null) {
                 var self = this;
                 var gameListData = response.GameList;
-
+                if(!gameListData) return;
                 cc.LobbyJackpotController.getInstance().setJackpotResponse(gameListData);
 
                 gameListData.forEach(function (game) {

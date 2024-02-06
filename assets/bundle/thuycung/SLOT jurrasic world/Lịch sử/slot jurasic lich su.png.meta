@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "342f3774-af93-4b34-b7a8-b5c587a9eb91",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot jurasic lich su": {
+      "ver": "1.0.6",
+      "uuid": "bf95d5b1-fa5f-4bac-aba1-b5cb56abd51f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "342f3774-af93-4b34-b7a8-b5c587a9eb91",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

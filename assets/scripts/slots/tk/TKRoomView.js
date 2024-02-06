@@ -91,6 +91,7 @@
         },
 
         updateUIByRoomID(roomId){
+            return;
             this.nodeRoom.getChildByName("newUI").children.forEach((value) => {
                 if (value.name === "top" || value.name === "bot")
                     value.active = false;

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "036b7594-a153-4285-9ce1-d12832af06b5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot predator bonus game": {
+      "ver": "1.0.6",
+      "uuid": "03da3f1e-60c0-41c7-a4bd-bd4a87162481",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "036b7594-a153-4285-9ce1-d12832af06b5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

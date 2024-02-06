@@ -513,6 +513,11 @@ import TweenCommon from "TweenCommon";
                     bundleName: "egypt",
                     urlBundle: "prefabs/egyptView"
                 },
+                [cc.GameId.EGYPT2]: {
+                    downloadSubpackage: true,
+                    bundleName: "egypt2",
+                    urlBundle: "prefabs/egyptView"
+                },
                 [cc.GameId.TAY_DU_THAN_KHI]: {
                     downloadSubpackage: true,
                     bundleName: "tayduthankhi",
@@ -829,6 +834,7 @@ import TweenCommon from "TweenCommon";
             switch (gameId) {
                 case cc.GameId.SHOOT_FISH:
                 case cc.GameId.EGYPT:
+                case cc.GameId.EGYPT2:
                 case cc.GameId.TAY_DU_THAN_KHI:
                 case cc.GameId.THAN_THU:
                 case cc.GameId.THREE_KINGDOM:
@@ -1409,6 +1415,9 @@ import TweenCommon from "TweenCommon";
                     //Game slots chinh
                     case cc.GameId.EGYPT:
                         this.createDynamicView(cc.GameId.EGYPT);
+                        break;
+                    case cc.GameId.EGYPT2:
+                        this.createDynamicView(cc.GameId.EGYPT2);
                         break;
                     case cc.GameId.TAY_DU_THAN_KHI:
                         this.createDynamicView(cc.GameId.TAY_DU_THAN_KHI);

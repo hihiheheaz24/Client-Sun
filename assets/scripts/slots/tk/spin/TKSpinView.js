@@ -278,7 +278,7 @@ var gameMessage = require('GameMessage');
         },
 
         fastSpinActiveSprite: function () {
-            return this.fastSpinNode.active = this.fastSpinNode.active ? !1 :!0;
+            // return this.fastSpinNode.active = this.fastSpinNode.active ? !1 :!0;
         },
 
 

@@ -28,10 +28,10 @@ var netConfig = require('NetConfig');
     var LIVE_CHAT = 'https://www.facebook.com/';
 
 
-    var DOWNLOAD_URL_B1 = 'https://tai.exness.exchange/';
-    var DOWNLOAD_URL_B2 = 'https://tai.exness.exchange/';
-    var DOWNLOAD_URL_B3 = 'https://tai.exness.exchange/';
-    var DOWNLOAD_URL_B4 = 'https://tai.exness.exchange/';
+    var DOWNLOAD_URL_B1 = 'https://tai.zanews24h.com/';
+    var DOWNLOAD_URL_B2 = 'https://tai.zanews24h.com/';
+    var DOWNLOAD_URL_B3 = 'https://tai.zanews24h.com/';
+    var DOWNLOAD_URL_B4 = 'https://tai.zanews24h.com/';
 
     var OLD_URLs = []; //bigbom.win
     var NEW_URLs = [];
@@ -78,13 +78,13 @@ var netConfig = require('NetConfig');
 
         Config.prototype.getServiceId = function () {
             switch (netConfig.HOST) {
-                case "exness.exchange":
+                case "zanews24h.com":
                     return cc.ServiceId.BLOCK_BUSTER;
-                case "exness.exchange":
+                case "zanews24h.com":
                     return cc.ServiceId.BLOCK_BUSTER_2;
-                case "exness.exchange":
+                case "zanews24h.com":
                     return cc.ServiceId.BLOCK_BUSTER_3;
-                case "exness.exchange":
+                case "zanews24h.com":
                     return cc.ServiceId.BLOCK_BUSTER_4;
                 default:
                     return cc.ServiceId.BLOCK_BUSTER;

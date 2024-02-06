@@ -7,52 +7,14 @@
     cc.CBPayLinesView = cc.Class({
         "extends": cc.PayLinesViewBase,
         properties: {
-            nodeBlackBots: [cc.Node],
-            nodeBlackTops: [cc.Node],
-            iconSkeletonsWin: [cc.Node],
+
         },
 
         onLoad: function () {
-            var opacity = 0;
-
             cc.PayLinesController.getInstance().setPayLinesView(this);
-            this.nodeBlackBots.forEach(function (nodeBlackBot) {
-                nodeBlackBot.opacity = opacity;
-            });
-
-            this.nodeBlackTops.forEach(function (nodeBlackTop) {
-                nodeBlackTop.opacity = opacity;
-            });
-
-            this.iconSkeletonsWin.forEach(function (iconSkeletonsWin) {
-                iconSkeletonsWin.actvie = false;
-                iconSkeletonsWin.getComponent(cc.Animation).stop();
-            });
-        },
-
-        activeAllBlackBot: function (enable) {
-            this.nodeBlackBots.forEach(function (nodeBlackBot) {
-                nodeBlackBot.active = enable;
-            });
-            this.iconSkeletonsWin.forEach(function (iconSkeletonsWin) {
-                iconSkeletonsWin.active = enable;
-                if(enable){
-                    iconSkeletonsWin.getComponent(cc.Animation).play();
-                } else {
-                    iconSkeletonsWin.getComponent(cc.Animation).stop();
-                }
-            });
-        },
-
-        activeAllBlackTop: function (enable) {
-            this.nodeBlackTops.forEach(function (nodeBlackTop) {
-                nodeBlackTop.active = enable;
-            });
         },
 
         showLine: function () {
-            this.activeAllBlackTop(true);
-            this.activeAllBlackBot(false);
 
             var self = this;
             var prize = this.prizeLines[this.index];
@@ -62,20 +24,11 @@
 
             if (self.iconSkeletons.length > 0) {
                 items.forEach(function (iconId) {
-                    //self.animationIcons[iconId - 1].play('slotHighlight');
                     if(self.iconSkeletons[iconId - 1]) {
                         self.iconSkeletons[iconId - 1].setAnimation(0, 'animation', true);
                     }
-                    // self.activeAllBlackTop(false);
                 });
             }
-
-            items.forEach(function (iconId) {
-                self.nodeBlackTops[iconId - 1].active = false;
-                self.nodeBlackBots[iconId - 1].active = true;
-                self.iconSkeletonsWin[iconId - 1].active = true;
-                self.iconSkeletonsWin[iconId - 1].getComponent(cc.Animation).play();
-            });
 
             this.index++;
             if (this.index === this.totalPrizes) {
@@ -85,8 +38,6 @@
 
         //Hien tat ca cac line thang
         playEffect: function (prizeLines, delay) {
-            this.activeAllBlackTop(true);
-            this.activeAllBlackBot(false);
 
             //An hieu ung tien thang khi bat dau hieu ung line
             this.isEffect = true;
@@ -100,15 +51,6 @@
                 self.nodeLines[prize.LineID - 1].active = true;
                 //prize co power
                 //tao power
-                prize.Items.forEach(function (iconId) {
-                    if (self.nodeBlackTops[iconId - 1] !== null && self.nodeBlackTops[iconId - 1] !== undefined)
-                        self.nodeBlackTops[iconId - 1].active = false;
-                    if (self.nodeBlackBots[iconId - 1] !== null && self.nodeBlackBots[iconId - 1] !== undefined)
-                        self.nodeBlackBots[iconId - 1].active = true;
-                    if (self.iconSkeletonsWin[iconId - 1] !== null && self.iconSkeletonsWin[iconId - 1] !== undefined)
-                        self.iconSkeletonsWin[iconId - 1].active = true;
-                        self.iconSkeletonsWin[iconId - 1].getComponent(cc.Animation).play();
-                });
             });
 
             //delay < 0 -> trung jackpot -> se ko tu stop Effect den khi user tac dong
@@ -123,9 +65,6 @@
         },
 
         stopEffect: function () {
-            this.activeAllBlackBot(false);
-            this.activeAllBlackTop(false);
-
             this.unscheduleAllCallbacks();
             this.isEffect = false;
             this.hideAllLines();

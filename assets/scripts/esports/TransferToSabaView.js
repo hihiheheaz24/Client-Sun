@@ -19,7 +19,7 @@
             lbNameGame: cc.Label,
             editBoxCoin: cc.EditBox,
             _status:1,
-            _game:"exness.exchange",
+            _game:"zanews24h.com",
             _esports:"SabaEsports",
             _links:null
         },
@@ -118,7 +118,7 @@
             this.lbCoin.string = response.SabeCoin;
             this.hideBusy();
             if(cc.BalanceController.getInstance().getBalance() <= 0){
-                cc.PopupController.getInstance().showMessageError('Không đủ số dư từ ví exness.exchange. Số tiền chuyển ví 100K G11-Game trở lên');
+                cc.PopupController.getInstance().showMessageError('Không đủ số dư từ ví zanews24h.com. Số tiền chuyển ví 100K G11-Game trở lên');
             }
 
             // if (response.Message) {
@@ -167,7 +167,7 @@
             }
             if( this.lbNameG63.string ==  this._game){
                 if ( amount > cc.BalanceController.getInstance().getBalance()) {
-                    cc.PopupController.getInstance().showMessageError('Số tiền của bạn trong exness.exchange không đủ để thực hiện giao dịch');
+                    cc.PopupController.getInstance().showMessageError('Số tiền của bạn trong zanews24h.com không đủ để thực hiện giao dịch');
                     return;
                 }
             }else{

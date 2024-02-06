@@ -12,7 +12,7 @@ var netConfig = require('NetConfig');
             editBoxCoin: cc.EditBox,
             // richText: cc.RichText,
             _status:1,
-            _game:"exness.exchange",
+            _game:"zanews24h.com",
             _productName:"CasinoLive",
             _productType: 2
         },
@@ -118,7 +118,7 @@ var netConfig = require('NetConfig');
                 this.hideBusy();
     
                 if(cc.BalanceController.getInstance().getBalance() <= 0){
-                    cc.PopupController.getInstance().showMessageError('Không đủ số dư từ ví exness.exchange. Số G11-Game chuyển ví 100K G trở lên');
+                    cc.PopupController.getInstance().showMessageError('Không đủ số dư từ ví zanews24h.com. Số G11-Game chuyển ví 100K G trở lên');
                 }
             }
             else{

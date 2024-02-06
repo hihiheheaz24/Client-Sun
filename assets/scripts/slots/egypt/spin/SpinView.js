@@ -14,7 +14,6 @@ var autoSpinNumbers = [10, 25, 50, 100, 200, 500, 1000, 2000, 5000];
         extends: cc.SpinViewBase,
         properties: {
             spinColumnViews: [cc.SpinColumnView],
-            dancingGirl: cc.Node,
             lblDisplayName: cc.Label,
             sprTrial: [cc.SpriteFrame],
             btnSpin: cc.Node,
@@ -22,7 +21,7 @@ var autoSpinNumbers = [10, 25, 50, 100, 200, 500, 1000, 2000, 5000];
             lbAutoSpinTimes: cc.Label,
             sprCrazyProcess: [cc.SpriteFrame],
             sprCrazyProcessNormal: [cc.SpriteFrame],
-            nodeCrazyProcess: [cc.Node],
+            // nodeCrazyProcess: [cc.Node],
             lbiBigWinAmount: cc.LabelIncrement,
 
             effectBigWin: cc.Node,
@@ -36,7 +35,7 @@ var autoSpinNumbers = [10, 25, 50, 100, 200, 500, 1000, 2000, 5000];
             cc.GaiNhayController.getInstance().setSpinView(this);
             cc.SpinController.getInstance().randomIcon();
 
-            this.animation = this.dancingGirl.getComponent(cc.Animation);
+
             this.lblDisplayName.string = cc.LoginController.getInstance().getNickname();
 
 
@@ -65,7 +64,6 @@ var autoSpinNumbers = [10, 25, 50, 100, 200, 500, 1000, 2000, 5000];
             if (!this.checkBalance()) return;
 
             cc.AudioController.getInstance().playSound(cc.AudioTypes.SPIN);
-            this.playAnimationDancingGirl();
             //danh danh trang thai dang SPIN
             this.isSpining = true;
             var self = this;
@@ -376,9 +374,6 @@ var autoSpinNumbers = [10, 25, 50, 100, 200, 500, 1000, 2000, 5000];
             cc.RoomController.getInstance().sendRequestOnHub(cc.MethodHubName.PLAY_NOW, this._currentRoomID);
         },
 
-        playAnimationDancingGirl: function() {
-            this.animation.play('dancing');
-        },
 
         onClickTrialRoom: function(event) {
             if(this.isSpining) {
@@ -426,6 +421,7 @@ var autoSpinNumbers = [10, 25, 50, 100, 200, 500, 1000, 2000, 5000];
         },
 
         setCrazyProcess(crazyProcess) {
+            return;
             if(crazyProcess.CrazyProcess == null) return;
             this.nodeCrazyProcess.forEach((node, index) => {
                 node.getComponent(cc.Sprite).spriteFrame = this.sprCrazyProcessNormal[index];
@@ -455,6 +451,7 @@ var autoSpinNumbers = [10, 25, 50, 100, 200, 500, 1000, 2000, 5000];
         },
 
         updateIconDataCrazy: function (crazyProcess) {
+            return;
             if(crazyProcess == null) return;
             this.nodeCrazyProcess.forEach((crazyProcess, index) => {
                 crazyProcess.getComponent(cc.Sprite).spriteFrame = this.sprCrazyProcessNormal[index];

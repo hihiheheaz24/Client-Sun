@@ -30,14 +30,7 @@
             this.nodeFreeSpinNoti.active = false;
             switch (effectType) {
                 case cc.EffectType.JACKPOT:
-                    this.nodeJackpot.active = true;
-                    let animMain = this.animationJackpot.play('cbOpenWinJP');
-                    const nodeTitle = this.nodeJackpot.getChildByName("TL_ani");
-                    animMain.off('finished');
-                    animMain.on('finished', () => {
-                        nodeTitle.stopAllActions();
-                        nodeTitle.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(0.2, 0.9), cc.scaleTo(0.2, 1))));
-                    });
+                    this.nodeJackpot.active = true;                    
                     this.particleJackpot.resetSystem();
                     this.lbiTotalWins[0].setValue(0);
                     this.lbiTotalWins[0].tweenValueto(totalWin, tweenTime);
@@ -92,8 +85,6 @@
 
         stopEffect: function () {
             this.unscheduleAllCallbacks();
-            const nodeTitle = this.nodeJackpot.getChildByName("TL_ani");
-            nodeTitle.stopAllActions()
             this.nodeEffect.active = false;
         },
 

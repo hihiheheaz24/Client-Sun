@@ -19,13 +19,14 @@
             //tim va set thong tin jackpot
             var tempJackpots = []; //luu tam thong tin jackpot
             var self = this;
-            gameListData.forEach(function (game) {
-                var jackpotFund = game.JackpotFund;
-                if (game.GameID.toString() === self.gameId) {
-                    tempJackpots.push(jackpotFund);
-                }
-            });
-
+            if(gameListData){
+                gameListData.forEach(function (game) {
+                    var jackpotFund = game.JackpotFund;
+                    if (game.GameID.toString() === self.gameId) {
+                        tempJackpots.push(jackpotFund);
+                    }
+                });
+            }
             this.updateJackpot(tempJackpots);
         },
 

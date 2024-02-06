@@ -98,6 +98,7 @@ var slotsConfig = require('SlotsConfig');
 
             //chuyen list data -> matrix
             this.matrixData = cc.Tool.getInstance().listToMatrix(slotsData, 5); //listToMatrix(slotsData, 3);
+            if(!this.matrixData) return;
             for (var i = 1; i <= 3; i++) {
                 //var iconId = this.matrixData[this.colId][i - 1];
                 var iconId = this.matrixData[i - 1][this.colId];
@@ -125,7 +126,7 @@ var slotsConfig = require('SlotsConfig');
                     self.skeletonWild.setAnimation(0, 'animation', false);
                     self.nodeWild.parent = self.nodeParentWildUpper;
                     this.scheduler.schedule(function () {
-                        self.skeletonWild.setAnimation(1, 'win', true);
+                        // self.skeletonWild.setAnimation(1, 'win', true);
                         self.nodeWild.parent = self.nodeParentWild;
                     }, this, 0, 0, slotsConfig.TIME_WILD_3X_APPEAR_FAST, false);
                 } else {
@@ -134,7 +135,7 @@ var slotsConfig = require('SlotsConfig');
                     self.skeletonWild.setAnimation(0, 'animation', false);
                     self.nodeWild.parent = self.nodeParentWildUpper;
                     this.scheduler.schedule(function () {
-                        self.skeletonWild.setAnimation(1, 'win', true);
+                        // self.skeletonWild.setAnimation(1, 'win', true);
                         self.nodeWild.parent = self.nodeParentWild;
                     }, this, 0, 0, slotsConfig.TIME_WILD_3X_APPEAR, false);
                 }

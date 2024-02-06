@@ -34,21 +34,24 @@
             switch (effectType)  {
                 case cc.EffectType.JACKPOT:
                     this.nodeJackpot.active = true;
-                    this.animationJackpot.play('openWinFx');
+                    if(this.animationJackpot)
+                        this.animationJackpot.play('openWinFx');
                     this.particleJackpot.resetSystem();
                     this.lbiTotalWins[0].setValue(0);
                     this.lbiTotalWins[0].tweenValueto(totalWin, tweenTime);
                     break;
                 case cc.EffectType.BIG_WIN:
                     this.nodeBigWin.active = true;
-                    this.animationBigWin.play('openWinFx');
+                    if(this.animationBigWin)
+                        this.animationBigWin.play('openWinFx');
                     this.particleBigWin.resetSystem();
                     this.lbiTotalWins[1].setValue(0);
                     this.lbiTotalWins[1].tweenValueto(totalWin, tweenTime);
                     break;
                 case cc.EffectType.NORMAL_WIN:
                     this.nodeNormalWin.active = true;
-                    this.animationWin.play('openWinFx');
+                    if(this.animationWin)
+                        this.animationWin.play('openWinFx');
                     this.particleWin.resetSystem();
                     this.lbiTotalWins[2].setValue(0);
                     this.lbiTotalWins[2].tweenValueto(totalWin, tweenTime);

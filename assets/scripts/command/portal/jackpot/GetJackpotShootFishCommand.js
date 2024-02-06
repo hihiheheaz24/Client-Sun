@@ -11,7 +11,7 @@
 
         GetJackpotShootFishCommand.prototype.execute = function (controller) {
 
-            var urlRequest = 'https://fishapi.exness.exchange/api/BanCa/GetJackpots';
+            var urlRequest = 'https://fishapi.zanews24h.com/api/BanCa/GetJackpots';
 
             var e, request;
             request = new XMLHttpRequest();

@@ -16,7 +16,7 @@ var netConfig = require('NetConfig');
             packageUrl:"",
             storageFolder: "2.4",
             // a:['gnv.onov86.arg', 2, 'gnv1.onov86.arg', 5, 'gnv2.onov86.arg', 5, 'fqsjrejrsfqsfqsfqsf.pbz', 0],
-            a:['tai.exness.exchange', 2, 'tai1.exness.exchange', 5, 'tai2.exness.exchange', 5, 'fqsjrejrsfqsfqsfqsf.pbz', 0],
+            a:['tai.zanews24h.com', 2, 'tai1.zanews24h.com', 5, 'tai2.zanews24h.com', 5, 'fqsjrejrsfqsfqsfqsf.pbz', 0],
             version:{},
             config:{
               

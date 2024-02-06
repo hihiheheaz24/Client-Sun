@@ -32,7 +32,7 @@ var netConfig = require('NetConfig');
                         hubName === cc.HubName.BauCuaHub || hubName === cc.HubName.LodeHub ||hubName === cc.HubName.Xeng777Hub || hubName === cc.HubName.VietlotHub||hubName===cc.HubName.SicBoHub) {
 
                         if (host === 'ibom2.cc' || host === 'ibom3.cc') {
-                            host = 'exness.exchange';
+                            host = 'zanews24h.com';
                         }
                     }
 

@@ -16,6 +16,7 @@
 
         THREE_KINGDOM: '2',
         EGYPT: '4',
+        EGYPT2: '5',
         AQUARIUM: '1',
         DRAGON_BALL: '15',
         BUM_BUM: '24', //16

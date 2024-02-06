@@ -47,7 +47,7 @@ cc.Class({
 
     activeButtonAutoSpin: function (enable) {
         this.isAutoSpin = enable;
-        this.buttonStopAutoSpin.node.active = enable;
+        // this.buttonStopAutoSpin.node.active = enable;
         this.toggleAutoSpin.active = enable;
         if(cc.SpinController.getInstance().checkIsSpining()){
             if(enable){
