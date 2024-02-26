@@ -17461,7 +17461,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1790,
+      "width": 2040,
       "height": 400
     },
     "_anchorPoint": {
@@ -17530,7 +17530,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1310,
+      "width": 10000,
       "height": 400
     },
     "_anchorPoint": {
@@ -17719,7 +17719,7 @@
     "_target": null,
     "_alignFlags": 45,
     "_left": 0,
-    "_right": -10,
+    "_right": -8700,
     "_top": -4,
     "_bottom": 4,
     "_verticalCenter": 0,
@@ -19833,7 +19833,7 @@
         "__id__": 444
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 447
@@ -19862,7 +19862,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -3070,
+        155,
         -8.962,
         0,
         0,
@@ -22784,7 +22784,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        155,
+        405,
         -1.774,
         0,
         0,
@@ -23932,7 +23932,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        405,
+        655,
         9.236,
         0,
         0,
@@ -25353,7 +25353,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        655,
+        905,
         -1.774,
         0,
         0,
@@ -26492,7 +26492,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        905,
+        1155,
         -1.774,
         0,
         0,
@@ -27631,7 +27631,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1155,
+        1405,
         -1.774,
         0,
         0,
@@ -28770,7 +28770,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1405,
+        1655,
         -1.774,
         0,
         0,
@@ -32441,7 +32441,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1655,
+        1905,
         -1.774,
         0,
         0,
@@ -45204,7 +45204,7 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 1790,
+      "width": 2040,
       "height": 400
     },
     "_resize": 1,
@@ -45238,7 +45238,7 @@
     "_target": null,
     "_alignFlags": 40,
     "_left": 0,
-    "_right": -301,
+    "_right": 8164,
     "_top": 0,
     "_bottom": 0,
     "_verticalCenter": 0,

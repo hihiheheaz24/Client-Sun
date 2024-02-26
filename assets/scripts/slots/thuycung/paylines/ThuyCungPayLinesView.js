@@ -8,17 +8,17 @@
         properties: {
             nodeLines: [cc.Node],
             iconSkeletons: [cc.Sprite],
-            nodeFXWin: [cc.Node],
+            // nodeFXWin: [cc.Node],
         },
 
         onLoad: function () {
             cc.PayLinesController.getInstance().setPayLinesView(this);
 
 
-            this.nodeFXWin.forEach(function (fxWin) {
-                fxWin.active = false;
-                fxWin.getComponent(cc.Animation).stop();
-            });
+            // this.nodeFXWin.forEach(function (fxWin) {
+            //     fxWin.active = false;
+            //     fxWin.getComponent(cc.Animation).stop();
+            // });
         },
 
         start: function () {
@@ -45,10 +45,10 @@
 
 
         hideAllFXWin: function () {
-            this.nodeFXWin.forEach(function (fxWin) {
-                fxWin.active = false;
-                fxWin.getComponent(cc.Animation).stop();
-            });
+            // this.nodeFXWin.forEach(function (fxWin) {
+            //     fxWin.active = false;
+            //     fxWin.getComponent(cc.Animation).stop();
+            // });
         },
 
         showAllLines: function () {
@@ -122,10 +122,10 @@
                 this.index = 0;
             }
 
-            items.forEach(function (iconId) {
-                self.nodeFXWin[iconId - 1].active = true;
-                self.nodeFXWin[iconId - 1].getComponent(cc.Animation).play();
-            });
+            // items.forEach(function (iconId) {
+            //     self.nodeFXWin[iconId - 1].active = true;
+            //     self.nodeFXWin[iconId - 1].getComponent(cc.Animation).play();
+            // });
 
 
 

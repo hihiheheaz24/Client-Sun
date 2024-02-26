@@ -53,7 +53,7 @@ cc.Class({
                         txtResult.active = true;
                         // this.listButton[index].node.opacity = 150;
                         this.listButton[index].node.getComponent(cc.Sprite).spiteFrame = this.sprOpen;
-                        this.listButton[index].node.getchildByName("light").active = true;
+                        this.listButton[index].node.getChildByName("light").active = true;
                         txtResult.getComponent(cc.Label).string = cc.Tool.getInstance().formatNumber(tempWinValue);
                         txtResult.runAction(cc.jumpBy(0.15, 0,0, 15, 1));
                        
@@ -76,7 +76,7 @@ cc.Class({
             button.interactable = true;
             button.node.opacity = 255;
             button.node.getComponent(cc.Sprite).spiteFrame = this.sprOff;
-            button.node.getchildByName("light").active = false;
+            button.node.getChildByName("light").active = false;
         })
 
         this.listTxtResult.forEach(txtResult=>{
