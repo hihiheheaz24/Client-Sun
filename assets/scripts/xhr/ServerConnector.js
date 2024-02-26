@@ -57,7 +57,7 @@ import Configs from "../shootFish/common/Configs";
                         urlRequest += ('?access_token=' + encodeURIComponent(cc.ServerConnector.getInstance().getToken()));
                     }
                 }
-
+                cc.log("check url request : ", urlRequest)
                 request.timeout = 60000;
                 request.open(cc.RequestType.GET, urlRequest); //+ '?' + Math.random()
                 request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');

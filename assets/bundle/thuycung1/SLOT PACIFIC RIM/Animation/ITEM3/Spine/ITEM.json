@@ -1,0 +1,63 @@
+{
+"skeleton": { "hash": "dOSn9QCxKq2rnv7jiNzirs1+eFg", "spine": "3.6.53", "width": 236, "height": 256, "images": "../Images/" },
+"bones": [
+	{ "name": "root", "y": -0.53 },
+	{ "name": "WILDBG", "parent": "root", "length": 151.48, "rotation": -154.11, "x": -9.38, "y": -12.34 }
+],
+"slots": [
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "WILDBG", "bone": "WILDBG", "attachment": "WILDBG" }
+],
+"skins": {
+	"default": {
+		"BG": {
+			"BG": { "y": 0.53, "width": 236, "height": 256 }
+		},
+		"WILDBG": {
+			"WILDBG": { "x": -13.59, "y": -5.82, "rotation": 154.11, "width": 135, "height": 144 }
+		}
+	}
+},
+"animations": {
+	"Animation": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"WILDBG": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1,
+						"x": 0.832,
+						"y": 0.832,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

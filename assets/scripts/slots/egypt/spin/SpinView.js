@@ -54,6 +54,7 @@ var autoSpinNumbers = [10, 25, 50, 100, 200, 500, 1000, 2000, 5000];
 
         //khi click SPIN goi ham nay
         callSpin: function () {
+            cc.log("click spin gameeee ")
             this.effectBigWin.active = false;
             if (this.betLinesText === '') {
                 cc.PopupController.getInstance().showSlotsMessage(gameMessage.YOU_NOT_CHOOSE_BET_LINES);
@@ -464,6 +465,7 @@ var autoSpinNumbers = [10, 25, 50, 100, 200, 500, 1000, 2000, 5000];
 
         autoSpinClicked: function () {
             //kiem tra so du
+            cc.log("click spin game")
             if (!this.checkBalance()) return;
 
             this.isAutoSpin = !this.isAutoSpin;

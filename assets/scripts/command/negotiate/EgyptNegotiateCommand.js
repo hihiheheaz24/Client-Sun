@@ -9,10 +9,10 @@
         function EgyptNegotiateCommand() {
         }
 
-        EgyptNegotiateCommand.prototype.execute = function (controller) {
+        EgyptNegotiateCommand.prototype.execute = function (controller, subdomainName = cc.SubdomainName.EGYPT) {
             var url = 'signalr/negotiate';
-
-            return cc.ServerConnector.getInstance().sendRequest(cc.SubdomainName.EGYPT, url, function (response) {
+            cc.log("Check SubdomainName type : ", subdomainName)
+            return cc.ServerConnector.getInstance().sendRequest(subdomainName, url, function (response) {
                 var obj = JSON.parse(response);
                 return controller.onSlotsNegotiateResponse(obj);
             }, true);

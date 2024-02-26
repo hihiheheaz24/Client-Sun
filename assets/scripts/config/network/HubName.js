@@ -20,6 +20,8 @@
         LuckyWildHub: 'luckywildHub',
 
         EgyptHub: 'egyptHub',
+        EgyptHub2: 'egyptHub2',
+        EgyptHub3: 'egyptHub3',
         ThreeKingdomHub: 'taydukyHub',
         ThuyCungHub: 'thuycung20Hub',
         AquariumHub: 'thuycungHub',

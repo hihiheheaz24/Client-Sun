@@ -7,7 +7,7 @@
     cc.GayNhayHoldToSpin = cc.Class({
         extends: cc.HoldToSpin,
         properties: {
-            spinView: cc.SpinView
+            spinView: require("SpinView")
         },
         update: function (dt) {
             if (this.holdStart) {

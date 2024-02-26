@@ -2700,18 +2700,18 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
-    "premultipliedAlpha": true,
+    "premultipliedAlpha": false,
     "timeScale": 1,
     "_accTime": 0,
     "_playCount": 0,
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -3024,18 +3024,18 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
-    "premultipliedAlpha": true,
+    "premultipliedAlpha": false,
     "timeScale": 1,
     "_accTime": 0,
     "_playCount": 0,
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -3348,18 +3348,18 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
-    "premultipliedAlpha": true,
+    "premultipliedAlpha": false,
     "timeScale": 1,
     "_accTime": 0,
     "_playCount": 0,
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -3672,18 +3672,18 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
-    "premultipliedAlpha": true,
+    "premultipliedAlpha": false,
     "timeScale": 1,
     "_accTime": 0,
     "_playCount": 0,
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -4139,7 +4139,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -4150,7 +4150,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -4463,7 +4463,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -4474,7 +4474,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -4787,7 +4787,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -4798,7 +4798,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -5111,7 +5111,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -5122,7 +5122,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -5578,7 +5578,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -5589,7 +5589,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -5902,7 +5902,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -5913,7 +5913,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -6226,7 +6226,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -6237,7 +6237,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -6550,7 +6550,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -6561,7 +6561,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -7017,7 +7017,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -7028,7 +7028,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -7341,7 +7341,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -7352,7 +7352,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -7665,7 +7665,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -7676,7 +7676,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -7989,7 +7989,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8000,7 +8000,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -8456,7 +8456,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8467,7 +8467,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -8780,7 +8780,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8791,7 +8791,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -9104,7 +9104,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -9115,7 +9115,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -9428,7 +9428,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -9439,7 +9439,7 @@
     "_frameCache": null,
     "_curFrame": null,
     "_skeletonCache": null,
-    "_animationName": "idle",
+    "_animationName": "Animation",
     "_animationQueue": [],
     "_headAniInfo": null,
     "_playTimes": 0,
@@ -13060,19 +13060,19 @@
         "__id__": 389
       },
       {
-        "__id__": 395
-      },
-      {
         "__id__": 363
       },
       {
-        "__id__": 398
+        "__id__": 392
       },
       {
-        "__id__": 403
+        "__id__": 397
       },
       {
-        "__id__": 408
+        "__id__": 402
+      },
+      {
+        "__id__": 412
       },
       {
         "__id__": 418
@@ -13175,7 +13175,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -634.128,
+        -742.245,
         417.242,
         0,
         0,
@@ -13832,7 +13832,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -514.238,
+        -622.355,
         417.018,
         0,
         0,
@@ -14008,225 +14008,6 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "btnHistory",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 364
-    },
-    "_children": [],
-    "_active": false,
-    "_components": [
-      {
-        "__id__": 390
-      },
-      {
-        "__id__": 392
-      },
-      {
-        "__id__": 393
-      }
-    ],
-    "_prefab": {
-      "__id__": 394
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 136,
-      "height": 93
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        -759.694,
-        417.795,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.Button",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 389
-    },
-    "_enabled": true,
-    "_normalMaterial": null,
-    "_grayMaterial": null,
-    "duration": 0.1,
-    "zoomScale": 1.2,
-    "clickEvents": [
-      {
-        "__id__": 391
-      }
-    ],
-    "_N$interactable": true,
-    "_N$enableAutoGrayEffect": false,
-    "_N$transition": 2,
-    "transition": 2,
-    "_N$normalColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_N$pressedColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "pressedColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_N$hoverColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "hoverColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_N$disabledColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_N$normalSprite": {
-      "__uuid__": "26c0a3a9-e53e-4257-85a8-32aa9b46ab3f"
-    },
-    "_N$pressedSprite": {
-      "__uuid__": "b0460d30-ae75-4bd2-a823-7b2f45dc1a60"
-    },
-    "pressedSprite": {
-      "__uuid__": "b0460d30-ae75-4bd2-a823-7b2f45dc1a60"
-    },
-    "_N$hoverSprite": {
-      "__uuid__": "b0460d30-ae75-4bd2-a823-7b2f45dc1a60"
-    },
-    "hoverSprite": {
-      "__uuid__": "b0460d30-ae75-4bd2-a823-7b2f45dc1a60"
-    },
-    "_N$disabledSprite": {
-      "__uuid__": "b0460d30-ae75-4bd2-a823-7b2f45dc1a60"
-    },
-    "_N$target": {
-      "__id__": 389
-    },
-    "_id": ""
-  },
-  {
-    "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 52
-    },
-    "component": "",
-    "_componentId": "27803B0B7ZN+I0Q5PBtYj6/",
-    "handler": "historyClicked",
-    "customEventData": ""
-  },
-  {
-    "__type__": "cc.Sprite",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 389
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "6c1301d6-557d-433e-90a3-46467a3311bb"
-      }
-    ],
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "26c0a3a9-e53e-4257-85a8-32aa9b46ab3f"
-    },
-    "_type": 0,
-    "_sizeMode": 2,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": false,
-    "_atlas": null,
-    "_id": ""
-  },
-  {
-    "__type__": "d04c5e+uxNLMqCKVR4ANrbK",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 389
-    },
-    "_enabled": true,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 1
-    },
-    "asset": {
-      "__uuid__": "d649a153-eceb-42c9-b338-968a07ab28df"
-    },
-    "fileId": "cf1QFmVqhFpbCCjsiX4SJL",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
     "_name": "Ui_frame_wallet",
     "_objFlags": 0,
     "_parent": {
@@ -14236,11 +14017,11 @@
     "_active": false,
     "_components": [
       {
-        "__id__": 396
+        "__id__": 390
       }
     ],
     "_prefab": {
-      "__id__": 397
+      "__id__": 391
     },
     "_opacity": 255,
     "_color": {
@@ -14294,7 +14075,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 395
+      "__id__": 389
     },
     "_enabled": true,
     "_materials": [
@@ -14343,17 +14124,17 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 399
+        "__id__": 393
       },
       {
-        "__id__": 400
+        "__id__": 394
       },
       {
-        "__id__": 401
+        "__id__": 395
       }
     ],
     "_prefab": {
-      "__id__": 402
+      "__id__": 396
     },
     "_opacity": 255,
     "_color": {
@@ -14407,7 +14188,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 398
+      "__id__": 392
     },
     "_enabled": true,
     "_materials": [
@@ -14442,7 +14223,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 398
+      "__id__": 392
     },
     "_enabled": true,
     "label": null,
@@ -14461,11 +14242,11 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 398
+      "__id__": 392
     },
     "_enabled": true,
     "lbiJackpot": {
-      "__id__": 400
+      "__id__": 394
     },
     "_id": ""
   },
@@ -14491,14 +14272,14 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 404
+        "__id__": 398
       },
       {
-        "__id__": 405
+        "__id__": 399
       }
     ],
     "_prefab": {
-      "__id__": 407
+      "__id__": 401
     },
     "_opacity": 255,
     "_color": {
@@ -14552,7 +14333,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 403
+      "__id__": 397
     },
     "_enabled": true,
     "_materials": [
@@ -14584,7 +14365,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 403
+      "__id__": 397
     },
     "_enabled": true,
     "_normalMaterial": null,
@@ -14593,7 +14374,7 @@
     "zoomScale": 1.2,
     "clickEvents": [
       {
-        "__id__": 406
+        "__id__": 400
       }
     ],
     "_N$interactable": true,
@@ -14679,26 +14460,26 @@
     },
     "_children": [
       {
-        "__id__": 409
+        "__id__": 403
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 412
+        "__id__": 406
       },
       {
-        "__id__": 414
+        "__id__": 408
       },
       {
-        "__id__": 415
+        "__id__": 409
       },
       {
-        "__id__": 416
+        "__id__": 410
       }
     ],
     "_prefab": {
-      "__id__": 417
+      "__id__": 411
     },
     "_opacity": 255,
     "_color": {
@@ -14752,17 +14533,17 @@
     "_name": "icon-sound-on",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 408
+      "__id__": 402
     },
     "_children": [],
     "_active": false,
     "_components": [
       {
-        "__id__": 410
+        "__id__": 404
       }
     ],
     "_prefab": {
-      "__id__": 411
+      "__id__": 405
     },
     "_opacity": 255,
     "_color": {
@@ -14816,7 +14597,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 409
+      "__id__": 403
     },
     "_enabled": true,
     "_materials": [
@@ -14859,7 +14640,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 408
+      "__id__": 402
     },
     "_enabled": true,
     "_normalMaterial": null,
@@ -14868,7 +14649,7 @@
     "zoomScale": 1.2,
     "clickEvents": [
       {
-        "__id__": 413
+        "__id__": 407
       }
     ],
     "_N$interactable": true,
@@ -14936,14 +14717,14 @@
       "__uuid__": "6f12da73-3596-48de-9142-702f11ad57a3"
     },
     "_N$target": {
-      "__id__": 408
+      "__id__": 402
     },
     "_id": ""
   },
   {
     "__type__": "cc.ClickEvent",
     "target": {
-      "__id__": 408
+      "__id__": 402
     },
     "component": "",
     "_componentId": "c5005HyYXlI/4CX7K86aO1G",
@@ -14955,7 +14736,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 408
+      "__id__": 402
     },
     "_enabled": true,
     "_materials": [
@@ -14987,11 +14768,11 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 408
+      "__id__": 402
     },
     "_enabled": true,
     "spriteSound": {
-      "__id__": 410
+      "__id__": 404
     },
     "sfSounds": [
       {
@@ -15008,7 +14789,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 408
+      "__id__": 402
     },
     "_enabled": true,
     "_id": ""
@@ -15035,17 +14816,17 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 419
+        "__id__": 413
       },
       {
-        "__id__": 421
+        "__id__": 415
       },
       {
-        "__id__": 422
+        "__id__": 416
       }
     ],
     "_prefab": {
-      "__id__": 423
+      "__id__": 417
     },
     "_opacity": 255,
     "_color": {
@@ -15069,7 +14850,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -396.257,
+        -504.374,
         415.271,
         0,
         0,
@@ -15099,7 +14880,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 418
+      "__id__": 412
     },
     "_enabled": true,
     "_normalMaterial": null,
@@ -15108,7 +14889,7 @@
     "zoomScale": 1.2,
     "clickEvents": [
       {
-        "__id__": 420
+        "__id__": 414
       }
     ],
     "_N$interactable": true,
@@ -15176,7 +14957,7 @@
       "__uuid__": "5f51c56d-7cec-4c86-b511-9197dd6544c0"
     },
     "_N$target": {
-      "__id__": 418
+      "__id__": 412
     },
     "_id": ""
   },
@@ -15195,7 +14976,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 418
+      "__id__": 412
     },
     "_enabled": true,
     "_materials": [
@@ -15227,7 +15008,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 418
+      "__id__": 412
     },
     "_enabled": true,
     "_id": ""
@@ -15241,6 +15022,225 @@
       "__uuid__": "d649a153-eceb-42c9-b338-968a07ab28df"
     },
     "fileId": "fep4f3mdZH/qL3hZ+V5P6a",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "LICHSU",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 364
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 419
+      },
+      {
+        "__id__": 420
+      },
+      {
+        "__id__": 421
+      }
+    ],
+    "_prefab": {
+      "__id__": 423
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 136,
+      "height": 93
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -385.853,
+        415.271,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 418
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "26c0a3a9-e53e-4257-85a8-32aa9b46ab3f"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "d04c5e+uxNLMqCKVR4ANrbK",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 418
+    },
+    "_enabled": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 418
+    },
+    "_enabled": true,
+    "_normalMaterial": null,
+    "_grayMaterial": null,
+    "duration": 0.1,
+    "zoomScale": 1.2,
+    "clickEvents": [
+      {
+        "__id__": 422
+      }
+    ],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$transition": 3,
+    "transition": 3,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$pressedColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$normalSprite": {
+      "__uuid__": "d82dec51-ecf8-49ff-ba4d-9a3987d76f87"
+    },
+    "_N$pressedSprite": {
+      "__uuid__": "5f51c56d-7cec-4c86-b511-9197dd6544c0"
+    },
+    "pressedSprite": {
+      "__uuid__": "5f51c56d-7cec-4c86-b511-9197dd6544c0"
+    },
+    "_N$hoverSprite": {
+      "__uuid__": "5f51c56d-7cec-4c86-b511-9197dd6544c0"
+    },
+    "hoverSprite": {
+      "__uuid__": "5f51c56d-7cec-4c86-b511-9197dd6544c0"
+    },
+    "_N$disabledSprite": {
+      "__uuid__": "5f51c56d-7cec-4c86-b511-9197dd6544c0"
+    },
+    "_N$target": {
+      "__id__": 412
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 52
+    },
+    "component": "",
+    "_componentId": "27803B0B7ZN+I0Q5PBtYj6/",
+    "handler": "historyClicked",
+    "customEventData": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "d649a153-eceb-42c9-b338-968a07ab28df"
+    },
+    "fileId": "1bbe1UtfRGjLKTQHiOlZej",
     "sync": false
   },
   {
@@ -20462,6 +20462,7 @@
         "__id__": 531
       }
     ],
+    "animCharacter": null,
     "nodeFreeSpinNoti": {
       "__id__": 540
     },
@@ -21523,8 +21524,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 202,
-      "height": 200
+      "width": 298,
+      "height": 339
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -22338,8 +22339,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 202,
-      "height": 200
+      "width": 298,
+      "height": 340
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -23216,7 +23217,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "btnRoom2",
+    "_name": "btnRoom3",
     "_objFlags": 0,
     "_parent": {
       "__id__": 571
@@ -23263,8 +23264,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 202,
-      "height": 240
+      "width": 298,
+      "height": 340
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -23302,7 +23303,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "zoneFx_2",
+    "_name": "zoneFx_3",
     "_objFlags": 0,
     "_parent": {
       "__id__": 634
@@ -23572,7 +23573,7 @@
         1,
         1,
         1,
-        1
+        0
       ]
     },
     "_eulerAngles": {
@@ -24158,8 +24159,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 2,
-    "transition": 2,
+    "_N$transition": 3,
+    "transition": 3,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -24233,7 +24234,7 @@
     "component": "",
     "_componentId": "0959bKrORBNcoGEeSACws6O",
     "handler": "roomClicked",
-    "customEventData": "2"
+    "customEventData": "3"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -24248,7 +24249,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "btnRoom3",
+    "_name": "btnRoom2",
     "_objFlags": 0,
     "_parent": {
       "__id__": 571
@@ -24295,8 +24296,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 202,
-      "height": 365
+      "width": 298,
+      "height": 340
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -24334,7 +24335,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "zoneFx_3",
+    "_name": "zoneFx_2",
     "_objFlags": 0,
     "_parent": {
       "__id__": 662
@@ -24604,7 +24605,7 @@
         1,
         1,
         1,
-        1
+        0
       ]
     },
     "_eulerAngles": {
@@ -25190,8 +25191,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 2,
-    "transition": 2,
+    "_N$transition": 3,
+    "transition": 3,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -25265,7 +25266,7 @@
     "component": "",
     "_componentId": "0959bKrORBNcoGEeSACws6O",
     "handler": "roomClicked",
-    "customEventData": "4"
+    "customEventData": "2"
   },
   {
     "__type__": "cc.PrefabInfo",

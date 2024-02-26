@@ -48,6 +48,7 @@ var netConfig = require('NetConfig');
                         url += ('&access_token=' + encodeURIComponent(cc.ServerConnector.getInstance().getToken()));
                     }
 
+                    cc.log("check connect hub : ", url);
                     //TEMP
                     // if (cc.sys.isNative) {
                     //     url = url.replace('wss://', 'ws://');
@@ -201,6 +202,8 @@ var netConfig = require('NetConfig');
 
             switch (this.hubName) {
                 case cc.HubName.EgyptHub:
+                case cc.HubName.EgyptHub2:
+                case cc.HubName.EgyptHub3:
                 case cc.HubName.ThreeKingdomHub:
                 case cc.HubName.ThuyCungHub:
                 case cc.HubName.AquariumHub:

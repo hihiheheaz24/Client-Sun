@@ -12,6 +12,8 @@
         SAFE_OTP: "safeotp.",
 
         EGYPT: "egypt.",
+        EGYPT2: "egypt2.",
+        EGYPT3: "egypt3.",
         THREE_KINGDOM: "tamquoc.",
         THUY_CUNG: "thuycung20.",
         AQUARIUM: 'thuycung.',

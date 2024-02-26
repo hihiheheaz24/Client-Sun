@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8f98530d-0080-4fd3-8b92-3166e817b06a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 512,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "FONTGOLD-export": {
+      "ver": "1.0.6",
+      "uuid": "b0dc4aa1-5334-4bdf-b559-6faee8b1dd1f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8f98530d-0080-4fd3-8b92-3166e817b06a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -66,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 380,
+      "height": 511,
+      "rawWidth": 512,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

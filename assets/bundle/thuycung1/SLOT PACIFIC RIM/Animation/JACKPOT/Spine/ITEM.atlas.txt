@@ -1,0 +1,27 @@
+
+ITEM.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 2
+  size: 236, 256
+  orig: 236, 256
+  offset: 0, 0
+  index: -1
+WILDBG
+  rotate: false
+  xy: 260, 107
+  size: 150, 131
+  orig: 150, 131
+  offset: 0, 0
+  index: -1
+WILDTEXT
+  rotate: false
+  xy: 260, 62
+  size: 222, 43
+  orig: 222, 43
+  offset: 0, 0
+  index: -1

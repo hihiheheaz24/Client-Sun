@@ -22,7 +22,7 @@ cc.Class({
                     numberWin = numberWin + bonusData.PrizeValue;
                 })
                 let stringWin =cc.Tool.getInstance().formatNumber(numberWin);
-                this.lblResult.string = stringWin + " X " + this.bonusResponse.Multiplier + " = " + stringTotalWin;
+                this.lblResult.string = stringTotalWin;//stringWin + " X " + this.bonusResponse.Multiplier + " = " + stringTotalWin;
                 cc.BonusGameController.getInstance().setData(null);
             }),
             cc.delayTime(4),

@@ -18,6 +18,8 @@
             particleWin: cc.ParticleSystem,
 
             lbiTotalWins: [cc.LabelIncrement],
+
+            animCharacter : sp.Skeleton
         },
 
         onLoad: function () {
@@ -55,9 +57,29 @@
                     this.particleWin.resetSystem();
                     this.lbiTotalWins[2].setValue(0);
                     this.lbiTotalWins[2].tweenValueto(totalWin, tweenTime);
+                    if(this.animCharacter){
+                        this.playSpine(this.animCharacter.node, "win", false, ()=>{
+                            this.animCharacter.setAnimation(0, "animation", true);
+                        })
+                    }
+                  
                     break;
             }
             this.nodeEffect.active = true;
+        },
+
+        playSpine(nAnim , animName, loop, func) {
+            let spine = nAnim.getComponent(sp.Skeleton);
+            let track = spine.setAnimation(0, animName, loop);
+            if (track) {
+                // Register the end callback of the animation
+                spine.setCompleteListener((trackEntry, loopCount) => {
+                    let name = trackEntry.animation ? trackEntry.animation.name : '';
+                    if (name === animName && func) {
+                        func && func(); // Execute your own logic after the animation ends
+                    }
+                });
+            }
         },
 
         stopEffect: function () {

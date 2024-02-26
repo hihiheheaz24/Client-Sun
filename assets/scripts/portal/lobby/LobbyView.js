@@ -508,7 +508,25 @@ import TweenCommon from "TweenCommon";
                     bundleName: "shootFish",
                     urlBundle: "prefabs/ShootFish"
                 },
+
+                [cc.GameId.THREE_KINGDOM]: {
+                    downloadSubpackage: true,
+                    bundleName: "tk",
+                    urlBundle: "prefabs/tkView"
+                },
+
+                [cc.GameId.COWBOY]: {
+                    downloadSubpackage: true,
+                    bundleName: "cowboy",
+                    urlBundle: "prefabs/cbView"
+                },
+
                 [cc.GameId.EGYPT]: {
+                    downloadSubpackage: true,
+                    bundleName: "egypt",
+                    urlBundle: "prefabs/egyptView"
+                },
+                [cc.GameId.EGYPT1]: {
                     downloadSubpackage: true,
                     bundleName: "egypt",
                     urlBundle: "prefabs/egyptView"
@@ -517,6 +535,21 @@ import TweenCommon from "TweenCommon";
                     downloadSubpackage: true,
                     bundleName: "egypt2",
                     urlBundle: "prefabs/egyptView"
+                },
+                [cc.GameId.EGYPT3]: {
+                    downloadSubpackage: true,
+                    bundleName: "egypt3",
+                    urlBundle: "prefabs/egyptView"
+                },
+                [cc.GameId.THUY_CUNG]: {
+                    downloadSubpackage: true,
+                    bundleName: "thuycung",
+                    urlBundle: "prefabs/thuycungView"
+                },
+                [cc.GameId.THUY_CUNG1]: {
+                    downloadSubpackage: true,
+                    bundleName: "thuycung1",
+                    urlBundle: "prefabs/thuycungView"
                 },
                 [cc.GameId.TAY_DU_THAN_KHI]: {
                     downloadSubpackage: true,
@@ -528,16 +561,7 @@ import TweenCommon from "TweenCommon";
                     bundleName: "thanthu",
                     urlBundle: "Scene/thanThuView"
                 },
-                [cc.GameId.THREE_KINGDOM]: {
-                    downloadSubpackage: true,
-                    bundleName: "tk",
-                    urlBundle: "prefabs/tkView"
-                },
-                [cc.GameId.THUY_CUNG]: {
-                    downloadSubpackage: true,
-                    bundleName: "thuycung",
-                    urlBundle: "prefabs/thuycungView"
-                },
+
                 [cc.GameId.BUM_BUM]: {
                     downloadSubpackage: true,
                     bundleName: "bumbum",
@@ -553,11 +577,7 @@ import TweenCommon from "TweenCommon";
                     bundleName: "dragonball",
                     urlBundle: "prefabs/dbView"
                 },
-                [cc.GameId.COWBOY]: {
-                    downloadSubpackage: true,
-                    bundleName: "cowboy",
-                    urlBundle: "prefabs/cbView"
-                },
+              
                 [cc.GameId.XENG777]: {
                     downloadSubpackage: true,
                     bundleName: "Xeng777",
@@ -834,11 +854,14 @@ import TweenCommon from "TweenCommon";
             switch (gameId) {
                 case cc.GameId.SHOOT_FISH:
                 case cc.GameId.EGYPT:
+                case cc.GameId.EGYPT1:
                 case cc.GameId.EGYPT2:
+                case cc.GameId.EGYPT3:
                 case cc.GameId.TAY_DU_THAN_KHI:
                 case cc.GameId.THAN_THU:
                 case cc.GameId.THREE_KINGDOM:
                 case cc.GameId.THUY_CUNG:
+                case cc.GameId.THUY_CUNG1:
                 case cc.GameId.BUM_BUM:
                 case cc.GameId.AQUARIUM:
                 case cc.GameId.DRAGON_BALL:
@@ -1295,9 +1318,9 @@ import TweenCommon from "TweenCommon";
             // if (this.nodeX2Popup == null)
                 // cc.LobbyController.getInstance().createX2PopupView(); // comment
             
-            if (cc.LoginController.getInstance().checkLogin()) {
-                this.joinGame('8');
-            }
+            // if (cc.LoginController.getInstance().checkLogin()) {
+            //     this.joinGame('8');
+            // }
         },
         showTaiXiu:function()
         {
@@ -1416,8 +1439,14 @@ import TweenCommon from "TweenCommon";
                     case cc.GameId.EGYPT:
                         this.createDynamicView(cc.GameId.EGYPT);
                         break;
+                    case cc.GameId.EGYPT1:
+                        this.createDynamicView(cc.GameId.EGYPT1);
+                        break;
                     case cc.GameId.EGYPT2:
                         this.createDynamicView(cc.GameId.EGYPT2);
+                        break;
+                    case cc.GameId.EGYPT3:
+                        this.createDynamicView(cc.GameId.EGYPT3);
                         break;
                     case cc.GameId.TAY_DU_THAN_KHI:
                         this.createDynamicView(cc.GameId.TAY_DU_THAN_KHI);
@@ -1429,8 +1458,11 @@ import TweenCommon from "TweenCommon";
                         this.createDynamicView(cc.GameId.THREE_KINGDOM);
                         break;
                     case cc.GameId.THUY_CUNG:
-                    this.createDynamicView(cc.GameId.THUY_CUNG);
-                    break;
+                        this.createDynamicView(cc.GameId.THUY_CUNG);
+                        break;
+                    case cc.GameId.THUY_CUNG1:
+                        this.createDynamicView(cc.GameId.THUY_CUNG1);
+                        break;
                     case cc.GameId.AQUARIUM:
                         this.createDynamicView(cc.GameId.AQUARIUM);
                         break;

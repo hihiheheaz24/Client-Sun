@@ -461,9 +461,13 @@ var netConfig = require('NetConfig');
                 case cc.HubName.TreasureHub:
                     return cc.SubdomainName.TREASURE;
 
-                    //Game Slots chinh
+                //Game Slots chinh
                 case cc.HubName.EgyptHub:
                     return cc.SubdomainName.EGYPT;
+                case cc.HubName.EgyptHub2:
+                    return cc.SubdomainName.EGYPT2;
+                case cc.HubName.EgyptHub3:
+                    return cc.SubdomainName.EGYPT3;
                 case cc.HubName.ThreeKingdomHub:
                     return cc.SubdomainName.THREE_KINGDOM;
                 case cc.HubName.ThuyCungHub:

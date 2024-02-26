@@ -7247,8 +7247,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 35
+      "width": 530,
+      "height": 111
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7259,8 +7259,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        945.256,
-        336.739,
+        0,
+        -370.3,
         0,
         0,
         0,
@@ -7311,7 +7311,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 8.44,
+      "width": 17.5,
       "height": 50
     },
     "_anchorPoint": {
@@ -7324,7 +7324,7 @@
       "ctor": "Float64Array",
       "array": [
         -5.844,
-        21.377,
+        88.032,
         0,
         0,
         0,
@@ -7365,11 +7365,11 @@
     "_dstBlendFactor": 771,
     "_string": "1",
     "_N$string": "1",
-    "_fontSize": 18,
+    "_fontSize": 40,
     "_lineHeight": 50,
     "_enableWrapText": false,
     "_N$file": {
-      "__uuid__": "fbe93cf7-05d3-4c0b-9a49-d47dae2eda5c"
+      "__uuid__": "4d5d1585-26a6-49b5-9b50-7b817fe87903"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -7401,7 +7401,7 @@
     "node": {
       "__id__": 184
     },
-    "_enabled": false,
+    "_enabled": true,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -7410,10 +7410,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "e820b64e-7044-4c5c-b81f-e5fe26b01411"
+      "__uuid__": "50dbf3cf-5cb3-4a9e-b75f-c295c6377062"
     },
     "_type": 1,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -7833,7 +7833,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8157,7 +8157,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8274,7 +8274,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -8598,7 +8598,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -9157,7 +9157,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -9481,7 +9481,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -9805,7 +9805,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -10129,7 +10129,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -10596,7 +10596,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -10920,7 +10920,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -11244,7 +11244,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -11568,7 +11568,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -12035,7 +12035,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -12359,7 +12359,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -12683,7 +12683,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -13007,7 +13007,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -13474,7 +13474,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -13798,7 +13798,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -14122,7 +14122,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -14446,7 +14446,7 @@
     ],
     "paused": false,
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "Animation",
     "_preCacheMode": 0,
     "_cacheMode": 0,
     "loop": true,
@@ -18743,6 +18743,7 @@
         "__id__": 481
       }
     ],
+    "animCharacter": null,
     "nodeFreeSpinNoti": {
       "__id__": 487
     },

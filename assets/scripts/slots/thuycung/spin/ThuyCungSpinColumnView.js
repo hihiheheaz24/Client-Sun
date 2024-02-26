@@ -43,7 +43,7 @@
             var ran = Math.floor((Math.random() * this.totalIcons));
             var skeleton = this.skeletonIcons[parseInt(indexIcon.toString())];
             skeleton.skeletonData = this.skeletonDataIcon[ran];
-            skeleton.setAnimation(0, 'idle', true);
+            skeleton.setAnimation(0, 'Animation', true);
         },
 
         //set du lieu tu server
@@ -56,7 +56,7 @@
             for (var i = 1; i <= 3; i++) {
                 var iconId = this.matrixData[i - 1][this.colId];
                 this.skeletonIcons[i].skeletonData = this.skeletonDataIcon[parseInt(iconId) - 1];
-                this.skeletonIcons[i].setAnimation(0, 'idle', true);
+                this.skeletonIcons[i].setAnimation(0, 'Animation', true);
             }
         },
 

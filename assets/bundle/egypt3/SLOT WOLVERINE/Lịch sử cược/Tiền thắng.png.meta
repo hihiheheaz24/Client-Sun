@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a45efde0-45f1-4fdc-8c69-f40ef1e67b67",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 158,
+  "height": 28,
+  "platformSettings": {},
+  "subMetas": {
+    "Tiền thắng": {
+      "ver": "1.0.6",
+      "uuid": "72cdd054-189f-48c0-b63b-cebff94d94da",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a45efde0-45f1-4fdc-8c69-f40ef1e67b67",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 158,
+      "height": 28,
+      "rawWidth": 158,
+      "rawHeight": 28,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

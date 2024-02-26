@@ -9,7 +9,8 @@ cc.Class({
         resultImage: cc.Sprite,
         txtValue: cc.Label,
         button: cc.Button,
-        mainNodePick: cc.Node
+        mainNodePick: cc.Node,
+        openDefault : cc.SpriteFrame
     },
 
 
@@ -65,7 +66,7 @@ cc.Class({
             {
                 //set tien
                 this.resultImage.node.active = true;
-                this.resultImage.spriteFrame = this.sfPrizes[2];
+                this.resultImage.spriteFrame = this.openDefault;
                 this.txtValue.node.active = true;
                 this.txtValue.node.y = -34;
                 this.txtValue.string = cc.Tool.getInstance().formatNumber(value);
@@ -143,7 +144,7 @@ cc.Class({
                 break;
             default:
                 //set tien
-                this.resultImage.spriteFrame = this.sfPrizes[2];
+                this.resultImage.spriteFrame = this.openDefault;
                 this.resultImage.node.active = true;
                 this.txtValue.node.active = false;
                 this.mainNodePick.showMulti({posIndex: this._index+1, winValue: pickValue/this.mainNodePick.getMulti(), currentStep }, ()=>{

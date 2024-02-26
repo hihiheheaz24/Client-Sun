@@ -45,6 +45,9 @@
                 if (jackpotInfo.GameID.toString() === cc.GameId.THUY_CUNG) {
                     self.updateX6JackpotItem(self.xJPThuyCung[roomIndex], jackpotInfo);
                 } 
+                if (jackpotInfo.GameID.toString() === cc.GameId.THUY_CUNG1) {
+                    self.updateX6JackpotItem(self.xJPThuyCung[roomIndex], jackpotInfo);
+                } 
             });
         },
 
@@ -97,6 +100,7 @@
                 this.sendRequestOnHub(cc.MethodHubName.PLAY_TRY);
                 cc.RoomController.getInstance().setRoomId(3);
             } else {
+                cc.log("check request join room")
                 this.sendRequestOnHub(cc.MethodHubName.PLAY_NOW, roomId);
             }
         },
@@ -181,7 +185,24 @@
                             //set nen cua phong
                             cc.SpinController.getInstance().updateBGRoomUI();
                             break;
-                     
+
+                        case cc.GameId.THUY_CUNG1:
+                            if (data.RoomID == 1) {
+                                // linesData = '1';
+                                // totalLine = 1;
+                                linesData = '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20';
+                                totalLine = 20;
+                            } else {
+                                linesData = '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20';
+                                totalLine = 20;
+                            }
+
+                            //set tong so Line UI
+
+                            //set nen cua phong
+                            cc.SpinController.getInstance().updateBGRoomUI();
+                            break;
+
                     }
 
                     cc.SpinController.getInstance().updateTotalLines(totalLine); //data.TotalLine
@@ -241,6 +262,7 @@
                             case cc.GameId.AQUARIUM:
                             case cc.GameId.DRAGON_BALL:
                             case cc.GameId.THUY_CUNG:
+                            case cc.GameId.THUY_CUNG1:
                             case cc.GameId.THREE_KINGDOM:
                             case cc.GameId.BUM_BUM:
                             case cc.GameId.COWBOY:

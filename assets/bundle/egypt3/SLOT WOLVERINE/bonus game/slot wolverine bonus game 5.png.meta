@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "08c57bfd-4136-48a0-a5d4-c1dde7c934be",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot wolverine bonus game 5": {
+      "ver": "1.0.6",
+      "uuid": "f2bb63ba-e180-4979-96ae-3ef72a64c51a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "08c57bfd-4136-48a0-a5d4-c1dde7c934be",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

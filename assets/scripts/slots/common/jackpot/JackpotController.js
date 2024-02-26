@@ -26,8 +26,8 @@
         };
 
         JackpotController.prototype.updateJackpot = function (jackpotData) {
-            if (this.jackpotView !== null)
-                return this.jackpotView.updateJackpot(jackpotData);
+            // if (this.jackpotView !== null)
+            //     return this.jackpotView.updateJackpot(jackpotData);
         };
 
         JackpotController.prototype.updateJackpotInGame = function (jackpot) {

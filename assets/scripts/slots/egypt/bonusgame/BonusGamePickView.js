@@ -8,7 +8,6 @@ var slotsConfig = require('SlotsConfig');
             btnPicks: [cc.Button],
             lbiPrizes: [cc.LabelIncrement],
             fakeLbiPrizes: [cc.LabelIncrement],
-            lightBalloonTouch: [cc.Node],
             // cardSkeletons: [sp.Skeleton],
             nodeLayoutBalloon: cc.Node,
             nodeLblTotalWin: cc.Node,
@@ -83,7 +82,6 @@ var slotsConfig = require('SlotsConfig');
 
             //remove button da pick
             this.btnPicks[indexPick] = null;
-            this.lightBalloonTouch[indexPick].getComponent(cc.Animation).play('balloon_touch');
             //Lay ve step hien tai
             var currentStep = cc.BonusGameController.getInstance().getCurrentStep();
             currentStep+=1;

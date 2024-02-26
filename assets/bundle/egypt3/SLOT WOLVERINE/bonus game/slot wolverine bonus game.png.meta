@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "485e0097-82bf-4b3b-b85e-27128078e7ea",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2400,
+  "height": 1080,
+  "platformSettings": {},
+  "subMetas": {
+    "slot wolverine bonus game": {
+      "ver": "1.0.6",
+      "uuid": "4178ad08-a970-49ae-8439-5a0c45458916",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "485e0097-82bf-4b3b-b85e-27128078e7ea",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2400,
+      "height": 1080,
+      "rawWidth": 2400,
+      "rawHeight": 1080,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

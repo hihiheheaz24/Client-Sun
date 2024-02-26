@@ -15,12 +15,18 @@
         LUCKY_WILD: '13',
 
         THREE_KINGDOM: '2',
+        COWBOY: '3',
         EGYPT: '4',
+        EGYPT1: '201',
         EGYPT2: '5',
+        EGYPT3: '6',
+        THUY_CUNG1:'75',
+        THUY_CUNG:'70',
+
         AQUARIUM: '1',
         DRAGON_BALL: '15',
         BUM_BUM: '24', //16
-        COWBOY: '3',
+      
         MONKEY: '90',
         GAINHAY: '17', // gai nhảy
         DRAGON_TIGER: '14',
@@ -43,7 +49,7 @@
         BAUCUA: '20',
         SICBO: '69',
         XENG777: '109',
-        THUY_CUNG:'70',
+       
         CAO_THAP:'71',
         TAY_DU_THAN_KHI:'72',
         THAN_THU:'73',

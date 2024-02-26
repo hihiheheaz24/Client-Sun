@@ -7,7 +7,7 @@ cc.Class({
     extends: cc.Component,  
 
    onLoad(){
-     this._updateRenderComponentMaterial(CONFIG_COLOR.NORMAL)
+     // this._updateRenderComponentMaterial(CONFIG_COLOR.NORMAL)
         this.node.on(cc.Node.EventType.MOUSE_ENTER, this.onHover, this);
         this.node.on(cc.Node.EventType.MOUSE_LEAVE, this.onLeave, this);
    },

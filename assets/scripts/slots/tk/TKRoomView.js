@@ -70,15 +70,15 @@
             this.lbBalance.tweenValueto(balance);
             //Bật màn hình chọn level ở sảnh
             this.nodeRoom.getChildByName("jackpotView").active = true;
-            //Bật lại UI ở sảnh
-            this.nodeRoom.getChildByName("newUI").children.forEach((value) => {
-                if (value.name === "top" || value.name === "bot")
-                    value.active = true;
-            });
-            //Tắt tất cả các Object 
-            this.nodeRoom.getChildByName("ObjectLevel").children.forEach((value) => {
-                    value.active = false;
-            });
+            // //Bật lại UI ở sảnh
+            // this.nodeRoom.getChildByName("newUI").children.forEach((value) => {
+            //     if (value.name === "top" || value.name === "bot")
+            //         value.active = true;
+            // });
+            // //Tắt tất cả các Object 
+            // this.nodeRoom.getChildByName("ObjectLevel").children.forEach((value) => {
+            //         value.active = false;
+            // });
         
         },
 

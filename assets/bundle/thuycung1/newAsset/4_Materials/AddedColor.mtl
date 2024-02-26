@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.Material",
+  "_name": "AddedColor",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "cc75c641-08d5-494a-beb4-bb76597fe2f7"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true,
+        "INPUT_IS_GAMMA": false,
+        "USE_ALPHA_TEST": false
+      },
+      "props": {
+        "addedColor": {
+          "__type__": "cc.Vec4",
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": 0
+        }
+      }
+    }
+  }
+}

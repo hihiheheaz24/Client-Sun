@@ -57,7 +57,7 @@ import BroadcastReceiver from "../shootFish/common/BroadcastReceiver";
         BalanceController.prototype.updateBalance = function (balance) {
             // this.balance = balance;
             this.balanceViews.forEach(function (balanceView) {
-                balanceView.updateBalance(balance);
+                // balanceView.updateBalance(balance);
             });
         };
 
@@ -71,12 +71,12 @@ import BroadcastReceiver from "../shootFish/common/BroadcastReceiver";
         BalanceController.prototype.updateTryBalance = function (balance) {
             this.tryBalance = balance;
             if (this.balanceTryView === null) return;
-            this.balanceTryView.updateTryBalance(balance);
+            // this.balanceTryView.updateTryBalance(balance);
         };
 
         BalanceController.prototype.subTryBalance = function (balance) {
             if (this.balanceTryView === null) return;
-            this.balanceTryView.subTryBalance(balance);
+            // this.balanceTryView.subTryBalance(balance);
         };
 
         return BalanceController;
