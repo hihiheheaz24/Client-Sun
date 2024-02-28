@@ -503,6 +503,11 @@ import TweenCommon from "TweenCommon";
 
         loadGameFullScreenByGameId(gameID){
             const config = {
+                [cc.GameId.TESTWSS]: {
+                    downloadSubpackage: true,
+                    bundleName: "egypt2",
+                    urlBundle: "prefabs/egyptView"
+                },
                 [cc.GameId.SHOOT_FISH]: {
                     downloadSubpackage: true,
                     bundleName: "shootFish",
@@ -852,6 +857,7 @@ import TweenCommon from "TweenCommon";
             this.loadingProgressBar.progress = 0;
             this.loadingLabel.string = 0 + '%';
             switch (gameId) {
+                case cc.GameId.TESTWSS:
                 case cc.GameId.SHOOT_FISH:
                 case cc.GameId.EGYPT:
                 case cc.GameId.EGYPT1:
@@ -1429,6 +1435,9 @@ import TweenCommon from "TweenCommon";
                 // }
 
                 switch (gameId.toString()) {
+                    case cc.GameId.TESTWSS:
+                        this.createDynamicView(cc.GameId.TESTWSS);
+                        break;
                     case cc.GameId.SHOOT_FISH:
                         this.createDynamicView(cc.GameId.SHOOT_FISH);
                         break;

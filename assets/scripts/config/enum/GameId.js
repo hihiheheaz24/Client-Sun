@@ -64,7 +64,7 @@
         THUONG_HAI: '16',
 
         EVENT_TREASURE: 'EVENT_TREASURE',
-
+        TESTWSS: '91',
         ESPORTS: '99'
     });
     cc.TCGProductType = cc.Enum({

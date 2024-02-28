@@ -26,6 +26,12 @@ var roomIdGaiNhay = [1,2,3,4];
 
 
             switch (this.gameId) {
+                case cc.GameId.TESTWSS:
+                    this.hubName = cc.HubName.EgyptHub2;
+                    cc.log("check hub name : ", this.hubName)
+                    var egyptNegotiateCommand = new cc.EgyptNegotiateCommand;
+                    egyptNegotiateCommand.execute(this, cc.SubdomainName.EGYPT2);
+                    break;
                 case cc.GameId.EGYPT:
                     this.hubName = cc.HubName.EgyptHub;
                     cc.log("check hub name : ", this.hubName)
@@ -98,7 +104,8 @@ var roomIdGaiNhay = [1,2,3,4];
         },
 
         onEnable: function () {
-            if(this.gameId === cc.GameId.EGYPT || this.gameId === cc.GameId.EGYPT1 || this.gameId === cc.GameId.EGYPT2 || this.gameId === cc.GameId.EGYPT3) {
+            if(this.gameId === cc.GameId.EGYPT || this.gameId === cc.GameId.EGYPT1 || this.gameId === cc.GameId.EGYPT2 || this.gameId === cc.GameId.EGYPT3
+                || this.gameId === cc.GameId.EGYPT3) {
                
             }
             else{
@@ -120,6 +127,13 @@ var roomIdGaiNhay = [1,2,3,4];
             
             if (cc.sys.isNative) {
                 switch (this.gameId) {
+                    case cc.GameId.TESTWSS:
+                        // cc.assetManager.release('egypt/prefabs'); //cc.loader.releaseResDir('egypt/prefabs');
+                       //  cc.assetManager.release('egypt/images');//cc.loader.releaseResDir('egypt/images');   
+                     //   cc.assetManager.releaseUnusedAssets ();
+                         var bundle = cc.assetManager.getBundle('egypt');
+                         if (bundle) bundle.releaseAll();
+                         break;
                     case cc.GameId.EGYPT:
                        // cc.assetManager.release('egypt/prefabs'); //cc.loader.releaseResDir('egypt/prefabs');
                       //  cc.assetManager.release('egypt/images');//cc.loader.releaseResDir('egypt/images');   
@@ -292,6 +306,15 @@ var roomIdGaiNhay = [1,2,3,4];
                         //cc.SpinController.getInstance().randomIcon();
                         // this.gameId = cc.GameId.EGYPT3
                         switch (this.gameId) {
+                            case cc.GameId.TESTWSS:
+                                // vao phong la auto set full lines
+                                var linesData = '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25';
+                                var linesDataMin = '1';
+                                //set tong so Line UI
+                                var totalLine = 25;
+
+                                cc.GaiNhayController.getInstance().setCrazyProcess(data.SpinData);
+                                break;
                             case cc.GameId.EGYPT:
                                 // vao phong la auto set full lines
                                 var linesData = '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25';
@@ -423,6 +446,7 @@ var roomIdGaiNhay = [1,2,3,4];
                             cc.FreeSpinController.getInstance().activeFreeSpin(true);
                             //set lai so tien total Win da choi duoc o FreeSpin
                             switch (this.gameId) {
+                                case cc.GameId.TESTWSS:
                                 case cc.GameId.EGYPT:
                                 case cc.GameId.EGYPT2:
                                 case cc.GameId.EGYPT3:
@@ -479,7 +503,8 @@ var roomIdGaiNhay = [1,2,3,4];
                             cc.SpinController.getInstance().activeButtonSelectBetLines(true);
                         }
 
-                        if(this.gameId !== cc.GameId.EGYPT || this.gameId !== cc.GameId.EGYPT2 || this.gameId !== cc.GameId.EGYPT3) {
+                        if(this.gameId !== cc.GameId.EGYPT || this.gameId !== cc.GameId.EGYPT2 || this.gameId !== cc.GameId.EGYPT3
+                            || this.gameId !== cc.GameId.TESTWSS) {
                             cc.SpinController.getInstance().randomIcon();
                         }
                         cc.PopupController.getInstance().hideBusy();
@@ -579,7 +604,8 @@ var roomIdGaiNhay = [1,2,3,4];
                     this.btnRooms.forEach(function (btnRoom) {
                         btnRoom.interactable = true;
                     });
-                    if(this.gameId === cc.GameId.EGYPT || this.gameId === cc.GameId.EGYPT2 || this.gameId === cc.GameId.EGYPT3) {
+                    if(this.gameId === cc.GameId.EGYPT || this.gameId === cc.GameId.EGYPT2 || this.gameId === cc.GameId.EGYPT3
+                        || this.gameId === cc.GameId.TESTWSS) {
                         cc.RoomController.getInstance().setRoomId(1);
                         this.sendRequestOnHub(cc.MethodHubName.PLAY_NOW, 1);
                     }
@@ -612,7 +638,8 @@ var roomIdGaiNhay = [1,2,3,4];
 
         backClicked: function () {
             // console.log('');
-            if(this.gameId === cc.GameId.EGYPT || this.gameId === cc.GameId.EGYPT2 || this.gameId !== cc.GameId.EGYPT3) {
+            if(this.gameId === cc.GameId.EGYPT || this.gameId === cc.GameId.EGYPT2 || this.gameId !== cc.GameId.EGYPT3
+                || this.gameId === cc.GameId.TESTWSS ) {
                 if (cc.SpinController.getInstance().checkIsSpin()) {
                     cc.PopupController.getInstance().showMiniMessage('Bạn không thể thoát khi đang quay');
                     return;
