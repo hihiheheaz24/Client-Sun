@@ -30,10 +30,10 @@
 
             nameAnimMoBat: [cc.String],
 
-            lbJackpot1: cc.LabelIncrement,
-            lbJackpot2: cc.LabelIncrement,
+            // lbJackpot1: cc.LabelIncrement,
+            // lbJackpot2: cc.LabelIncrement,
 
-            nodeAnimJackpot: XXAnimJackpot,
+            // nodeAnimJackpot: XXAnimJackpot,
             _resultJackpot: null
         },
 
@@ -49,13 +49,13 @@
 
             var self = this;
             let gameListData = cc.LobbyJackpotController.getInstance().getJackpotResponse();
-            gameListData.forEach(function (game) {
-                switch (game.GameID.toString()) {
-                    case cc.GameId.XOC_XOC:
-                        self.updateJackpot(game.JackpotFund);
-                        break;
-                }
-            });
+            // gameListData.forEach(function (game) {
+            //     switch (game.GameID.toString()) {
+            //         case cc.GameId.XOC_XOC:
+            //             self.updateJackpot(game.JackpotFund);
+            //             break;
+            //     }
+            // });
         },
 
         reset: function () {
@@ -81,7 +81,7 @@
                         // this.nodeViParent.active = false;
                         this.nodeFxResult.active = false;
 
-                        this.nodeAnimJackpot.playAnimDice();
+                        // this.nodeAnimJackpot.playAnimDice();
                     }
 
                     break;
@@ -98,9 +98,9 @@
                         //chay animation
                         this.playFxResult(result, originResult, openNow);
 
-                        if (this._resultJackpot != null) {
-                            this.nodeAnimJackpot.showResult(this._resultJackpot);
-                        }
+                        // if (this._resultJackpot != null) {
+                        //     this.nodeAnimJackpot.showResult(this._resultJackpot);
+                        // }
                     }
                     break;
 
@@ -231,8 +231,8 @@
         },
 
         updateJackpot: function (jackpot) {
-            this.lbJackpot1.tweenValueto(jackpot);
-            this.lbJackpot2.tweenValueto(jackpot);
+            // this.lbJackpot1.tweenValueto(jackpot);
+            // this.lbJackpot2.tweenValueto(jackpot);
         },
 
         playPayFx: function (players, result) {

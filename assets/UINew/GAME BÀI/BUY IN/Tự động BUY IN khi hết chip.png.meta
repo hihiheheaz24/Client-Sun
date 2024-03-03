@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "169ae351-0196-4443-9c0b-162e896e30bd",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 349,
+  "height": 40,
+  "platformSettings": {},
+  "subMetas": {
+    "Tự động BUY IN khi hết chip": {
+      "ver": "1.0.6",
+      "uuid": "e2c6e335-d8b2-4174-b018-b85d422a8590",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "169ae351-0196-4443-9c0b-162e896e30bd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 349,
+      "height": 40,
+      "rawWidth": 349,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

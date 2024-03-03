@@ -171,7 +171,7 @@
         totalUserWin: function (amount) {
             //set gia tri
             this.lbTotalUserWin.string = '+' + cc.Tool.getInstance().formatMoneyToKMB(amount);
-            this.lbTotalUserWin.font = cc.XXController.getInstance().getWinFont();
+            // this.lbTotalUserWin.font = cc.XXController.getInstance().getWinFont();
             //play fx thang
             this.lbTotalUserWin.node.active = true;
             this.lbTotalUserWin.node.scaleY = 0;
@@ -389,8 +389,8 @@
                         //cc.XXController.getInstance().resetDraw();
                         //cc.XXController.getInstance().draw(info.History.reverse());
 
-                        this.skeletonDealer.setAnimation(0, 'idle', false);
-                        this.skeletonDealer.addAnimation(0, 'idle_rong', true);
+                        this.skeletonDealer.setAnimation(0, 'NGOIYEN', true);
+                        // this.skeletonDealer.addAnimation(0, 'idle_rong', true);
                     }
                     break;
 
@@ -404,7 +404,7 @@
                         // this.lbTimer.node.color = cc.Color.WHITE;
                         this.lbInfo.string = 'Mở bát';
                         this.animInfo.play('xxInfo');
-                        this.skeletonDealer.addAnimation(0, 'idle_rong', true);
+                        this.skeletonDealer.addAnimation(0, 'NGOIYEN', false);
                         this.activeTimer(false);
                     }
                     break;
@@ -417,7 +417,7 @@
                         // this.startTimer(time);
                         // this.lbTimer.node.color = cc.Color.WHITE;
                         this.lbInfo.string = 'Kết quả';
-                        this.skeletonDealer.addAnimation(0, 'idle_rong', true);
+                        this.skeletonDealer.addAnimation(0, 'NGOIYEN', true);
                         this.animInfo.play('xxInfo');
                         this.activeTimer(false);
                     }
@@ -446,6 +446,7 @@
                         // this.lbTimer.node.color = cc.Color.WHITE;
                         // this.lbInfo.string = 'Xóc xóc';
                         // this.animInfo.play('xxInfo');
+                        this.skeletonDealer.addAnimation(0, 'XOCIDA', true);
                     }
                     break;
 

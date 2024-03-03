@@ -35,7 +35,7 @@ var netConfig = require('NetConfig');
                             host = 'zanews24h.com';
                         }
                     }
-
+                    cc.log("check hubname : ", this.hubName)
                     var url = 'wss://' + cc.Config.getInstance().getSubDomainByHub(hubName) +
                         host + '/signalr/connect?' +
                         'transport=webSockets' //longPolling //webSockets
@@ -48,7 +48,7 @@ var netConfig = require('NetConfig');
                         url += ('&access_token=' + encodeURIComponent(cc.ServerConnector.getInstance().getToken()));
                     }
 
-                    cc.log("check connect hub : ", url);
+                    console.log("check connect hub : ", url);
                     //TEMP
                     // if (cc.sys.isNative) {
                     //     url = url.replace('wss://', 'ws://');
@@ -191,7 +191,7 @@ var netConfig = require('NetConfig');
                     data.A = [roomId];
                     break;
             }
-
+            cc.log("send hub data : ", data)
             this.send(data);
         };
 
@@ -629,6 +629,7 @@ var netConfig = require('NetConfig');
                 data.H = this.hubName;
                 data.I = this.ID;
                 this.ID++;
+                console.log("check send to hub : ", JSON.stringify(data))
                 this.netControl.send(JSON.stringify(data));
             }
         };

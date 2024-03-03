@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a2e62fef-31d1-41a2-b4e9-da1fd9ac4d0d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 330,
+  "height": 45,
+  "platformSettings": {},
+  "subMetas": {
+    "mời người chơi": {
+      "ver": "1.0.6",
+      "uuid": "31b2e0ab-2b25-46d6-b861-62bb79957414",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a2e62fef-31d1-41a2-b4e9-da1fd9ac4d0d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 330,
+      "height": 45,
+      "rawWidth": 330,
+      "rawHeight": 45,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -15,9 +15,9 @@ var netConfig = require('NetConfig');
             nodeParentChat: cc.Node,
             prefabChat: cc.Prefab,
 
-            nodeLobby: cc.Node,
-            listLabelUser: [cc.Label],
-            listImageRoom: [cc.Node],
+            // nodeLobby: cc.Node,
+            // listLabelUser: [cc.Label],
+            // listImageRoom: [cc.Node],
             _listUserBets: [],
         },
 
@@ -43,11 +43,11 @@ var netConfig = require('NetConfig');
             //dang dang ky leaveRoom
             this.isRegisterLeaveRoom = false;
 
-            this.nodeLobby.active = true;
-            for (let i = 0; i < 3; i++) {
-                this.listLabelUser[i].string = cc.Tool.getInstance().getRandomFromTo(100, 200);
-            }
-            this.listLabelUser[3].string = cc.Tool.getInstance().getRandomFromTo(200, 300);
+            // this.nodeLobby.active = true;
+            // for (let i = 0; i < 3; i++) {
+            //     this.listLabelUser[i].string = cc.Tool.getInstance().getRandomFromTo(100, 200);
+            // }
+            // this.listLabelUser[3].string = cc.Tool.getInstance().getRandomFromTo(200, 300);
 
             this._timeUpdateChips = (new Date()).getTime() / 1000;
         },
@@ -56,17 +56,17 @@ var netConfig = require('NetConfig');
             if (parseInt(customData) == 4) {
                 cc.PopupController.getInstance().showMessage("Đang Bảo Trì!");
             } else {
-                this.nodeLobby.active = false;
-                this.listImageRoom.forEach(element => {
-                    element.active = false;
-                });
-                this.listImageRoom[parseInt(customData)].active = true;
+                // this.nodeLobby.active = false;
+                // this.listImageRoom.forEach(element => {
+                //     element.active = false;
+                // });
+                // this.listImageRoom[parseInt(customData)].active = true;
             }
         },
 
-        showNodeLobby: function () {
-            this.nodeLobby.active = true;
-        },
+        // showNodeLobby: function () {
+        //     this.nodeLobby.active = true;
+        // },
 
         start: function () {
             //Check Sound

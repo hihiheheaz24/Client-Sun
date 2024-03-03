@@ -11,7 +11,7 @@
 
         EgyptNegotiateCommand.prototype.execute = function (controller, subdomainName = cc.SubdomainName.EGYPT) {
             var url = 'signalr/negotiate';
-            cc.log("Check SubdomainName type : ", subdomainName)
+            console.log("Check SubdomainName type : ", subdomainName)
             return cc.ServerConnector.getInstance().sendRequest(subdomainName, url, function (response) {
                 var obj = JSON.parse(response);
                 return controller.onSlotsNegotiateResponse(obj);

@@ -48,10 +48,10 @@ const players = require('PlayerData').players;
             //4 3 0 1
             //5     2
 
-            this.minXs = [185, 350, 120, -350, -310, -130];
-            this.maxXs = [305, 330, 130, -180, -240, -60];
-            this.minYs = [-16, -184, -184, -16, -184, -184];
-            this.maxYs = [15, -150, -150, 15, -150, -150];
+            this.minXs = [185,73, 420, -419, -271, -450];
+            this.maxXs = [305,250, 517, -199, -93, -504];
+            this.minYs = [45, -100, -82, 42, -100, -82];
+            this.maxYs = [80, -135, -63, 75, -135, -94];
 
             //vi tri dealer
             this.rootDealerPos = cc.v2(0, 185);
@@ -490,6 +490,7 @@ const players = require('PlayerData').players;
         playFxUserBet: function (playerId, gate, chipIndex, isMove) {
             cc.AudioController.getInstance().playSound(cc.AudioTypes.CHIP_BET);
 
+            cc.log("check bet gate " , gate - 1)
             var betIndex = gate - 1;
             var minX = this.minXs[betIndex];
             var maxX = this.maxXs[betIndex];

@@ -16,6 +16,7 @@
             for (var i = 0; i < countMessage; ++i) {
                 var item = cc.instantiate(this.itemTemplate);
                 this.content.addChild(item);
+                item.active = true;
                 item.getComponent(cc.XXGroupItem).updateItem(this.messages[i], i);
                 this.items.push(item);
             }

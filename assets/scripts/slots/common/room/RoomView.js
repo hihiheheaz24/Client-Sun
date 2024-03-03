@@ -39,16 +39,16 @@ var roomIdGaiNhay = [1,2,3,4];
                     egyptNegotiateCommand.execute(this, cc.SubdomainName.EGYPT);
                     break;
                 case cc.GameId.EGYPT2:
-                    cc.log("chay vao lay thong tin phong`")
-                    this.hubName = cc.HubName.EgyptHub;
+                    cc.log("chay vao lay thong tin phong` 2")
+                    this.hubName = cc.HubName.EgyptHub2;
                     var egyptNegotiateCommand = new cc.EgyptNegotiateCommand;
-                    egyptNegotiateCommand.execute(this, cc.SubdomainName.EGYPT);
+                    egyptNegotiateCommand.execute(this, cc.SubdomainName.EGYPT2);
                     break;
                 case cc.GameId.EGYPT3:
                     cc.log("chay vao lay thong tin phong` 3")
-                    this.hubName = cc.HubName.EgyptHub;
+                    this.hubName = cc.HubName.EgyptHub3;
                     var egyptNegotiateCommand = new cc.EgyptNegotiateCommand;
-                    egyptNegotiateCommand.execute(this, cc.SubdomainName.EGYPT);
+                    egyptNegotiateCommand.execute(this, cc.SubdomainName.EGYPT3);
                     break;
                 case cc.GameId.GAINHAY:
                     this.hubName = cc.HubName.GaiNhayHub;
@@ -278,13 +278,13 @@ var roomIdGaiNhay = [1,2,3,4];
         },
 
         onHubMessage: function (response) {
-            cc.log("check hub response : ", response);
+            console.log("check hub response : ", response);
             if (response.M !== undefined && response.M.length > 0) {
                 var m = (response.M)[0];
                 switch (m.M) {
                     //vao Phong
                     case cc.MethodHubOnName.JOIN_GAME:
-                        cc.log("check data join game : ", this.gameId)
+                        console.log("check data join game : ", this.gameId)
                         var data = m.A[0];
                         //Set RoomID vua vao
                         cc.RoomController.getInstance().setRoomId(data.RoomID);
@@ -608,6 +608,7 @@ var roomIdGaiNhay = [1,2,3,4];
                         || this.gameId === cc.GameId.TESTWSS) {
                         cc.RoomController.getInstance().setRoomId(1);
                         this.sendRequestOnHub(cc.MethodHubName.PLAY_NOW, 1);
+                        console.log("chay vao send get data room")
                     }
                     this.isActiveButtonRoom = true;
                 }
